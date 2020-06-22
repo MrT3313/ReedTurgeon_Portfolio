@@ -3,7 +3,7 @@ import React from 'react';
 
 // COMPONENTS
 // - 1 - VIEWS 
-import Homepage from './views/Homepage.jsx'
+import Homepage from './views/Homepage.js'
 
 // - 2 - COMPONENTS
 
