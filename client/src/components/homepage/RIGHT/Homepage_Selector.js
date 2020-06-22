@@ -16,10 +16,6 @@ const Styled_Homepage_Selector = styled.div`
     padding: 10px;
 
     border: 1px dashed black;
-
-    & a {
-        color: black;
-    }
     `
 
 // STATE
@@ -31,14 +27,22 @@ const links = [
 ]
 
 // __MAIN FUNCTIONAL COMPONENT__
-function Homepage_Selector() {
+function Homepage_Selector( {Active_Title} ) {
     return (
-        <Styled_Homepage_Selector className="Homepage Selector">
+        <Styled_Homepage_Selector 
+            className="Homepage Selector"
+            onMouseLeave={() => Active_Title[1]('Welcome!')}
+        >
             <ul>
                 {links.map((title, key) => {
                     console.log(title)
                     return (
-                        <li key={key}><a href="#">{title}</a></li>
+                        <li 
+                            key={key}
+                            onMouseEnter={() => Active_Title[1](title)}
+                        >
+                            {title}
+                        </li>
                     )
                 })}
             </ul>

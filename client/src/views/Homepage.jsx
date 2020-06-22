@@ -1,5 +1,5 @@
 // IMPORTS
-import React from 'react';
+import React, {useState} from 'react';
 
 // COMPONENTS
 // - 1 - VIEWS
@@ -23,11 +23,15 @@ const Styled_Homepage = styled.div`
 
 // __MAIN FUNCTIONAL COMPONENT__
 function Homepage() {
+    // State
+    const [selectedTitle, setSelectedTitle] = useState('Welcome!')
+
+    // Return
     return (
         <Styled_Homepage className="Styled Homepage">
-            <Homepage_LEFT />
+            <Homepage_LEFT Active_Title={[selectedTitle, setSelectedTitle]} />
             <Line className="Line Component" width={2} margin={10}/>
-            <Homepage_RIGHT />
+            <Homepage_RIGHT Active_Title={[selectedTitle, setSelectedTitle]} />
         </Styled_Homepage>
     )
 }

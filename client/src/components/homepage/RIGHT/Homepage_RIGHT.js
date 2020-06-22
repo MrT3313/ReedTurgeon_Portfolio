@@ -25,12 +25,12 @@ const Styled_Homepage_RIGHT = styled.div`
 `
 
 // __MAIN FUNCTIONAL COMPONENT__
-function Homepage_RIGHT() {
+function Homepage_RIGHT( {Active_Title} ) {
     return (
         <Styled_Homepage_RIGHT className="Homepage RIGHT">
             <Homepage_Header />
             <div className="Homepage_Selector_Wrapper">
-                <Homepage_Selector />
+                <Homepage_Selector Active_Title={Active_Title} />
             </div>
         </Styled_Homepage_RIGHT>
     );

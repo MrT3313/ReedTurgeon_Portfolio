@@ -17,10 +17,10 @@ const Styled_Homepage_LEFT = styled.div`
 `
 
 // __MAIN FUNCTIONAL COMPONENT__
-function Homepage_LEFT() {
+function Homepage_LEFT( {Active_Title} ) {
     return (
         <Styled_Homepage_LEFT className="Homepage LEFT">
-            <Selected_Title />
+            <Selected_Title Active_Title={Active_Title} />
         </Styled_Homepage_LEFT>
     );
 }

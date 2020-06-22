@@ -18,10 +18,10 @@ const Styled_Selected_Title = styled.h2`
     `
 
 // __MAIN FUNCTIONAL COMPONENT__
-function Selected_Title() {
+function Selected_Title( {Active_Title} ) {
     return (
         <Styled_Selected_Title className="Homepage Selected Title">
-            Selected Title
+            {Active_Title[0]}
         </Styled_Selected_Title>
     )
 }
