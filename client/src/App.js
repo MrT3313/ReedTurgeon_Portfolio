@@ -13,8 +13,11 @@ import styled from 'styled-components'
 // STYLED COMPONENTS
 const Styled_App = styled.div`
   display: flex;
+  justify-content: center;
+
   height: 100%;
   width: 100%;
+
   background-color: ${props => props.theme.primary.color};
 
 `
@@ -22,10 +25,11 @@ const Styled_App = styled.div`
 // __MAIN FUNCTIONAL COMPONENT__ 
 function App() {
   return (
-      <Styled_App className="App">
+      <Styled_App className="Styled App">
         <Homepage />
       </Styled_App>
   );
 }
 
+// EXPORTS
 export default App;
