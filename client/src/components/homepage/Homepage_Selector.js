@@ -7,7 +7,7 @@ import React from 'react';
 import styled from 'styled-components'
 
 // STYLED COMPONENTS
-const Styled_Homepage_Selector = styled.h1`
+const Styled_Homepage_Selector = styled.div`
     display: flex;
     
     font-size: 30px;

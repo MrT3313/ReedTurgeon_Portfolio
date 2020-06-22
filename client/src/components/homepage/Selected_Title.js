@@ -7,7 +7,7 @@ import React from 'react';
 import styled from 'styled-components'
 
 // STYLED COMPONENTS
-const Styled_Selected_Title = styled.h1`
+const Styled_Selected_Title = styled.h2`
     display: flex;
     
     font-size: 30px;

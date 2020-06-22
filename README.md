@@ -28,3 +28,17 @@ Email: turgeon.dev@gmail.com
     ```
 
 </details>
+
+## Assets
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+| title         | desc                  | credit / author               | icon link                                                                                     | artist link                                                   | 
+| ---           | ---                   | ---                           | ---                                                                                           | ---                                                           |   
+| LinkedIn_OFF  | Black LinkedIn Icon   | Freepik on Flaticon.com       | [link](https://www.flaticon.com/free-icon/linkedin_1384014?term=linkedin&page=1&position=1)   | [link](https://www.flaticon.com/authors/freepik)              |
+| LinkedIn_ON   | Blue LinkedIn Icon    | Freepik on Flaticon.com       | [link](https://www.flaticon.com/free-icon/linkedin_1384014?term=linkedin&page=1&position=1)   | [link](https://www.flaticon.com/authors/freepik)              |
+| Github_OFF    | Unfilled Github Icon  | Pixel perfect on Flaticon.com | [link](https://www.flaticon.com/free-icon/github_2111374)                                     | [link](https://www.flaticon.com/authors/pixel-perfect)        |
+| Github_ON     | Filled Github Icon    | Pixel perfect on Flaticon.com | [link](https://www.flaticon.com/free-icon/github_2111374)                                     | [link](https://www.flaticon.com/authors/pixel-perfect)        |
+| AtSymbol      | @                     | Freepik on Flaticon.com       | [link](https://www.flaticon.com/free-icon/at_2658139)                                         | [link](https://www.flaticon.com/authors/freepik)              |
+| Mail_OFF      | Filled Envelope       | Freepik on Flaticon.com       | [link](https://www.flaticon.com/free-icon/envelope_841491)                                    | [link](https://www.flaticon.com/authors/freepik)              |
+| Mail_ON       | Unfilled Envelope     | Freepik on Flaticon.com       | [link](https://www.flaticon.com/free-icon/envelope_841593?term=mail&page=1&position=56)       | [link](https://www.flaticon.com/authors/freepik)              |
