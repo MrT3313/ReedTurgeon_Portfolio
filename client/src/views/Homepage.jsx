@@ -5,9 +5,9 @@ import React from 'react';
 // - 1 - VIEWS
 
 // - 2 - COMPONENTS
-import Homepage_LEFT from '../components/homepage/Homepage_LEFT.js'
-import Homepage_RIGHT from '../components/homepage/Homepage_RIGHT.js'
-import Line from '../components/line.js'
+import Homepage_LEFT from '../components/homepage/LEFT/Homepage_LEFT.js'
+import Homepage_RIGHT from '../components/homepage/RIGHT/Homepage_RIGHT.js'
+import Line from '../components/Line.js'
 
 // STYLES
 import styled from 'styled-components'

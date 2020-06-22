@@ -5,7 +5,7 @@ import React from 'react';
 // - 1 - VIEWS
 
 // - 2 - COMPONENTS
-import Selected_Title from '../homepage/Selected_Title.js'
+import Selected_Title from './Selected_Title.js'
 
 // STYLES
 import styled from 'styled-components'

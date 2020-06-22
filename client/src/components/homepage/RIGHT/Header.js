@@ -2,20 +2,20 @@
 import React from 'react';
 
 // COMPONENTS
-import Contact_Item from '../Contact_Item.js'
-import Social_Item from '../Social_Item.js'
+import Contact_Item from './Contact_Item.js'
+import Social_Item from './Social_Item.js'
 
 // ICONS
-import LinkedIn_OFF from '../../assets/icons/LinkedIn_OFF.svg'
-import LinkedIn_ON from '../../assets/icons/LinkedIn_ON.svg'
-import Github_OFF from '../../assets/icons/Github_OFF.svg'
-import Github_ON from '../../assets/icons/Github_ON.svg'
+import LinkedIn_OFF from '../../../assets/icons/LinkedIn_OFF.svg'
+import LinkedIn_ON from '../../../assets/icons/LinkedIn_ON.svg'
+import Github_OFF from '../../../assets/icons/Github_OFF.svg'
+import Github_ON from '../../../assets/icons/Github_ON.svg'
 
-import AtSymbol from '../../assets/icons/AtSymbol.svg'
-import Mail_ON from '../../assets/icons/Mail_ON.svg'
+import AtSymbol from '../../../assets/icons/AtSymbol.svg'
+import Mail_ON from '../../../assets/icons/Mail_ON.svg'
 
-import Phone_OFF from '../../assets/icons/Phone_OFF.svg'
-import Phone_ON from '../../assets/icons/Phone_ON.svg'
+import Phone_OFF from '../../../assets/icons/Phone_OFF.svg'
+import Phone_ON from '../../../assets/icons/Phone_ON.svg'
 
 // STYLES
 import styled from 'styled-components'
@@ -44,6 +44,7 @@ const Styled_Homepage_Header = styled.h1`
     }
     `
 
+// STATE
 const contact_info = {
     fullName: 'Reed Turgeon',
     items: [
