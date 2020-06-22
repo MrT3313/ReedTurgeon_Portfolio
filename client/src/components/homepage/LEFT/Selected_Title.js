@@ -9,10 +9,12 @@ import styled from 'styled-components'
 // STYLED COMPONENTS
 const Styled_Selected_Title = styled.h2`
     display: flex;
-    
-    font-size: 30px;
+    justify-content: center;
 
+    min-width: 350px;
     padding: 10px;
+    
+    font-size: 60px;
 
     border: 1px dashed black;
     `

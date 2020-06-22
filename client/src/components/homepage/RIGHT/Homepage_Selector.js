@@ -11,12 +11,14 @@ const Styled_Homepage_Selector = styled.div`
     display: flex;
     
     font-size: 30px;
-
-    // height: auto;
     padding: 10px;
 
     border: 1px dashed black;
-    `
+
+    & li {
+        margin-bottom: 5px;
+    }
+`
 
 // STATE
 const links = [
