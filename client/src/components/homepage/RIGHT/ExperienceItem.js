@@ -23,9 +23,14 @@ const StyledExperienceItem = styled.div`
     
     & .TOP {
         justify-content: space-between;
+        align-items: center;
 
         & .Company {
             font-weight: bold;
+            font-size: 1.25em;
+        }
+        
+        & .Title, .Date {
             font-size: 1.25em;
         }
     }
@@ -42,8 +47,10 @@ function ExperienceItem( {item} ) {
         <StyledExperienceItem className="Styled ExperienceItem">
             <div className="Education_Item TOP">
                 <div className="Company">{item.company}</div>
+                {/* <div>-</div> */}
                 <div className="Title">{item.title}</div>
-                <div>Date</div>
+                {/* <div>-</div> */}
+                <div className="Date">{item.date}</div>
             </div>
             <div className="Education_Item BOTTOM">
                 <ul>

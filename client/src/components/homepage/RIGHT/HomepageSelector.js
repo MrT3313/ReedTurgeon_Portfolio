@@ -50,9 +50,11 @@ function Homepage_Selector( {Active_Title, Active_Tab} ) {
             <ul>
                 {links.map((item, key) => {
                     return (
-                        <div key={key}>
+                        <div 
+                            key={key}
+                            onMouseEnter={() => Active_Title[1](item[0])}
+                        >
                             <li
-                                onMouseEnter={() => Active_Title[1](item[0])}
                                 onClick={() => Active_Tab[1](item[0])}
                             >
                                 {item[0]}
