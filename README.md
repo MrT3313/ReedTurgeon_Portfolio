@@ -19,9 +19,16 @@ Email: turgeon.dev@gmail.com
 <details open>
 <summary>1.0.0 - Initial Outline & Hosting</summary>
 
-[Live Link](https://turgeonportfolio.netlify.app)
+[Hosted Netlify Project](https://turgeonportfolio.netlify.app)
 
-<img src="client/src/assets/readMe/1.0.0_InitialOutline_Hosting.png" height='300'> 
+1. Initial Homepage Outline & Content
+2. Active Title Updating
+    - `<li onMouseEnter()>` => Updates `<SelectedTitle>` value
+    - `<StyledHomepageSelector onMouseLeave() => Resets `SelectedTitle>` to 'Welcome!'/>`
+3. Netlify Hosting
+
+Screenshot:   
+    <img src="client/src/assets/readMe/1.0.0_InitialOutline_Hosting.png" height='300'> 
 
 </details>
 
