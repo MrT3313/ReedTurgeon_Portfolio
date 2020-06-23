@@ -37,7 +37,6 @@ function Homepage_Selector( {Active_Title} ) {
         >
             <ul>
                 {links.map((title, key) => {
-                    console.log(title)
                     return (
                         <li 
                             key={key}

@@ -26,7 +26,6 @@ const StyledContactItem = styled.div`
 
 // __MAIN FUNCTIONAL COMPONENT__
 function ContactItem( {item} ) {
-console.log(item)
     return (
         <StyledContactItem className="Homepage Contact Item">
             <img className="Contact_Icon"
