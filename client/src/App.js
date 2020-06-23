@@ -11,7 +11,7 @@ import Homepage from './views/Homepage.js'
 import styled from 'styled-components'
 
 // STYLED COMPONENTS
-const Styled_App = styled.div`
+const StyledApp = styled.div`
   display: flex;
   justify-content: center;
 
@@ -25,9 +25,9 @@ const Styled_App = styled.div`
 // __MAIN FUNCTIONAL COMPONENT__ 
 function App() {
   return (
-      <Styled_App className="Styled App">
+      <StyledApp className="Styled App">
         <Homepage />
-      </Styled_App>
+      </StyledApp>
   );
 }
 

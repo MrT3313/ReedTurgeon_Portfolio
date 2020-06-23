@@ -2,8 +2,8 @@
 import React from 'react';
 
 // COMPONENTS
-import Contact_Item from './Contact_Item.js'
-import Social_Item from './Social_Item.js'
+import ContactItem from './ContactItem.js'
+import SocialItem from './SocialItem.js'
 
 // ICONS
 import LinkedIn_OFF from '../../../assets/icons/LinkedIn_OFF.svg'
@@ -21,7 +21,7 @@ import Phone_ON from '../../../assets/icons/Phone_ON.svg'
 import styled from 'styled-components'
 
 // STYLED COMPONENTS
-const Styled_Homepage_Header = styled.h1`
+const StyledHomepageHeader = styled.h1`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,20 +69,20 @@ const social_info = [
 // __MAIN FUNCTIONAL COMPONENT__
 function Homepage_Header() {
     return (
-        <Styled_Homepage_Header className="Homepage Header">
+        <StyledHomepageHeader className="Homepage Header">
             <div className="Name">
                 {contact_info.fullName}
             </div>
             <div className="Social_Links">
                 {social_info.map((item, index) => {
-                    return <Social_Item item={item} key={index}/>
+                    return <SocialItem item={item} key={index}/>
                 })}
             </div>
             <div className="Contact_Links">
-                {contact_info.items.map((item, index)=> <Contact_Item item={item} key={index}/>)}
+                {contact_info.items.map((item, index)=> <ContactItem item={item} key={index}/>)}
             </div>
             
-        </Styled_Homepage_Header>
+        </StyledHomepageHeader>
     )
 }
 

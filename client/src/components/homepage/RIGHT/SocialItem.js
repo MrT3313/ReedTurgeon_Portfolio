@@ -7,7 +7,7 @@ import React from 'react';
 import styled from 'styled-components'
 
 // STYLED COMPONENTS
-const Styled_Social_Item = styled.div`
+const StyledSocialItem = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,18 +24,18 @@ const Styled_Social_Item = styled.div`
 `
 
 // __MAIN FUNCTIONAL COMPONENT__ 
-function Social_Item( {item} ) {
+function SocialItem( {item} ) {
     return (
-        <Styled_Social_Item>
+        <StyledSocialItem>
             <img className="Social_Icon"
-                src={item.svg_OFF} width="50" height="50"
+                src={item.svg_OFF} width="50" height="50" alt={`${item.title} icon`}
             />
             <div>
                 {item.path}
             </div>
-        </Styled_Social_Item>
+        </StyledSocialItem>
     )
 }
 
 // EXPORTS
-export default Social_Item;
+export default SocialItem;

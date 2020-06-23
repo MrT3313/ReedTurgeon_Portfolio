@@ -5,14 +5,14 @@ import React from 'react';
 // - 1 - VIEWS
 
 // - 2 - COMPONENTS
-import Homepage_Header from './Header.js'
-import Homepage_Selector from './Homepage_Selector.js'
+import HomepageHeader from './Header.js'
+import HomepageSelector from './HomepageSelector.js'
 
 // STYLES
 import styled from 'styled-components'
 
 // STYLED COMPONENTS
-const Styled_Homepage_RIGHT = styled.div`
+const StyledHomepageRight = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -25,16 +25,16 @@ const Styled_Homepage_RIGHT = styled.div`
 `
 
 // __MAIN FUNCTIONAL COMPONENT__
-function Homepage_RIGHT( {Active_Title} ) {
+function HomepageRight( {Active_Title} ) {
     return (
-        <Styled_Homepage_RIGHT className="Homepage RIGHT">
-            <Homepage_Header />
+        <StyledHomepageRight className="Homepage RIGHT">
+            <HomepageHeader />
             <div className="Homepage_Selector_Wrapper">
-                <Homepage_Selector Active_Title={Active_Title} />
+                <HomepageSelector Active_Title={Active_Title} />
             </div>
-        </Styled_Homepage_RIGHT>
+        </StyledHomepageRight>
     );
 }
 
 // EXPORTS
-export default Homepage_RIGHT;
+export default HomepageRight;

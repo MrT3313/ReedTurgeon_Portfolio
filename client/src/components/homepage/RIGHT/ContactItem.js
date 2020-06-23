@@ -7,7 +7,7 @@ import React from 'react';
 import styled from 'styled-components'
 
 // STYLED COMPONENTS
-const Styled_Contact_Item = styled.div`
+const StyledContactItem = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,19 +25,19 @@ const Styled_Contact_Item = styled.div`
 `
 
 // __MAIN FUNCTIONAL COMPONENT__
-function Contact_Item( {item} ) {
+function ContactItem( {item} ) {
 console.log(item)
     return (
-        <Styled_Contact_Item className="Homepage Contact Item">
+        <StyledContactItem className="Homepage Contact Item">
             <img className="Contact_Icon"
-                src={item.svg_OFF} width="25" height="25"
+                src={item.svg_OFF} width="25" height="25" alt={`${item.title} icon`}
             />
             <div>
                 {item.path}
             </div>
-        </Styled_Contact_Item>
+        </StyledContactItem>
     )
 }
 
 // EXPORTS
-export default Contact_Item;
+export default ContactItem;

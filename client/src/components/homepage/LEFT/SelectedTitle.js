@@ -7,7 +7,7 @@ import React from 'react';
 import styled from 'styled-components'
 
 // STYLED COMPONENTS
-const Styled_Selected_Title = styled.h2`
+const StyledSelectedTitle = styled.h2`
     display: flex;
     justify-content: center;
 
@@ -20,13 +20,13 @@ const Styled_Selected_Title = styled.h2`
     `
 
 // __MAIN FUNCTIONAL COMPONENT__
-function Selected_Title( {Active_Title} ) {
+function SelectedTitle( {Active_Title} ) {
     return (
-        <Styled_Selected_Title className="Homepage Selected Title">
+        <StyledSelectedTitle className="Homepage Selected Title">
             {Active_Title[0]}
-        </Styled_Selected_Title>
+        </StyledSelectedTitle>
     )
 }
 
 // EXPORTS
-export default Selected_Title;
+export default SelectedTitle;

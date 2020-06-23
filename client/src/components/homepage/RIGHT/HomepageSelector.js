@@ -7,7 +7,7 @@ import React from 'react';
 import styled from 'styled-components'
 
 // STYLED COMPONENTS
-const Styled_Homepage_Selector = styled.div`
+const StyledHomepageSelector = styled.div`
     display: flex;
     
     font-size: 30px;
@@ -31,7 +31,7 @@ const links = [
 // __MAIN FUNCTIONAL COMPONENT__
 function Homepage_Selector( {Active_Title} ) {
     return (
-        <Styled_Homepage_Selector 
+        <StyledHomepageSelector 
             className="Homepage Selector"
             onMouseLeave={() => Active_Title[1]('Welcome!')}
         >
@@ -48,7 +48,7 @@ function Homepage_Selector( {Active_Title} ) {
                     )
                 })}
             </ul>
-        </Styled_Homepage_Selector>
+        </StyledHomepageSelector>
     )
 }
 

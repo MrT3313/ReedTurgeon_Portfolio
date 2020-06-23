@@ -5,21 +5,21 @@ import React from 'react'
 import styled from 'styled-components'
 
 // STYLED COMPONENTS
-const Styled_Line = styled.div`
+const StyledLine = styled.div`
     background-color: black;
     border: 1px solid black;
 `
 
 // __MAIN FUNCTIONAL COMPONENT__
-function Line( {width, margin} ) {  
+function HomepageLine( {width, margin} ) {  
     return (
-        <Styled_Line 
+        <StyledLine 
             className="Line Component"
             style={{width: `${width}px`, margin: `0 ${margin}px`}}
         >    
-        </Styled_Line>
+        </StyledLine>
     )
 }
 
 // EXPORTS
-export default Line
+export default HomepageLine

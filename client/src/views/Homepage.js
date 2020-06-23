@@ -5,15 +5,15 @@ import React, {useState} from 'react';
 // - 1 - VIEWS
 
 // - 2 - COMPONENTS
-import Homepage_LEFT from '../components/homepage/LEFT/Homepage_LEFT.js'
-import Homepage_RIGHT from '../components/homepage/RIGHT/Homepage_RIGHT.js'
-import Homepage_LINE from '../components/Homepage_LINE.js'
+import HomepageLeft from '../components/homepage/LEFT/HomepageLeft.js'
+import HomepageRight from '../components/homepage/RIGHT/HomepageRight.js'
+import HomepageLine from '../components/HomepageLine.js'
 
 // STYLES
 import styled from 'styled-components'
 
 // STYLED COMPONENTS
-const Styled_Homepage = styled.div`
+const StyledHomepage = styled.div`
     display: flex;
     justify-content: center;
 
@@ -28,11 +28,11 @@ function Homepage() {
 
     // Return
     return (
-        <Styled_Homepage className="Styled Homepage">
-            <Homepage_LEFT Active_Title={[selectedTitle, setSelectedTitle]} />
-            <Homepage_LINE width={2} margin={10}/>
-            <Homepage_RIGHT Active_Title={[selectedTitle, setSelectedTitle]} />
-        </Styled_Homepage>
+        <StyledHomepage className="Styled Homepage">
+            <HomepageLeft Active_Title={[selectedTitle, setSelectedTitle]} />
+            <HomepageLine width={2} margin={10}/>
+            <HomepageRight Active_Title={[selectedTitle, setSelectedTitle]} />
+        </StyledHomepage>
     )
 }
 
