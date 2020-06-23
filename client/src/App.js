@@ -15,8 +15,8 @@ const StyledApp = styled.div`
   display: flex;
   justify-content: center;
 
-  height: 100%;
-  width: 100%;
+  min-height: 100%;
+  min-width: 100%;
 
   background-color: ${props => props.theme.primary.color};
 

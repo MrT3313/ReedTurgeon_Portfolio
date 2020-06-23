@@ -25,12 +25,15 @@ const StyledHomepageRight = styled.div`
 `
 
 // __MAIN FUNCTIONAL COMPONENT__
-function HomepageRight( {Active_Title} ) {
+function HomepageRight( {Active_Title, Active_Tab} ) {
     return (
         <StyledHomepageRight className="Homepage RIGHT">
             <HomepageHeader />
             <div className="Homepage_Selector_Wrapper">
-                <HomepageSelector Active_Title={Active_Title} />
+                <HomepageSelector 
+                    Active_Title={Active_Title} 
+                    Active_Tab={Active_Tab} 
+                />
             </div>
         </StyledHomepageRight>
     );
