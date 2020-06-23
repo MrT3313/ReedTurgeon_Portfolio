@@ -7,7 +7,7 @@ import React, {useState} from 'react';
 // - 2 - COMPONENTS
 import Homepage_LEFT from '../components/homepage/LEFT/Homepage_LEFT.js'
 import Homepage_RIGHT from '../components/homepage/RIGHT/Homepage_RIGHT.js'
-import Line from '../components/Line.js'
+import Homepage_LINE from '../components/Homepage_LINE.js'
 
 // STYLES
 import styled from 'styled-components'
@@ -30,7 +30,7 @@ function Homepage() {
     return (
         <Styled_Homepage className="Styled Homepage">
             <Homepage_LEFT Active_Title={[selectedTitle, setSelectedTitle]} />
-            <Line width={2} margin={10}/>
+            <Homepage_LINE width={2} margin={10}/>
             <Homepage_RIGHT Active_Title={[selectedTitle, setSelectedTitle]} />
         </Styled_Homepage>
     )
