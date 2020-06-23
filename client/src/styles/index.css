@@ -46,3 +46,22 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Added */
+
+html, body, #root {
+	height: 100%;
+	width: 100%
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 62.5%;
+}
+
+a {
+	text-decoration: none;
+}

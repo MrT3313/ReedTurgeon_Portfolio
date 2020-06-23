@@ -17,6 +17,22 @@ Email: turgeon.dev@gmail.com
 ## Versions
 
 <details open>
+<summary>1.0.0 - Initial Outline & Hosting</summary>
+
+[Hosted Netlify Project](https://turgeonportfolio.netlify.app)
+
+1. Initial Homepage Outline & Content
+2. Active Title Updating
+    - `<li onMouseEnter()>` => Updates `<SelectedTitle>` value
+    - `<StyledHomepageSelector onMouseLeave() => Resets `SelectedTitle>` to 'Welcome!'/>`
+3. Netlify Hosting
+
+Screenshot:   
+    <img src="client/src/assets/readMe/1.0.0_InitialOutline_Hosting.png" height='300'> 
+
+</details>
+
+<details>
 <summary>0.1.0 - Initial Commit</summary>
 
 1. Create React App (CRA) refactored
@@ -28,3 +44,17 @@ Email: turgeon.dev@gmail.com
     ```
 
 </details>
+
+## Assets
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+| title         | desc                  | credit / author               | icon link                                                                                     | artist link                                                   | 
+| ---           | ---                   | ---                           | ---                                                                                           | ---                                                           |   
+| LinkedIn_OFF  | Black LinkedIn Icon   | Freepik on Flaticon.com       | [link](https://www.flaticon.com/free-icon/linkedin_1384014?term=linkedin&page=1&position=1)   | [link](https://www.flaticon.com/authors/freepik)              |
+| LinkedIn_ON   | Blue LinkedIn Icon    | Freepik on Flaticon.com       | [link](https://www.flaticon.com/free-icon/linkedin_1384014?term=linkedin&page=1&position=1)   | [link](https://www.flaticon.com/authors/freepik)              |
+| Github_OFF    | Unfilled Github Icon  | Pixel perfect on Flaticon.com | [link](https://www.flaticon.com/free-icon/github_2111374)                                     | [link](https://www.flaticon.com/authors/pixel-perfect)        |
+| Github_ON     | Filled Github Icon    | Pixel perfect on Flaticon.com | [link](https://www.flaticon.com/free-icon/github_2111374)                                     | [link](https://www.flaticon.com/authors/pixel-perfect)        |
+| AtSymbol      | @                     | Freepik on Flaticon.com       | [link](https://www.flaticon.com/free-icon/at_2658139)                                         | [link](https://www.flaticon.com/authors/freepik)              |
+| Mail_OFF      | Filled Envelope       | Freepik on Flaticon.com       | [link](https://www.flaticon.com/free-icon/envelope_841491)                                    | [link](https://www.flaticon.com/authors/freepik)              |
+| Mail_ON       | Unfilled Envelope     | Freepik on Flaticon.com       | [link](https://www.flaticon.com/free-icon/envelope_841593?term=mail&page=1&position=56)       | [link](https://www.flaticon.com/authors/freepik)              |
