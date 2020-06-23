@@ -17,6 +17,15 @@ Email: turgeon.dev@gmail.com
 ## Versions
 
 <details open>
+<summary>1.0.0 - Initial Outline & Hosting</summary>
+
+[Live Link](https://turgeonportfolio.netlify.app)
+
+<img src="client/src/assets/readMe/1.0.0_InitialOutline_Hosting.png" height='300'> 
+
+</details>
+
+<details>
 <summary>0.1.0 - Initial Commit</summary>
 
 1. Create React App (CRA) refactored
