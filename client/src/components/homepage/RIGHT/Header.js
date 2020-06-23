@@ -1,5 +1,5 @@
 // IMPORTS
-import React from 'react';
+import React, {useState} from 'react';
 
 // COMPONENTS
 import ContactItem from './ContactItem.js'
@@ -21,28 +21,25 @@ import Phone_ON from '../../../assets/icons/Phone_ON.svg'
 import styled from 'styled-components'
 
 // STYLED COMPONENTS
-const StyledHomepageHeader = styled.h1`
+const StyledHomepageHeader = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    font-size: 30px;
-
-    padding: 10px;
-
-    border: 1px dashed black;
 
     & .Name {
+        font-size: 2rem;
         margin-bottom: 7px;
     }
 
-    & .Contact_Links, .Social_Links {
+    & .Links, .Contact_Links, .Social_Links  {
         display: flex;
-        justify-content: space-around;
-
-        width: 100%;
+        justify-content: space-around;    
     }
-    `
+
+    & .Active_Link {
+        font-size: 1.25rem;
+    }
+`
 
 // STATE
 const contact_info = {
@@ -68,18 +65,25 @@ const social_info = [
 
 // __MAIN FUNCTIONAL COMPONENT__
 function Homepage_Header() {
+    const [activeContact, setActiveContact] = useState('turgeon.dev@gmail.com')
+
     return (
         <StyledHomepageHeader className="Homepage Header">
             <div className="Name">
                 {contact_info.fullName}
             </div>
-            <div className="Social_Links">
-                {social_info.map((item, index) => {
-                    return <SocialItem item={item} key={index}/>
-                })}
+            <div className="Links"
+                onMouseLeave={() => setActiveContact('turgeon.dev@gmail.com')}
+            >
+                <div className="Social_Links">
+                    {social_info.map((item, index) => <SocialItem item={item} key={index} Active_Contact={[activeContact, setActiveContact]} />)}
+                </div>
+                <div className="Contact_Links">
+                    {contact_info.items.map((item, index)=> <ContactItem item={item} key={index} Active_Contact={[activeContact, setActiveContact]} />)}
+                </div>
             </div>
-            <div className="Contact_Links">
-                {contact_info.items.map((item, index)=> <ContactItem item={item} key={index}/>)}
+            <div className="Active_Link">
+                {activeContact ? activeContact : null}
             </div>
             
         </StyledHomepageHeader>

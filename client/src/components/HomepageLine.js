@@ -8,6 +8,7 @@ import styled from 'styled-components'
 const StyledLine = styled.div`
     background-color: black;
     border: 1px solid black;
+    border-radius: 25px;
 `
 
 // __MAIN FUNCTIONAL COMPONENT__

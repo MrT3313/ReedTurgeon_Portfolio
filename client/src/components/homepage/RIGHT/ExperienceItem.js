@@ -13,7 +13,6 @@ const StyledExperienceItem = styled.div`
     align-items: center;
 
     margin: 5px 0 5px 15px;
-    font-size: .5em;
 
 
     & .Education_Item {
@@ -27,11 +26,9 @@ const StyledExperienceItem = styled.div`
 
         & .Company {
             font-weight: bold;
-            font-size: 1.25em;
         }
         
         & .Title, .Date {
-            font-size: 1.25em;
         }
     }
 

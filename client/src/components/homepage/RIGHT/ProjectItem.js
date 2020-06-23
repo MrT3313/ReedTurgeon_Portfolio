@@ -3,7 +3,7 @@ import React from 'react'
 
 // COMPONENTS
 
-// STYLED
+// STYLES
 import styled from 'styled-components'
 
 // STYLED COMPONENTS
@@ -12,7 +12,6 @@ const StyledProjectItem = styled.div`
     flex-direction: column;
 
     margin: 5px 0 5px 15px;
-    font-size: .5em;
 
     & .Project_Item {
         display: flex;

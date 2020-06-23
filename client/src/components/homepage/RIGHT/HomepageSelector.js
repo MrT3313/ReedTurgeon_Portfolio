@@ -18,8 +18,6 @@ const StyledHomepageSelector = styled.div`
     font-size: 30px;
     padding: 10px;
 
-    border: 1px dashed black;
-
     & ul {
         width: 100%;
     }
@@ -34,7 +32,7 @@ const links = [
     ['Experience', <Experience />], 
     ['Projects', <Projects />],
     ['Education', <Education />],
-    ['Resume'],
+    // ['Resume'],
 ]
 
 // __MAIN FUNCTIONAL COMPONENT__
@@ -44,7 +42,7 @@ function Homepage_Selector( {Active_Title, Active_Tab} ) {
             className="Homepage Selector"
             onMouseLeave={() => {
                 Active_Title[1]('Welcome!')
-                // Active_Tab[1](false)
+                Active_Tab[1](false)
             }}
         >
             <ul>

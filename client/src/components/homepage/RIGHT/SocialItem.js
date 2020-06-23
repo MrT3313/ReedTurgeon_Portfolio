@@ -11,28 +11,29 @@ const StyledSocialItem = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
-    font-size: .65em;
-
-    margin-bottom: 10px;
-
-    border: 1px solid yellow;
+    padding: 5px;
 
     & .Social_Icon {
-        margin: 0 0 5px 0;
+        margin-bottom: 5px;
+    }
+
+    & .Social_Text {
+        font-size: 1.25rem;
     }
 `
 
 // __MAIN FUNCTIONAL COMPONENT__ 
-function SocialItem( {item} ) {
+function SocialItem( {item, Active_Contact} ) {
     return (
         <StyledSocialItem>
-            <img className="Social_Icon"
+            <a
+                href={item.link} target="_blank"
+            ><img className="Social_Icon"
                 src={item.svg_OFF} width="50" height="50" alt={`${item.title} icon`}
-            />
-            <div>
-                {item.path}
-            </div>
+                onMouseOver={() => Active_Contact[1](item.path)}
+            /></a>
         </StyledSocialItem>
     )
 }

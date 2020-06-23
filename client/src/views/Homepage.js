@@ -17,8 +17,8 @@ const StyledHomepage = styled.div`
     display: flex;
     justify-content: center;
 
-    width: 80%;
-    padding: 50px;
+    width: 90%;
+    padding: 50px 0;
 `
 
 // __MAIN FUNCTIONAL COMPONENT__
@@ -33,7 +33,7 @@ function Homepage() {
             className="Styled Homepage"
         >
             <HomepageLeft Active_Title={[activeTitle, setActiveTitle]} />
-            <HomepageLine width={2} margin={10}/>
+            <HomepageLine width={2} margin={15}/>
             <HomepageRight 
                 Active_Title={[activeTitle, setActiveTitle]} 
                 Active_Tab={[activeTab, setActiveTab]}
