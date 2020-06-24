@@ -9,21 +9,31 @@ import styled from 'styled-components'
 // STYLED COMPONENTS
 const StyledSelectedTitle = styled.h2`
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
-    min-width: 350px;
-    padding: 10px;
+    min-width: 300px;
     
-    font-size: 60px;
-
-    border: 1px dashed black;
-    `
+    & .title {
+        font-size: 4rem;
+        margin-bottom: 10px;
+    }
+    
+    & .subTitle {
+        font-size: 1.25rem;
+    }
+`
 
 // __MAIN FUNCTIONAL COMPONENT__
 function SelectedTitle( {Active_Title} ) {
     return (
-        <StyledSelectedTitle className="Homepage Selected Title">
-            {Active_Title[0]}
+        <StyledSelectedTitle className="Homepage_Selected_Title">
+            <div className="title">
+                {Active_Title[0]}
+            </div>
+            <div className="subTitle">
+                Please Choose a Category to Explore
+            </div>
         </StyledSelectedTitle>
     )
 }

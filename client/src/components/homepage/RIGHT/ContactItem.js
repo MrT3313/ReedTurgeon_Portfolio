@@ -12,29 +12,27 @@ const StyledContactItem = styled.div`
     justify-content: center;
     align-items: center;
 
-    margin: 0 5px;
     padding: 5px;
-
-    font-size: .5em;
-
-    border: 1px solid yellow;
 
     & .Contact_Icon {
         margin: 0 5px 0 0;
     }
+
+    & .Contact_Text {
+        font-size: 1.25rem;
+    }
 `
 
 // __MAIN FUNCTIONAL COMPONENT__
-function ContactItem( {item} ) {
-console.log(item)
+function ContactItem( {item, Active_Contact} ) {
     return (
         <StyledContactItem className="Homepage Contact Item">
-            <img className="Contact_Icon"
-                src={item.svg_OFF} width="25" height="25" alt={`${item.title} icon`}
-            />
-            <div>
-                {item.path}
-            </div>
+            <a
+                href={item.title === 'Email' && `mailto:${item.link}`} target="_blank"
+            ><img className="Contact_Icon"
+                src={item.svg_OFF} width="50" height="50" alt={`${item.title} icon`}
+                onMouseOver={() => Active_Contact[1](item.path)}
+            /></a>
         </StyledContactItem>
     )
 }

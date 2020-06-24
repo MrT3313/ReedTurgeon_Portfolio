@@ -17,21 +17,27 @@ const StyledHomepage = styled.div`
     display: flex;
     justify-content: center;
 
-    width: 80%;
-    padding: 50px;
+    width: 90%;
+    padding: 50px 0;
 `
 
 // __MAIN FUNCTIONAL COMPONENT__
 function Homepage() {
     // State
-    const [selectedTitle, setSelectedTitle] = useState('Welcome!')
+    const [activeTitle, setActiveTitle] = useState('Welcome!')
+    const [activeTab, setActiveTab] = useState(false)
 
     // Return
     return (
-        <StyledHomepage className="Styled Homepage">
-            <HomepageLeft Active_Title={[selectedTitle, setSelectedTitle]} />
-            <HomepageLine width={2} margin={10}/>
-            <HomepageRight Active_Title={[selectedTitle, setSelectedTitle]} />
+        <StyledHomepage 
+            className="Styled Homepage"
+        >
+            <HomepageLeft Active_Title={[activeTitle, setActiveTitle]} />
+            <HomepageLine width={2} margin={15}/>
+            <HomepageRight 
+                Active_Title={[activeTitle, setActiveTitle]} 
+                Active_Tab={[activeTab, setActiveTab]}
+            />
         </StyledHomepage>
     )
 }
