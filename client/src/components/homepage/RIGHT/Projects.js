@@ -17,7 +17,7 @@ const StyledProjects = styled.div`
 const items = [
     {   title: 'BookShelf', projectLink: 'https://my-book-shelf.netlify.app', codebase: 'https://github.com/MrT3313/BookShelf',
         subTitle: 'A single page application to find, read, and review books',
-        stack: ['Postgres', 'Express', 'React', 'NodeJS'],
+        stack: ['Postgres', '|', 'Express', '|', 'React', '|', 'NodeJS'],
         desc: 'Independently designed and built with a focus on well documented, small feature releases'
     },
     {   title: "Conway's Game of Life", projectLink: 'https://turgeon-gameoflife.netlify.app', codebase: 'https://github.com/MrT3313/GameOfLife',

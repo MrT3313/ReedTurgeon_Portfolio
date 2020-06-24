@@ -20,9 +20,19 @@ Welcome to my portfolio!
 
 ## Versions
 <details open>
+<summary>1.1.2 - Projects Category Update</summary>
+
+1. font-size / font-weight / font-style => used to emphasize items in `<Projects />` & `<ProjectItem />`
+
+Screenshot:   
+    <img src="client/src/assets/readMe/1.1.2_Projects_Category_Update.png" height='300'> 
+
+</details>
+
+<details>
 <summary>1.1.1 - Education Category Update</summary>
 
-1. font-size / font-weight / font-style => used to emphasice items in `<Exprience />` & `<ExperienceItem />`
+1. font-size / font-weight / font-style => used to emphasize items in `<Exprience />` & `<ExperienceItem />`
 2. Passed experience title moved from `TOP` to newly created `MIDDLE` div
 3. `BOTTOM` div default `display: none` & `:hover` pseudo selector rendering descriptive bullets as user scrolls over an individual `<ExperienceItem />` 
 4. Cleaned up class naming across app
