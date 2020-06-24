@@ -78,9 +78,4 @@ Screenshot:
 | LinkedIn  |                   |               |                   | 
 | Github    |                   |               |                   | 
 | AtSymbol  |                   |               |                   | 
-<<<<<<< HEAD
-| Phone     |                   |               |                   |    
-
-=======
-| Phone     |                   |               |                   |    
->>>>>>> 1afc162191fda363d77f57f07039a8d70d386228
+| Phone     |                   |               |                   | 
