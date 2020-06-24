@@ -22,11 +22,25 @@ Welcome to my portfolio!
 <details open>
 <summary>1.1.0 - Homepage Styling Update & Initial Category Content</summary>
 
-1. Font-Sizes changed from `px` to `rem` based on `body { font-size: 62.5% } in `src > styles > index.css`
+1. Font-Sizes changed from `px` to `rem` based on `body { font-size: 62.5% }` in `src > styles > index.css`
+2. `<Header />` Social & Contact links 
+    - `onMouseEnter()` => updating displayed path
+    - `onClick()` => forwarding correctly
+        - Linkedin & Github => opening a new tab w/ `target=_blank`
+        - Email => Opening client's default email provider with `mailto:{email}` 
+            - if client does not have a default email provider `onClick()` will have no affect
+        - Phone => no `onClick()` logic
+3. Initial content & rendering for: 
+    - `<Experience />` & `<ExperienceItem />`
+    - `<Projects />` & `<ProjectItem />` 
+    - `<Education />` & `<EducationItem />`
+
+Screenshot:   
+    <img src="client/src/assets/readMe/1.1.0_HomepageStyling_InitialCategoryContent.png" height='300'> 
 
 </details>
 
-<details open>
+<details>
 <summary>1.0.0 - Initial Outline & Hosting</summary>
 
 [Hosted Netlify Project](https://turgeonportfolio.netlify.app)
