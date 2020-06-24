@@ -25,16 +25,28 @@ const StyledContactItem = styled.div`
 
 // __MAIN FUNCTIONAL COMPONENT__
 function ContactItem( {item, Active_Contact} ) {
-    return (
-        <StyledContactItem className="Homepage Contact Item">
-            <a
-                href={item.title === 'Email' && `mailto:${item.link}`} target="_blank"
-            ><img className="Contact_Icon"
-                src={item.svg_OFF} width="50" height="50" alt={`${item.title} icon`}
-                onMouseOver={() => Active_Contact[1](item.path)}
-            /></a>
+
+    if (item.title === 'Email') {
+        return (
+            <StyledContactItem className="Homepage Contact Item">
+                <a
+                    href={`mailto:${item.link}`} target="_blank" rel="noopener noreferrer"
+                ><img className="Contact_Icon"
+                    src={item.svg_OFF} width="50" height="50" alt={`${item.title} icon`}
+                    onMouseOver={() => Active_Contact[1](item.path)}
+                /></a>
         </StyledContactItem>
-    )
+        )
+    } else {
+        return (
+            <StyledContactItem className="Homepage Contact Item">
+                <img className="Contact_Icon"
+                    src={item.svg_OFF} width="50" height="50" alt={`${item.title} icon`}
+                    onMouseOver={() => Active_Contact[1](item.path)}
+                />
+            </StyledContactItem>
+        )
+    }
 }
 
 // EXPORTS

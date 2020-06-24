@@ -29,7 +29,7 @@ function SocialItem( {item, Active_Contact} ) {
     return (
         <StyledSocialItem>
             <a
-                href={item.link} target="_blank"
+                href={item.link} target="_blank" rel="noopener noreferrer"
             ><img className="Social_Icon"
                 src={item.svg_OFF} width="50" height="50" alt={`${item.title} icon`}
                 onMouseOver={() => Active_Contact[1](item.path)}
