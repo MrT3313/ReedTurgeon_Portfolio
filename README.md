@@ -1,11 +1,15 @@
 # Reed Turgeon's Portfolio
 Welcome to my portfolio!
 
-## My Info
-LinkedIn: [LINK](https://www.linkedin.com/in/reedturgeon/)  
-Github: [LINK](https://github.com/MrT3313)  
-Email: turgeon.dev@gmail.com
+🌎[Hosted Netlify Project](https://turgeonportfolio.netlify.app)  🌎
 
+## My Info
+| title     | link                                                          | 
+| ---       | ---                                                           |
+| LinkedIn  | [/in/reedturgeon/](https://www.linkedin.com/in/reedturgeon/)  |
+| Github    | [/MrT3313](https://github.com/MrT3313)                        |
+| Email     | turgeon.dev@gmail.com                                         |
+| Phone     | 508 - 446 - 6633                                              | 
 
 ## Stack
 
@@ -15,6 +19,12 @@ Email: turgeon.dev@gmail.com
 | Styled-Components     | Component Scopped Styling Library     | 
 
 ## Versions
+<details open>
+<summary>1.1.0 - Homepage Styling Update & Initial Category Content</summary>
+
+1. Font-Sizes changed from `px` to `rem` based on `body { font-size: 62.5% } in `src > styles > index.css`
+
+</details>
 
 <details open>
 <summary>1.0.0 - Initial Outline & Hosting</summary>
@@ -49,12 +59,10 @@ Screenshot:
 
 <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
-| title         | desc                  | credit / author               | icon link                                                                                     | artist link                                                   | 
-| ---           | ---                   | ---                           | ---                                                                                           | ---                                                           |   
-| LinkedIn_OFF  | Black LinkedIn Icon   | Freepik on Flaticon.com       | [link](https://www.flaticon.com/free-icon/linkedin_1384014?term=linkedin&page=1&position=1)   | [link](https://www.flaticon.com/authors/freepik)              |
-| LinkedIn_ON   | Blue LinkedIn Icon    | Freepik on Flaticon.com       | [link](https://www.flaticon.com/free-icon/linkedin_1384014?term=linkedin&page=1&position=1)   | [link](https://www.flaticon.com/authors/freepik)              |
-| Github_OFF    | Unfilled Github Icon  | Pixel perfect on Flaticon.com | [link](https://www.flaticon.com/free-icon/github_2111374)                                     | [link](https://www.flaticon.com/authors/pixel-perfect)        |
-| Github_ON     | Filled Github Icon    | Pixel perfect on Flaticon.com | [link](https://www.flaticon.com/free-icon/github_2111374)                                     | [link](https://www.flaticon.com/authors/pixel-perfect)        |
-| AtSymbol      | @                     | Freepik on Flaticon.com       | [link](https://www.flaticon.com/free-icon/at_2658139)                                         | [link](https://www.flaticon.com/authors/freepik)              |
-| Mail_OFF      | Filled Envelope       | Freepik on Flaticon.com       | [link](https://www.flaticon.com/free-icon/envelope_841491)                                    | [link](https://www.flaticon.com/authors/freepik)              |
-| Mail_ON       | Unfilled Envelope     | Freepik on Flaticon.com       | [link](https://www.flaticon.com/free-icon/envelope_841593?term=mail&page=1&position=56)       | [link](https://www.flaticon.com/authors/freepik)              |
+| title     | credit / author   | icon link     | artist link       | 
+| ---       | ---               | ---           | ---               |
+| LinkedIn  |                   |               |                   | 
+| Github    |                   |               |                   | 
+| AtSymbol  |                   |               |                   | 
+| Phone     |                   |               |                   |    
+
