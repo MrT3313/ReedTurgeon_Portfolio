@@ -39,8 +39,8 @@ function ProjectItem( {item} ) {
         <StyledProjectItem>
             <div className="Project_Item TOP">
                 <div>{item.title}</div>
-                <a href={item.projectLink} target="_blank">Live Project Link</a>
-                <a href={item.codebase}  target="_blank">Project Codebase</a>
+                <a href={item.projectLink} target="_blank" rel="noopener noreferrer">Live Project Link</a>
+                <a href={item.codebase}  target="_blank" rel="noopener noreferrer">Project Codebase</a>
             </div>
             <div className="Project_Item MIDDLE">
                 <div>{item.subTitle}</div>
