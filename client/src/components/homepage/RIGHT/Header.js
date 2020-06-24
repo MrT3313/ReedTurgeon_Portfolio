@@ -62,7 +62,7 @@ function Homepage_Header() {
     const [activeContact, setActiveContact] = useState('turgeon.dev@gmail.com')
 
     return (
-        <StyledHomepageHeader className="Homepage Header">
+        <StyledHomepageHeader className="Homepage_Header">
             <div className="Name">
                 {contact_info.fullName}
             </div>

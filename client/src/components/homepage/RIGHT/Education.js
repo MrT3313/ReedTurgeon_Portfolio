@@ -32,7 +32,7 @@ const items = [
 // __MAIN FUNCTIONAL COMPONENT__
 function Education() {
     return (
-        <StyledEducation className="Styled Projects">
+        <StyledEducation className="Styled_Projects">
             {items.map((item, index) => {
                 return (
                     <EducationItem item={item} key={index}/>

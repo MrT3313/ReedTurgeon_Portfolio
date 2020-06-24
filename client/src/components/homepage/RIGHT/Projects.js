@@ -30,7 +30,7 @@ const items = [
 // __MAIN FUNCTIONAL COMPONENT__
 function Projects() {
     return (
-        <StyledProjects className="Styled Projects">
+        <StyledProjects className="Styled_Projects">
             {items.map((item, index) => {
                 return <ProjectItem item={item} key={index}/>
             })}

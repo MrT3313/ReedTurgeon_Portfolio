@@ -16,7 +16,7 @@ const StyledResume = styled.div`
 // __MAIN FUNCTIONAL COMPONENT__
 function Resume() {
     return (
-        <StyledResume className="Styled Projects">
+        <StyledResume className="Styled_Resume">
             Resume
         </StyledResume>
     )

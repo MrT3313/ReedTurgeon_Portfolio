@@ -46,7 +46,7 @@ const items = [
 // __MAIN FUNCTIONAL COMPONENT__
 function Experience() {
     return (
-        <StyledExperience className="Styled Experience">
+        <StyledExperience className="Styled_Experience">
             {items.map((item, index) => {
                 return <ExperienceItem item={item} key={index}/>
             })}

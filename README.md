@@ -20,6 +20,18 @@ Welcome to my portfolio!
 
 ## Versions
 <details open>
+<summary>1.1.1 - Education Category Update</summary>
+
+1. font-size / font-weight / font-style => used to emphasice items in `<Exprience />` & `<ExperienceItem />`
+2. Passed experience title moved from `TOP` to newly created `MIDDLE` div
+3. `BOTTOM` div default `display: none` & `:hover` pseudo selector rendering descriptive bullets as user scrolls over an individual `<ExperienceItem />` 
+4. Cleaned up class naming across app
+
+Screenshot:   
+    <img src="client/src/assets/readMe/1.1.1_Education_Category_Update.png" height='300'> 
+</details>
+
+<details>
 <summary>1.1.0 - Homepage Styling Update & Initial Category Content</summary>
 
 1. Font-Sizes changed from `px` to `rem` based on `body { font-size: 62.5% }` in `src > styles > index.css`
@@ -37,7 +49,6 @@ Welcome to my portfolio!
 
 Screenshot:   
     <img src="client/src/assets/readMe/1.1.0_HomepageStyling_InitialCategoryContent.png" height='300'> 
-
 </details>
 
 <details>
@@ -53,7 +64,6 @@ Screenshot:
 
 Screenshot:   
     <img src="client/src/assets/readMe/1.0.0_InitialOutline_Hosting.png" height='300'> 
-
 </details>
 
 <details>
