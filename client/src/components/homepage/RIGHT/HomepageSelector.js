@@ -14,16 +14,15 @@ const StyledHomepageSelector = styled.div`
     display: flex;
 
     width: 100%;
-    
-    font-size: 30px;
     padding: 10px;
 
     & ul {
         width: 100%;
     }
 
-    & li {
+    & .HomepageSelector_ListItem {
         margin: 10px 0;
+        font-size: 2rem;
     }
 `
 
@@ -39,10 +38,10 @@ const links = [
 function Homepage_Selector( {Active_Title, Active_Tab} ) {
     return (
         <StyledHomepageSelector 
-            className="Homepage Selector"
+            className="Styled_Homepage_Selector"
             onMouseLeave={() => {
                 Active_Title[1]('Welcome!')
-                Active_Tab[1](false)
+                // Active_Tab[1](false)
             }}
         >
             <ul>
@@ -53,6 +52,7 @@ function Homepage_Selector( {Active_Title, Active_Tab} ) {
                             onMouseEnter={() => Active_Title[1](item[0])}
                         >
                             <li
+                                className="HomepageSelector_ListItem"
                                 onClick={() => Active_Tab[1](item[0])}
                             >
                                 {item[0]}

@@ -39,9 +39,7 @@ const items = [
         bullets: [
             'Monitored trade orders and oversaw positions within the $2M portfolio to remain compliant with BCF bylaws',
             'Maintained effective communication between Student Sector Managers and the BCF Director'
-
         ]
-
     },
 ]
 

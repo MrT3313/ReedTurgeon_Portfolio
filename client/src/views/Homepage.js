@@ -30,7 +30,7 @@ function Homepage() {
     // Return
     return (
         <StyledHomepage 
-            className="Styled Homepage"
+            className="Styled_Homepage"
         >
             <HomepageLeft Active_Title={[activeTitle, setActiveTitle]} />
             <HomepageLine width={2} margin={15}/>

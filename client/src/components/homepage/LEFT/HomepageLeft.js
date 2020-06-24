@@ -19,7 +19,7 @@ const StyledHomepageLeft = styled.div`
 // __MAIN FUNCTIONAL COMPONENT__
 function HomepageLeft( {Active_Title} ) {
     return (
-        <StyledHomepageLeft className="Homepage LEFT">
+        <StyledHomepageLeft className="Homepage_LEFT">
             <SelectedTitle Active_Title={Active_Title} />
         </StyledHomepageLeft>
     );

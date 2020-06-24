@@ -15,7 +15,7 @@ const StyledLine = styled.div`
 function HomepageLine( {width, margin} ) {  
     return (
         <StyledLine 
-            className="Line Component"
+            className="Line_Component"
             style={{width: `${width}px`, margin: `0 ${margin}px`}}
         >    
         </StyledLine>

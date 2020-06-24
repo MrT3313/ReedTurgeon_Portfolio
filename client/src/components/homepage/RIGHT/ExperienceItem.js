@@ -12,44 +12,71 @@ const StyledExperienceItem = styled.div`
     flex-direction: column;
     align-items: center;
 
-    margin: 5px 0 5px 15px;
+    margin: 15px 0 15px 15px;
 
-
-    & .Education_Item {
+    & .Experience_Item {
         display: flex;
-        width: 100%;
     }
     
     & .TOP {
         justify-content: space-between;
         align-items: center;
 
+        width: 100%;
+
         & .Company {
+            font-size: 1.25rem;
             font-weight: bold;
         }
         
         & .Title, .Date {
+            font-size: 1.25rem;
         }
+    }
+
+    & .MIDDLE {
+        justify-content: flex-start;
+        font-style: italic;
+        font-size: 1.25rem;
+
+        margin-bottom: 10px;
+        width: 100%;
     }
 
     & .BOTTOM {
         flex-direction: column;
         align-items: flex-start;
+
+        padding-left: 30px;
+        font-size: 1.15rem;
+
+        display: none;
+
+        & li {
+            list-style-type: disc;
+            list-style-position: inside;
+        }
+    }
+
+    :hover {
+        & .BOTTOM {
+            display: flex;
+        }
     }
 `
 
 // __MAIN FUNCTIONAL COMPONENT__
 function ExperienceItem( {item} ) {
     return (
-        <StyledExperienceItem className="Styled ExperienceItem">
-            <div className="Education_Item TOP">
+        <StyledExperienceItem className="Styled_ExperienceItem">
+            <div className="Experience_Item TOP">
                 <div className="Company">{item.company}</div>
-                {/* <div>-</div> */}
-                <div className="Title">{item.title}</div>
-                {/* <div>-</div> */}
                 <div className="Date">{item.date}</div>
             </div>
-            <div className="Education_Item BOTTOM">
+            <div className="Experience_Item MIDDLE">
+                <div className="Title">{item.title}</div>
+            </div>
+            <div className="Experience_Item BOTTOM">
                 <ul>
                     {item.bullets.map((bullet, index) => {
                         return (
