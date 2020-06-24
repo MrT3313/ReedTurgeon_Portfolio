@@ -7,15 +7,9 @@ import SocialItem from './SocialItem.js'
 
 // ICONS
 import LinkedIn_OFF from '../../../assets/icons/LinkedIn_OFF.svg'
-import LinkedIn_ON from '../../../assets/icons/LinkedIn_ON.svg'
 import Github_OFF from '../../../assets/icons/Github_OFF.svg'
-import Github_ON from '../../../assets/icons/Github_ON.svg'
-
-import AtSymbol from '../../../assets/icons/AtSymbol.svg'
-import Mail_ON from '../../../assets/icons/Mail_ON.svg'
-
+import AtSymbol from '../../../assets/icons/Mail_OFF.svg'
 import Phone_OFF from '../../../assets/icons/Phone_OFF.svg'
-import Phone_ON from '../../../assets/icons/Phone_ON.svg'
 
 // STYLES
 import styled from 'styled-components'
@@ -46,20 +40,20 @@ const contact_info = {
     fullName: 'Reed Turgeon',
     items: [
         {   title: 'Email', path: 'turgeon.dev@gmail.com', link: 'turgeon.dev@gmail.com',
-            svg_OFF: AtSymbol, svg_ON: Mail_ON,
+            svg_OFF: AtSymbol, svg_ON: null,
         },
         {   title: 'Phone', path: '508 - 446 - 6633', link: '508 - 446 - 6633',
-            svg_OFF: Phone_OFF, svg_ON: Phone_ON,
+            svg_OFF: Phone_OFF, svg_ON: null,
         }
     ]
 }
 
 const social_info = [
     {   title: 'LinkedIn', path: '/in/reedturgeon/', link: 'https://www.linkedin.com/in/reedturgeon/', 
-        svg_OFF: LinkedIn_OFF, svg_ON: LinkedIn_ON,
+        svg_OFF: LinkedIn_OFF, svg_ON: null,
     },
     {   title: 'Github', path: '/MrT3313', link: 'https://github.com/MrT3313',
-        svg_OFF: Github_OFF, svg_ON: Github_ON,
+        svg_OFF: Github_OFF, svg_ON: null,
     },
 ]
 

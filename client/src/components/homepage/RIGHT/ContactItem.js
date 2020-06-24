@@ -27,10 +27,12 @@ const StyledContactItem = styled.div`
 function ContactItem( {item, Active_Contact} ) {
     return (
         <StyledContactItem className="Homepage Contact Item">
-            <img className="Contact_Icon"
+            <a
+                href={item.title === 'Email' && `mailto:${item.link}`} target="_blank"
+            ><img className="Contact_Icon"
                 src={item.svg_OFF} width="50" height="50" alt={`${item.title} icon`}
                 onMouseOver={() => Active_Contact[1](item.path)}
-            />
+            /></a>
         </StyledContactItem>
     )
 }
