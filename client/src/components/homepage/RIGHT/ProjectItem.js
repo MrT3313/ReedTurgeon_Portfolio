@@ -11,25 +11,51 @@ const StyledProjectItem = styled.div`
     display: flex;
     flex-direction: column;
 
-    margin: 5px 0 5px 15px;
+    margin: 15px 0 15px 15px;
 
-    & .Project_Item {
+    & .Project_Item, .Project_Content {
         display: flex;
-        width: 100%;
+        font-size: 1.25rem;
     }
 
     & .TOP {
         justify-content: space-between;
+        align-items: center;
+
+        margin-bottom: 10px;
+        width: 100%;
+
+        & .Title, .ProjectLink, .ProjectCodebase { 
+            font-size: 1.25rem;
+        }
+
+        & .Title {
+            font-weight: bold;
+
+            width: 210px;
+        }
     }
 
     & .MIDDLE {
-        display: flex;
         flex-direction: column;
 
+        margin-bottom: 10px;
+
+        & .SubTitle {
+            font-style: italic;
+        }
+
         & .TechStack {
-            display: flex;
             flex-direction: row;
+
+            & .TechItem { 
+                margin-right: 10px;
+            }
         } 
+    }
+
+    & .BOTTOM {
+        padding-left: 30px;
     }
 `
 
@@ -38,16 +64,20 @@ function ProjectItem( {item} ) {
     return (
         <StyledProjectItem>
             <div className="Project_Item TOP">
-                <div>{item.title}</div>
-                <a href={item.projectLink} target="_blank" rel="noopener noreferrer">Live Project Link</a>
-                <a href={item.codebase}  target="_blank" rel="noopener noreferrer">Project Codebase</a>
+                <div className="Project_Content Title">{item.title}</div>
+                <a className="Project_Content Link" href={item.projectLink} target="_blank" rel="noopener noreferrer">Live Project</a>
+                {/* <div className="Project_Content">|</div> */}
+                <a className="Project_Content Codebase" href={item.codebase}  target="_blank" rel="noopener noreferrer">Codebase</a>
             </div>
             <div className="Project_Item MIDDLE">
-                <div>{item.subTitle}</div>
-                <div className="TechStack">
+                <div className="Project_Content SubTitle">{item.subTitle}</div>
+                <div className="Project_Content TechStack">
                     {item.stack.map((tech, index) => {
                         return (
-                            <div key={index}>
+                            <div 
+                                className="Project_Content TechItem"
+                                key={index}
+                            >
                                 {tech}
                             </div>
                         )
