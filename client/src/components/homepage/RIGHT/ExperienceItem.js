@@ -80,7 +80,7 @@ function ExperienceItem( {item} ) {
                 <ul>
                     {item.bullets.map((bullet, index) => {
                         return (
-                            <li>{bullet}</li>
+                            <li key={index}>{bullet}</li>
                         )
                     })}
                 </ul>
