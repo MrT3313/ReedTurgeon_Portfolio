@@ -39,16 +39,14 @@ const items = [
         bullets: [
             'Monitored trade orders and oversaw positions within the $2M portfolio to remain compliant with BCF bylaws',
             'Maintained effective communication between Student Sector Managers and the BCF Director'
-
         ]
-
     },
 ]
 
 // __MAIN FUNCTIONAL COMPONENT__
 function Experience() {
     return (
-        <StyledExperience className="Styled Experience">
+        <StyledExperience className="Styled_Experience">
             {items.map((item, index) => {
                 return <ExperienceItem item={item} key={index}/>
             })}

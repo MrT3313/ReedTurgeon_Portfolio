@@ -28,7 +28,7 @@ function ContactItem( {item, Active_Contact} ) {
 
     if (item.title === 'Email') {
         return (
-            <StyledContactItem className="Homepage Contact Item">
+            <StyledContactItem className="Homepage_Contact_Item">
                 <a
                     href={`mailto:${item.link}`} target="_blank" rel="noopener noreferrer"
                 ><img className="Contact_Icon"
@@ -39,7 +39,7 @@ function ContactItem( {item, Active_Contact} ) {
         )
     } else {
         return (
-            <StyledContactItem className="Homepage Contact Item">
+            <StyledContactItem className="Homepage_Contact_Item">
                 <img className="Contact_Icon"
                     src={item.svg_OFF} width="50" height="50" alt={`${item.title} icon`}
                     onMouseOver={() => Active_Contact[1](item.path)}

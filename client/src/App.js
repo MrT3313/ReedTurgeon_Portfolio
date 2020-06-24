@@ -25,7 +25,7 @@ const StyledApp = styled.div`
 // __MAIN FUNCTIONAL COMPONENT__ 
 function App() {
   return (
-      <StyledApp className="Styled App">
+      <StyledApp className="Styled_App">
         <Homepage />
       </StyledApp>
   );
