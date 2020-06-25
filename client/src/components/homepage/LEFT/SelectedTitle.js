@@ -11,6 +11,9 @@ const StyledSelectedTitle = styled.h2`
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+
+    flex-grow: 1;
 
     min-width: 300px;
     
