@@ -58,14 +58,31 @@ body {
 	height: 100%;
 	font-size: 62.5%;
 }
-/* 
-#root {
-	height: 100%;
-} */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1025px) { /* Desktops & Large Screens*/
 
 	#root .Styled_App {
 		background-color: red;
+	}
+}
+
+@media screen and (max-width: 769px) { /* Small Screens & Laptops */
+
+	#root .Styled_App {
+		background-color: blue;
+	}
+}
+
+@media screen and (max-width: 481px) { /* Ipads & Tablets*/
+
+	#root .Styled_App {
+		background-color: blue;
+	}
+}
+
+@media screen and (max-width: 320px) { /* Mobile Devices */
+
+	#root .Styled_App {
+		background-color: blue;
 	}
 }
