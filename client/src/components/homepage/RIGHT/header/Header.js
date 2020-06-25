@@ -6,10 +6,10 @@ import ContactItem from './ContactItem.js'
 import SocialItem from './SocialItem.js'
 
 // ICONS
-import LinkedIn_OFF from '../../../assets/icons/LinkedIn_OFF.svg'
-import Github_OFF from '../../../assets/icons/Github_OFF.svg'
-import AtSymbol from '../../../assets/icons/Mail_OFF.svg'
-import Phone_OFF from '../../../assets/icons/Phone_OFF.svg'
+import LinkedIn_OFF from '../../../../assets/icons/LinkedIn_OFF.svg'
+import Github_OFF from '../../../../assets/icons/Github_OFF.svg'
+import AtSymbol from '../../../../assets/icons/Mail_OFF.svg'
+import Phone_OFF from '../../../../assets/icons/Phone_OFF.svg'
 
 // STYLES
 import styled from 'styled-components'

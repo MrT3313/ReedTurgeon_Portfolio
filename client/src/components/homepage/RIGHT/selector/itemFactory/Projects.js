@@ -2,7 +2,7 @@
 import React from 'react'
 
 // COMPONENTS
-import ProjectItem from './ProjectItem.js'
+import ProjectItem from '../items/ProjectItem.js'
 
 // STYLED
 import styled from 'styled-components'
