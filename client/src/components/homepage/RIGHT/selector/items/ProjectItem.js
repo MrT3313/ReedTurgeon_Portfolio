@@ -11,7 +11,16 @@ const StyledProjectItem = styled.div`
     display: flex;
     flex-direction: column;
 
+    padding: 10px;
     margin: 15px 0 15px 15px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    :hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
 
     & .Project_Item, .Project_Content {
         display: flex;
@@ -56,6 +65,14 @@ const StyledProjectItem = styled.div`
 
     & .BOTTOM {
         padding-left: 30px;
+
+        display: none;
+    }
+
+    :hover {
+        & .BOTTOM {
+            display: flex;
+        }
     }
 `
 
