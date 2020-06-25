@@ -24,7 +24,7 @@ Welcome to my portfolio!
 <summary>1.1.3 - Education Category Update</summary>
 
 1. font-size / font-weight / font-style => used to emphasize items in `<Education />` & `<EducationItem />`
-2. `homepage > RIGHT` directory reorg to better organize components and logic
+2. `src > components > homepage > RIGHT` directory reorg to better organize components and logic
     ```
     │   └── src
     │       ├── App.js
@@ -58,8 +58,10 @@ Welcome to my portfolio!
     │       └── views
     │           ├── Homepage.js
     │           └── Resume.js
-    └── netlify.toml
     ```
+
+Screenshot:   
+    <img src="client/src/assets/readMe/1.1.3_Education_Category_Update&Directory_Reorg.png" height='300'> 
 </details>
 
 
