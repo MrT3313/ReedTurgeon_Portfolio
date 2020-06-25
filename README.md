@@ -1,7 +1,7 @@
 # Reed Turgeon's Portfolio
 Welcome to my portfolio!
 
-🌎[Hosted Netlify Project](https://turgeonportfolio.netlify.app)  🌎
+🌎 [Hosted Netlify Project](https://turgeonportfolio.netlify.app) 🌎
 
 ## My Info
 | title     | link                                                          | 
@@ -19,7 +19,51 @@ Welcome to my portfolio!
 | Styled-Components     | Component Scopped Styling Library     | 
 
 ## Versions
+
 <details open>
+<summary>1.1.3 - Education Category Update</summary>
+
+1. font-size / font-weight / font-style => used to emphasize items in `<Education />` & `<EducationItem />`
+2. `homepage > RIGHT` directory reorg to better organize components and logic
+    ```
+    │   └── src
+    │       ├── App.js
+    │       ├── assets
+    │       ├── components
+    │       │   ├── HomepageLine.js
+    │       │   └── homepage
+    │       │       ├── LEFT
+    │       │       │   ├── HomepageLeft.js
+    │       │       │   └── SelectedTitle.js
+    │       │       └── RIGHT
+    │       │           ├── HomepageRight.js
+    │       │           ├── header
+    │       │           │   ├── ContactItem.js
+    │       │           │   ├── Header.js
+    │       │           │   └── SocialItem.js
+    │       │           └── selector
+    │       │               ├── HomepageSelector.js
+    │       │               ├── itemFactory
+    │       │               │   ├── Education.js
+    │       │               │   ├── Experience.js
+    │       │               │   └── Projects.js
+    │       │               └── items
+    │       │                   ├── EducationItem.js
+    │       │                   ├── ExperienceItem.js
+    │       │                   └── ProjectItem.js
+    │       ├── index.js
+    │       ├── styles
+    │       │   ├── index.css
+    │       │   └── theme.js
+    │       └── views
+    │           ├── Homepage.js
+    │           └── Resume.js
+    └── netlify.toml
+    ```
+</details>
+
+
+<details>
 <summary>1.1.2 - Projects Category Update</summary>
 
 1. font-size / font-weight / font-style => used to emphasize items in `<Projects />` & `<ProjectItem />`
