@@ -14,7 +14,7 @@ const StyledFooter = styled.div`
     display: flex;
     justify-content: center;
 
-    width: 100%;
+    // width: 100%;
 
     & img {
         margin-right: 50px;

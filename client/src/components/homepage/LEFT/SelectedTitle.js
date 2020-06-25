@@ -15,7 +15,7 @@ const StyledSelectedTitle = styled.h2`
 
     flex-grow: 1;
 
-    min-width: 300px;
+    // min-width: 300px;
     
     & .title {
         font-size: 4rem;

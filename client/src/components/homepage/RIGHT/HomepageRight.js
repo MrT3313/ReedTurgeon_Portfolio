@@ -17,7 +17,7 @@ const StyledHomepageRight = styled.div`
     flex-direction: column;
     justify-content: flex-start;
 
-    width: 700px;
+    // max-width: 800px;
 
     & .Homepage_Selector_Wrapper {
         display: flex;

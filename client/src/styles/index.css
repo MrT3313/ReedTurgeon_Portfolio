@@ -49,19 +49,23 @@ table {
 
 /* Added */
 
-html, body, #root {
-	height: 100%;
-	width: 100%
-}
-
 html {
+	min-height: 100%;
 	box-sizing: border-box;
 }
 
 body {
+	height: 100%;
 	font-size: 62.5%;
 }
+/* 
+#root {
+	height: 100%;
+} */
 
-a {
-	text-decoration: none;
+@media screen and (max-width: 800px) {
+
+	#root .Styled_App {
+		background-color: red;
+	}
 }

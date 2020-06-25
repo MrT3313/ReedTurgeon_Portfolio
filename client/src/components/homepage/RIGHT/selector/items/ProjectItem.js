@@ -32,7 +32,7 @@ const StyledProjectItem = styled.div`
         align-items: center;
 
         margin-bottom: 10px;
-        width: 100%;
+        // width: 100%;
 
         & .Title, .ProjectLink, .ProjectCodebase { 
             font-size: 1.25rem;
@@ -41,7 +41,7 @@ const StyledProjectItem = styled.div`
         & .Title {
             font-weight: bold;
 
-            width: 210px;
+            // width: 210px;
         }
     }
 

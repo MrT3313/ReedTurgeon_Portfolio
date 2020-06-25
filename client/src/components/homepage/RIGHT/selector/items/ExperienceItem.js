@@ -18,6 +18,8 @@ const StyledExperienceItem = styled.div`
     border: 1px solid black;
     border-radius: 5px;
 
+    // width: 500px;
+
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     :hover {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -31,7 +33,7 @@ const StyledExperienceItem = styled.div`
         justify-content: space-between;
         align-items: center;
 
-        width: 100%;
+        // width: 100%;
 
         & .Company {
             font-size: 1.25rem;
@@ -49,7 +51,7 @@ const StyledExperienceItem = styled.div`
         font-size: 1.25rem;
 
         margin-bottom: 10px;
-        width: 100%;
+        // width: 100%;
     }
 
     & .BOTTOM {

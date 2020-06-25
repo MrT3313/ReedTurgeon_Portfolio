@@ -28,7 +28,7 @@ const items = [
             'Project Lead for 4 Build Weeks, guiding groups of 7-14 developers in delivering one project inclusive of all Lambda’s curriculum tracks (Full Stack Web, Android, IOS, Data Science, and UX)',
         ]
     },
-    {   title: 'Acting Startup Comptroller | Co-Operations Manager', company: 'PiraShield', date: 'December, 2016 – July, 2018',
+    {   title: 'Startup Comptroller | Co-Operations Manager', company: 'PiraShield', date: 'December, 2016 – July, 2018',
         bullets: [
             'Designed, implemented, and managed all financial systems: bookkeeping, financial reporting, accounts receivable, accounts payable, employee payroll, budgeting and tax filing',
             'Organized and improved an operational management system to identify, track and communicate performance',

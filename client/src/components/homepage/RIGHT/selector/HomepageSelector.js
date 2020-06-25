@@ -13,11 +13,11 @@ import styled from 'styled-components'
 const StyledHomepageSelector = styled.div`
     display: flex;
 
-    width: 100%;
+    // width: 100%;
     padding: 10px;
 
     & ul {
-        width: 100%;
+        // width: 100%;
     }
 
     & .HomepageSelector_ListItem {

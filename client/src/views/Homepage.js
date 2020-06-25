@@ -17,7 +17,7 @@ const StyledHomepage = styled.div`
     display: flex;
     justify-content: center;
 
-    width: 90%;
+    // width: 90%;
     padding: 50px 0;
 `
 
