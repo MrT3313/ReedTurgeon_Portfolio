@@ -2,9 +2,9 @@
 import React from 'react';
 
 // COMPONENTS
-import Experience from './Experience.js'
-import Projects from './Projects.js'
-import Education from './Education.js'
+import Experience from './itemFactory/Experience.js'
+import Projects from './itemFactory/Projects.js'
+import Education from './itemFactory/Education.js'
 
 // STYLES
 import styled from 'styled-components'

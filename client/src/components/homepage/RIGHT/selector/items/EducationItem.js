@@ -11,15 +11,27 @@ const StyledEducationItem = styled.div`
     display: flex
     flex-direction: column;
 
-    margin: 5px 0 5px 15px;
+    margin: 15px 0 15px 15px;
 
-    & .Education_Item {
+    & .Education_Item, Education_Content {
         display: flex;
-        width: 100%;
+        font-size: 1.25rem;
     }
 
     & .TOP {
         justify-content: space-between;
+        align-items: center;
+
+        // margin-bottom: 10px;
+        width: 100%;
+
+        & .Title, .Date {
+            font-size: 1.25rem;
+        }
+
+        & .Title {
+            font-weight: bold
+        }
     }
 `
 
@@ -28,12 +40,12 @@ function EducationItem( {item} ) {
     return (
         <StyledEducationItem>
             <div className="Education_Item TOP">
-                <div>{item.title}</div>
-                <div>{item.date}</div>
+                <div className="Education_Content Title">{item.name}</div>
+                <div className="Education_Content Location">{item.location}</div>
+                <div className="Education_Content Date">{item.date}</div>
             </div>
             <div className="Education_Item BOTTOM">
-                <div>{item.name}</div>
-                <div>{item.location}</div>
+                <div className="Education_Content Name">{item.title}</div>
             </div>
         </StyledEducationItem>
     )

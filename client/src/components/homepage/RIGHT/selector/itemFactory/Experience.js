@@ -2,7 +2,7 @@
 import React from 'react'
 
 // COMPONENTS
-import ExperienceItem from './ExperienceItem.js'
+import ExperienceItem from '../items/ExperienceItem.js'
 
 // STYLED
 import styled from 'styled-components'

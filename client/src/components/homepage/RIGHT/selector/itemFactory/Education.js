@@ -2,7 +2,7 @@
 import React from 'react'
 
 // COMPONENTS
-import EducationItem from './EducationItem.js'
+import EducationItem from '../items/EducationItem.js'
 
 // STYLES
 import styled from 'styled-components'
@@ -16,14 +16,17 @@ const StyledEducation = styled.div`
 // STATE
 const items = [
     {   title: 'Full Stack Web Development', name: 'Lambda School',
-        date: 'November, 2018 – April, 2020',
-        location: 'Remote Real-Time One-to-Many Education Model'
+        // date: 'November, 2018 – April, 2020',
+        date: 'Nov, 2018 – Apr, 2020',
+        location: 'Remote Real-Time Education'
     },
     {   title: 'BS: Business Admin, Finance Concentration', name: 'Babson College',
-        date: 'September 2012 – May, 2016',
+        // date: 'September 2012 – May, 2016',
+        date: 'Sept 2012 – May, 2016',
         location: 'Wellesley MA'
     },
     {   title: 'Eagle Scout', name: 'Troop 126',
+        // date: 'June, 2010',
         date: 'June, 2010',
         location: 'Franklin MA'
     },
