@@ -23,7 +23,7 @@ const StyledHomepage_TabletDesktop = styled.div`
 
 // __MAIN FUNCTIONAL COMPONENT__
 function HomepageTabletDesktop( {width, Active_Title, Active_Tab} ) {
-console.log(width)
+// console.log(width)
 // -- //
     // Return
     return (

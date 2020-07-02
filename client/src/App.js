@@ -22,8 +22,13 @@ const StyledApp = styled.div`
   justify-content: center;
 
   min-height: 100vh;
-
   background-color: ${props => props.theme.primary.color};
+
+  & .AppContainer {
+    display: flex;
+    min-height: 100vh;
+    max-width: 1000px;
+  }
 `
 
 // __MAIN FUNCTIONAL COMPONENT__ 
@@ -42,23 +47,27 @@ function App() {
   if(width > 500) {
     return (
         <StyledApp className="Styled_App">
-          <HomepageTabletDesktop
-            width={width} 
-            Active_Title={[activeTitle, setActiveTitle]} 
-            Active_Tab={[activeTab, setActiveTab]}
-          />
-          {/* <div>Update The Homepage</div> */}
+          <div className='AppContainer'>
+            <HomepageTabletDesktop
+              width={width} 
+              Active_Title={[activeTitle, setActiveTitle]} 
+              Active_Tab={[activeTab, setActiveTab]}
+            />
+            {/* <div>Update The Homepage</div> */}
+          </div>
         </StyledApp>
     );  
   } else {
     return (
-        <StyledApp className="Styled_App">
+      <StyledApp className="Styled_App">
+        <div className='AppContainer'>
           <HomepageMobile 
             width={width} 
             Active_Title={[activeTitle, setActiveTitle]} 
             Active_Tab={[activeTab, setActiveTab]}
           />
-        </StyledApp>
+        </div>
+      </StyledApp>
     );
   }
 

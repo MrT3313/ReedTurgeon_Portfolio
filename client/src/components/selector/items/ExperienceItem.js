@@ -54,7 +54,7 @@ const StyledExperienceItem = styled.div`
     & .BOTTOM {
         flex-direction: column;
 
-        display: none;
+        // display: none;
         
         & li {
             justify-content: flex-start;
@@ -69,34 +69,10 @@ const StyledExperienceItem = styled.div`
         }
     }
 
-    :hover {
-        & .BOTTOM {
-            display: flex;
-        }
-    }
-
-    // // MEDIA QUERIES
-    // // 1 - LAPTOP
-    // @media ${devices.laptop} {
-    //     background-color: blue;
-    //     width: ${sizes.laptop.content_width};
-    // }
-
-    // // 2 - TABLET
-    // @media ${devices.tablet} {
-    //     background-color: red;
-    //     width: ${sizes.tablet.content_width};
-
-    //     .TOP {
-    //         flex-direction: column;
-    //         align-items: flex-start;
+    // :hover {
+    //     & .BOTTOM {
+    //         display: flex;
     //     }
-    // }
-    
-    // // 3 - MOBILE
-    // @media ${devices.mobile} {
-    //     background-color: yellow;
-    //     width: ${sizes.mobile.content_width};
     // }
 `
 

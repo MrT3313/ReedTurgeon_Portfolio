@@ -19,8 +19,61 @@ Welcome to my portfolio!
 | Styled-Components     | Component Scopped Styling Library     | 
 
 ## Versions
-
 <details open>
+<summary>1.2.0 - Switch to Mobile First Styling</summary>
+
+- Media Queries were getting out of hand while not really hitting the functionality that was needed. 
+- Mobile Version == `window.innderWidth <= 500`
+- Desktop Version == `window.innerWidth > 500`
+- Reogranized repo so match with mobile first
+
+```
+    │   └── src
+    │       ├── App.js
+    │       ├── index.js
+    │       ├── assets
+    │       │   ├── icons
+    │       │   │   ├── ...
+    │       │   └── readMe
+    │       │       ├── ...
+    │       ├── components
+    │       │   ├── HomepageLine.js
+    │       │   ├── ProjectItem.js
+    │       │   ├── SelectedTitle.js
+    │       │   ├── desktopHomepage
+    │       │   │   ├── HomepageLeft.js
+    │       │   │   └── HomepageRight.js
+    │       │   ├── footer
+    │       │   │   └── Footer.js
+    │       │   ├── header
+    │       │   │   ├── ContactItem.js
+    │       │   │   ├── Header.js
+    │       │   │   └── SocialItem.js
+    │       │   └── selector
+    │       │       ├── HomepageSelector.js
+    │       │       ├── itemFactory
+    │       │       │   ├── Education.js
+    │       │       │   ├── Experience.js
+    │       │       │   └── Projects.js
+    │       │       └── items
+    │       │           ├── EducationItem.js
+    │       │           ├── ExperienceItem.js
+    │       │           └── ProjectItem.js
+    │       ├── styles
+    │       │   ├── index.css
+    │       │   ├── responsiveSizes.js
+    │       │   └── theme.js
+    │       └── views
+    │           ├── Resume.js
+    │           └── homepage
+    │               ├── HomepageMobile.js
+    │               └── HomepageTabletDesktop.js
+```
+
+</details>
+
+
+<details>
 <summary>1.1.3 - Education Category Update</summary>
 
 1. font-size / font-weight / font-style => used to emphasize items in `<Education />` & `<EducationItem />`
@@ -136,12 +189,11 @@ Screenshot:
 </details>
 
 ## Assets
-
 <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
-| title     | credit / author   | icon link     | artist link       | 
-| ---       | ---               | ---           | ---               |
-| LinkedIn  |                   |               |                   | 
-| Github    |                   |               |                   | 
-| AtSymbol  |                   |               |                   | 
-| Phone     |                   |               |                   | 
+| title     | credit / author                        | icon link                                                                                      | 
+| ---       | ---                                    | ---                                                                                            |
+| LinkedIn  | Freepick on flaticon.com               | [link](https://www.flaticon.com/free-icon/linkedin_1384014?term=linkedin&page=1&position=1)    |
+| Github    | Pixel Perfect on flaticon.com          | [link](https://www.flaticon.com/free-icon/github_2111432)                                      |
+| AtSymbol  | Freepick on flaticon.com               | [link](https://www.flaticon.com/free-icon/at_2658139)                                          |
+| Phone     | Creaticca Creative Agency flaticon.com | [link](https://www.flaticon.com/free-icon/phone-call_455705)                                   |

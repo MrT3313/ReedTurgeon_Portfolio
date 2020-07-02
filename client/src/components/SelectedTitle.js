@@ -13,6 +13,8 @@ const StyledSelectedTitle = styled.h2`
     align-items: center;
     justify-content: center;
 
+    width: 210px;
+
     & .title, .subTitle {
         display: flex;
         justify-content: center;

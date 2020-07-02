@@ -92,35 +92,6 @@ const StyledProjectItem = styled.div`
             display: flex;
         }
     }
-
-    // // MEDIA QUERIES
-    // // 1 - LAPTOP
-    // @media ${devices.laptop} {
-    //     background-color: blue;
-    //     width: ${sizes.laptop.content_width};
-    // }
-
-    // // 2 - TABLET
-    // @media ${devices.tablet} {
-    //     background-color: red;
-    //     width: ${sizes.tablet.content_width};
-
-    //     .TOP {
-    //         flex-direction: column;
-    //         align-items: flex-start;
-
-    //         & .Links {
-    //             width: 100%;
-    //             justify-content: space-between;
-    //         }
-    //     }
-    // }
-    
-    // // 3 - MOBILE
-    // @media ${devices.mobile} {
-    //     background-color: yellow;
-    //     width: ${sizes.mobile.content_width};
-    // }
 `
 
 // __MAIN FUNCTIONAL COMPONENT
