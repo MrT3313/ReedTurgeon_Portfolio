@@ -5,8 +5,8 @@ import React from 'react';
 // - 1 - VIEWS
 
 // - 2 - COMPONENTS
-import SelectedTitle from './SelectedTitle.js'
-import Footer from './footer/Footer.js'
+import SelectedTitle from '../SelectedTitle.js'
+import Footer from '../footer/Footer.js'
 
 // STYLES
 import styled from 'styled-components'

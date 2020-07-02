@@ -5,8 +5,8 @@ import React from 'react';
 // - 1 - VIEWS
 
 // - 2 - COMPONENTS
-import HomepageHeader from './header/Header.js'
-import HomepageSelector from './selector/HomepageSelector.js'
+import HomepageHeader from '../header/Header.js'
+import HomepageSelector from '../selector/HomepageSelector.js'
 
 // STYLES
 import styled from 'styled-components'

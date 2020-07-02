@@ -5,7 +5,7 @@ import React from 'react'
 
 // STYLED
 import styled from 'styled-components'
-import { sizes, devices } from '../../../../../styles/responsiveSizes.js'
+import { sizes, devices } from '../../../styles/responsiveSizes.js'
 
 // STYLED COMPONENTS
 const StyledExperienceItem = styled.div`

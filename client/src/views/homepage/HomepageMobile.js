@@ -2,11 +2,11 @@
 import React, {useState} from 'react'
 
 // COMPONENTS
-import HomepageSelector from '../../components/homepage/RIGHT/selector/HomepageSelector.js'
-import SelectedTitle from '../../components/homepage/LEFT/SelectedTitle.js'
+import HomepageSelector from '../../components/selector/HomepageSelector.js'
+import SelectedTitle from '../../components/SelectedTitle.js'
 
-import Header from '../../components/homepage/RIGHT/header/Header.js'
-import Footer from '../../components/homepage/LEFT/footer/Footer.js'
+import Header from '../../components/header/Header.js'
+import Footer from '../../components/footer/Footer.js'
 import HomepageLine from '../../components/HomepageLine.js'
 
 // transform: [{ rotate: '30deg'}],

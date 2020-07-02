@@ -2,9 +2,9 @@
 import React from 'react'
 
 // ICONS
-import RunningIcon from '../../../../assets/icons/Running.svg'
-import SwimmingIcon from '../../../../assets/icons/Swimming.svg'
-import BikerIcon from '../../../../assets/icons/Biker.svg'
+import RunningIcon from '../../assets/icons/Running.svg'
+import SwimmingIcon from '../../assets/icons/Swimming.svg'
+import BikerIcon from '../../assets/icons/Biker.svg'
 
 // STYLED
 import styled from 'styled-components'

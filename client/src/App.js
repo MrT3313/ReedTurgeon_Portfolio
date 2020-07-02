@@ -43,11 +43,11 @@ function App() {
   if(width > 500) {
     return (
         <StyledApp className="Styled_App">
-          {/* <HomepageTabletDesktop 
+          <HomepageTabletDesktop 
             Active_Title={[activeTitle, setActiveTitle]} 
             Active_Tab={[activeTab, setActiveTab]}
-          /> */}
-          <div>Update The Homepage</div>
+          />
+          {/* <div>Update The Homepage</div> */}
         </StyledApp>
     );  
   } else {

@@ -5,8 +5,8 @@ import React, {useState} from 'react';
 // - 1 - VIEWS
 
 // - 2 - COMPONENTS
-import HomepageLeft from '../../components/homepage/LEFT/HomepageLeft.js'
-import HomepageRight from '../../components/homepage/RIGHT/HomepageRight.js'
+import HomepageLeft from '../../components/homepage/HomepageLeft.js'
+import HomepageRight from '../../components/homepage/HomepageRight.js'
 import HomepageLine from '../../components/HomepageLine.js'
 
 // STYLES
