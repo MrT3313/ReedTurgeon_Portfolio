@@ -25,7 +25,7 @@ const StyledHomepageRight = styled.div`
 `
 
 // __MAIN FUNCTIONAL COMPONENT__
-function HomepageRight( {Active_Title, Active_Tab} ) {
+function HomepageRight( {width, Active_Title, Active_Tab} ) {
     return (
         <StyledHomepageRight 
             className="Homepage_RIGHT"

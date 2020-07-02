@@ -5,8 +5,8 @@ import React, {useState} from 'react';
 // - 1 - VIEWS
 
 // - 2 - COMPONENTS
-import HomepageLeft from '../../components/homepage/HomepageLeft.js'
-import HomepageRight from '../../components/homepage/HomepageRight.js'
+import HomepageLeft from '../../components/desktopHomepage/HomepageLeft.js'
+import HomepageRight from '../../components/desktopHomepage/HomepageRight.js'
 import HomepageLine from '../../components/HomepageLine.js'
 
 // STYLES
@@ -22,13 +22,19 @@ const StyledHomepage_TabletDesktop = styled.div`
 `
 
 // __MAIN FUNCTIONAL COMPONENT__
-function HomepageTabletDesktop( {Active_Title, Active_Tab} ) {
+function HomepageTabletDesktop( {width, Active_Title, Active_Tab} ) {
+console.log(width)
+// -- //
     // Return
     return (
         <StyledHomepage_TabletDesktop className="Styled_Homepage">
-            <HomepageLeft Active_Title={Active_Title} />
-            <HomepageLine width={2} margin={15}/>
+            <HomepageLeft 
+                width={width}
+                Active_Title={Active_Title} 
+            />
+            <HomepageLine width={width}/>
             <HomepageRight 
+                width={width}
                 Active_Title={Active_Title}  
                 Active_Tab={Active_Tab}
             />

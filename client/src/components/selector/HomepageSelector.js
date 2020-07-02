@@ -12,6 +12,7 @@ import styled from 'styled-components'
 // STYLED COMPONENTS
 const StyledHomepageSelector = styled.div`
     display: flex;
+    width: 100%;
 
     & ul {
         width: 100%;

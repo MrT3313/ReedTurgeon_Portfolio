@@ -6,7 +6,6 @@
 
 // IMPORTS
 import React, {useState, useEffect} from 'react';
-import useWindowSize from './hooks/useWindowSize.js'
 
 // COMPONENTS
 // - 1 - VIEWS 
@@ -43,7 +42,8 @@ function App() {
   if(width > 500) {
     return (
         <StyledApp className="Styled_App">
-          <HomepageTabletDesktop 
+          <HomepageTabletDesktop
+            width={width} 
             Active_Title={[activeTitle, setActiveTitle]} 
             Active_Tab={[activeTab, setActiveTab]}
           />
@@ -54,6 +54,7 @@ function App() {
     return (
         <StyledApp className="Styled_App">
           <HomepageMobile 
+            width={width} 
             Active_Title={[activeTitle, setActiveTitle]} 
             Active_Tab={[activeTab, setActiveTab]}
           />

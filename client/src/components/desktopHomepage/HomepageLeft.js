@@ -16,13 +16,22 @@ const StyledHomepageLeft = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+
+    
+
+    & .greeting {
+        height: 100%;
+    }
 `
 
 // __MAIN FUNCTIONAL COMPONENT__
-function HomepageLeft( {Active_Title} ) {
+function HomepageLeft( {width, Active_Title} ) {
     return (
         <StyledHomepageLeft className="Homepage_LEFT">
-            <SelectedTitle Active_Title={Active_Title} />
+            <SelectedTitle 
+                width={width}
+                Active_Title={Active_Title} 
+            />
             <Footer />
         </StyledHomepageLeft>
     );

@@ -21,13 +21,16 @@ const StyledHomepage_Mobile = styled.div`
 `
 
 // __MAIN FUNCTIONAL COMPONENT__
-function HomepageMobile( {Active_Title, Active_Tab} ) {
+function HomepageMobile( {width, Active_Title, Active_Tab} ) {
+console.log(width)
+// -- //
     // Return 
     return (
         <StyledHomepage_Mobile className="Styled_Homepage">
             <Header />
             <HomepageLine margin={[5,0,5,0]}/>
             <SelectedTitle 
+                width={width}
                 Active_Title={Active_Title}
             />
             <HomepageLine />
