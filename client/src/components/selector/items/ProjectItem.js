@@ -5,7 +5,6 @@ import React from 'react'
 
 // STYLES
 import styled from 'styled-components'
-import { sizes, devices } from '../../../styles/responsiveSizes.js'
 
 
 // STYLED COMPONENTS

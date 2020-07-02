@@ -1,5 +1,5 @@
 // IMPORTS
-import React, {useState} from 'react'
+import React from 'react'
 
 // COMPONENTS
 import HomepageSelector from '../../components/selector/HomepageSelector.js'
@@ -15,7 +15,7 @@ import HomepageLine from '../../components/HomepageLine.js'
 import styled from 'styled-components'
 
 // STYLED COMPONENTS
-const StyledHomepage_Mobile = styled.div`
+const StyledHomepageMobile = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -27,7 +27,7 @@ function HomepageMobile( {width, Active_Title, Active_Tab} ) {
 // -- //
     // Return 
     return (
-        <StyledHomepage_Mobile className="Styled_Homepage">
+        <StyledHomepageMobile className="Styled_Homepage">
             <div className="MobileHomepage_Content">
                 <Header />
                 <HomepageLine margin={[5,0,5,0]}/>
@@ -47,7 +47,7 @@ function HomepageMobile( {width, Active_Title, Active_Tab} ) {
                 <HomepageLine />
                 <Footer />
             </div>
-        </StyledHomepage_Mobile>
+        </StyledHomepageMobile>
     )
 }
 

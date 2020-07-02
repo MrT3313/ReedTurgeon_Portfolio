@@ -1,5 +1,5 @@
 // IMPORTS
-import React, {useState} from 'react';
+import React from 'react';
 
 // COMPONENTS
 // - 1 - VIEWS
@@ -13,11 +13,10 @@ import HomepageLine from '../../components/HomepageLine.js'
 import styled from 'styled-components'
 
 // STYLED COMPONENTS
-const StyledHomepage_TabletDesktop = styled.div`
+const StyledHomepageDesktop = styled.div`
     display: flex;
     justify-content: center;
 
-    // width: 90%;
     padding: 50px 0;
 `
 
@@ -27,7 +26,7 @@ function HomepageTabletDesktop( {width, Active_Title, Active_Tab} ) {
 // -- //
     // Return
     return (
-        <StyledHomepage_TabletDesktop className="Styled_Homepage">
+        <StyledHomepageDesktop className="Styled_Homepage">
             <HomepageLeft 
                 width={width}
                 Active_Title={Active_Title} 
@@ -38,7 +37,7 @@ function HomepageTabletDesktop( {width, Active_Title, Active_Tab} ) {
                 Active_Title={Active_Title}  
                 Active_Tab={Active_Tab}
             />
-        </StyledHomepage_TabletDesktop>
+        </StyledHomepageDesktop>
     )
 }
 

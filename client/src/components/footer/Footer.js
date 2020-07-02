@@ -21,9 +21,9 @@ const StyledFooter = styled.div`
 function Footer() {
     return (
         <StyledFooter className='Footer'>
-            <img src={RunningIcon} width='40' height='40'/> 
-            <img src={SwimmingIcon} width='40' height='40'/> 
-            <img src={BikerIcon} width='40' height='40'/> 
+            <img src={RunningIcon} width='40' height='40' alt='RunningIcon'/> 
+            <img src={SwimmingIcon} width='40' height='40' alt='SwimmingIcon'/> 
+            <img src={BikerIcon} width='40' height='40' alt='BikerIcon'/> 
         </StyledFooter>
     )
 }
