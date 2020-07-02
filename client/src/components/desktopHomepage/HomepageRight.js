@@ -5,8 +5,8 @@ import React from 'react';
 // - 1 - VIEWS
 
 // - 2 - COMPONENTS
-import HomepageHeader from './header/Header.js'
-import HomepageSelector from './selector/HomepageSelector.js'
+import HomepageHeader from '../header/Header.js'
+import HomepageSelector from '../selector/HomepageSelector.js'
 
 // STYLES
 import styled from 'styled-components'
@@ -17,8 +17,6 @@ const StyledHomepageRight = styled.div`
     flex-direction: column;
     justify-content: flex-start;
 
-    width: 700px;
-
     & .Homepage_Selector_Wrapper {
         display: flex;
         flex-grow: 1;
@@ -27,7 +25,7 @@ const StyledHomepageRight = styled.div`
 `
 
 // __MAIN FUNCTIONAL COMPONENT__
-function HomepageRight( {Active_Title, Active_Tab} ) {
+function HomepageRight( {width, Active_Title, Active_Tab} ) {
     return (
         <StyledHomepageRight 
             className="Homepage_RIGHT"

@@ -15,27 +15,31 @@ const StyledExperience = styled.div`
 
 // STATE
 const items = [
-    {   title: 'Remote Computer Science Section Lead', company: 'Lambda School', date: 'February, 2020 – April, 2020',
+    {   title: 'Remote Computer Science Section Lead', company: 'Lambda School', 
+        date: 'Feb, 2020 – Apr, 2020',
         bullets: [
             'Responsible for 16 Team Leads that oversaw ~150 students',
             'Facilitated effective communication between each Team Lead and the Student Success Coordinators',
         ]
     },
-    {   title: 'Remote Full Stack Web Development Team Lead', company: 'Lambda School', date: 'July, 2019 – December, 2019',
+    {   title: 'Remote Full Stack Web Development Team Lead', company: 'Lambda School', 
+        date: 'Jul, 2019 – Dec, 2019',
         bullets: [
             'Technical mentor for 7–10 students. Lead daily 1:1 review and debugging sessions via Zoom',
             'Held daily stand-up meetings to address technical challenges, reinforce lecture material and lead JavaScript whiteboard challenges',
             'Project Lead for 4 Build Weeks, guiding groups of 7-14 developers in delivering one project inclusive of all Lambda’s curriculum tracks (Full Stack Web, Android, IOS, Data Science, and UX)',
         ]
     },
-    {   title: 'Acting Startup Comptroller | Co-Operations Manager', company: 'PiraShield', date: 'December, 2016 – July, 2018',
+    {   title: 'Startup Comptroller', company: 'PiraShield', 
+        date: 'Dec, 2016 – Jul, 2018',
         bullets: [
             'Designed, implemented, and managed all financial systems: bookkeeping, financial reporting, accounts receivable, accounts payable, employee payroll, budgeting and tax filing',
             'Organized and improved an operational management system to identify, track and communicate performance',
             'These systems supported the company through ~3000% revenue growth ($800/Mo – $25,000/Mo) and were integral in the due diligence process and sale of the company to a European competitor',
         ]
     }, 
-    {   title: 'Executive Portfolio Manager', company: 'Babson College Fund', date: 'April, 2015 – May, 2016',
+    {   title: 'Executive Portfolio Manager', company: 'Babson College Fund', 
+        date: 'Apr, 2015 – May, 2016',
         bullets: [
             'Monitored trade orders and oversaw positions within the $2M portfolio to remain compliant with BCF bylaws',
             'Maintained effective communication between Student Sector Managers and the BCF Director'

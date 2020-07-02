@@ -12,16 +12,18 @@ import styled from 'styled-components'
 // STYLED COMPONENTS
 const StyledHomepageSelector = styled.div`
     display: flex;
-
     width: 100%;
-    padding: 10px;
 
     & ul {
         width: 100%;
     }
+     & li { 
+         display: flex;
+         justify-content: center;
+     }
 
     & .HomepageSelector_ListItem {
-        margin: 10px 0;
+        margin: 20px 0;
         font-size: 2rem;
     }
 `

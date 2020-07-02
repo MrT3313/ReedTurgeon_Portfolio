@@ -47,21 +47,18 @@ table {
 	border-spacing: 0;
 }
 
-/* Added */
-
-html, body, #root {
-	height: 100%;
-	width: 100%
-}
+/* ---   ---   ---   ---   ---   ---   ---   --- */
+/* Added General 					   	         */
+/* ---   ---   ---   ---   ---   ---   ---   --- */
 
 html {
+	min-height: 100%;
 	box-sizing: border-box;
 }
 
 body {
+	height: 100%;
 	font-size: 62.5%;
-}
-
-a {
-	text-decoration: none;
+	
+	min-width: 300px;
 }

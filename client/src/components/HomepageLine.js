@@ -12,11 +12,11 @@ const StyledLine = styled.div`
 `
 
 // __MAIN FUNCTIONAL COMPONENT__
-function HomepageLine( {width, margin} ) {  
+function HomepageLine( {width} ) {
     return (
         <StyledLine 
             className="Line_Component"
-            style={{width: `${width}px`, margin: `0 ${margin}px`}}
+            style={ width > 500 ? {margin: '0 10px'} : {margin: '10px 0'}}
         >    
         </StyledLine>
     )

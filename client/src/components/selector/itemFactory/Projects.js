@@ -25,6 +25,11 @@ const items = [
         stack: ['React Hooks'],
         desc: 'Built to explore simulation logic and practice React state management with Hooks'
     },
+    // {   title: "This Portfolio!", projectLink: 'https://turgeonportfolio.netlify.app/', codebase: 'https://github.com/MrT3313/ReedTurgeon_Portfolio',
+    //     subTitle: '', 
+    //     stack: ['React', '|', 'Styled Components'],
+    //     desc: ''
+    // }
 ]
 
 // __MAIN FUNCTIONAL COMPONENT__

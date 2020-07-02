@@ -18,7 +18,7 @@ const items = [
     {   title: 'Full Stack Web Development', name: 'Lambda School',
         // date: 'November, 2018 – April, 2020',
         date: 'Nov, 2018 – Apr, 2020',
-        location: 'Remote Real-Time Education'
+        location: 'Remote'
     },
     {   title: 'BS: Business Admin, Finance Concentration', name: 'Babson College',
         // date: 'September 2012 – May, 2016',

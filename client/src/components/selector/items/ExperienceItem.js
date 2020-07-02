@@ -10,9 +10,19 @@ import styled from 'styled-components'
 const StyledExperienceItem = styled.div`
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: space-between;
 
-    margin: 15px 0 15px 15px;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+    :hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
 
     & .Experience_Item {
         display: flex;
@@ -22,47 +32,47 @@ const StyledExperienceItem = styled.div`
         justify-content: space-between;
         align-items: center;
 
-        width: 100%;
-
         & .Company {
-            font-size: 1.25rem;
+            font-size: 1rem;
             font-weight: bold;
         }
         
         & .Title, .Date {
-            font-size: 1.25rem;
+            font-size: 1rem;
         }
     }
 
     & .MIDDLE {
         justify-content: flex-start;
         font-style: italic;
-        font-size: 1.25rem;
+        font-size: .9rem;
 
         margin-bottom: 10px;
-        width: 100%;
     }
 
     & .BOTTOM {
         flex-direction: column;
-        align-items: flex-start;
 
-        padding-left: 30px;
-        font-size: 1.15rem;
-
-        display: none;
-
+        // display: none;
+        
         & li {
+            justify-content: flex-start;
+            
+            display: list-item;
             list-style-type: disc;
-            list-style-position: inside;
+            list-style-position: outside;
+
+            font-size: .9rem;
+            
+            margin: 0 0 5px 15px;
         }
     }
 
-    :hover {
-        & .BOTTOM {
-            display: flex;
-        }
-    }
+    // :hover {
+    //     & .BOTTOM {
+    //         display: flex;
+    //     }
+    // }
 `
 
 // __MAIN FUNCTIONAL COMPONENT__
