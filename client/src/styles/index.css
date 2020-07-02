@@ -47,7 +47,9 @@ table {
 	border-spacing: 0;
 }
 
-/* Added */
+/* ---   ---   ---   ---   ---   ---   ---   --- */
+/* Added General 					   	         */
+/* ---   ---   ---   ---   ---   ---   ---   --- */
 
 html {
 	min-height: 100%;
@@ -57,32 +59,6 @@ html {
 body {
 	height: 100%;
 	font-size: 62.5%;
-}
-
-@media screen and (max-width: 1025px) { /* Desktops & Large Screens*/
-
-	#root .Styled_App {
-		background-color: red;
-	}
-}
-
-@media screen and (max-width: 769px) { /* Small Screens & Laptops */
-
-	#root .Styled_App {
-		background-color: blue;
-	}
-}
-
-@media screen and (max-width: 481px) { /* Ipads & Tablets*/
-
-	#root .Styled_App {
-		background-color: blue;
-	}
-}
-
-@media screen and (max-width: 320px) { /* Mobile Devices */
-
-	#root .Styled_App {
-		background-color: blue;
-	}
+	
+	min-width: 300px;
 }

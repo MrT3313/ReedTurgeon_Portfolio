@@ -12,13 +12,14 @@ const StyledSelectedTitle = styled.h2`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    flex-grow: 1;
-
-    // min-width: 300px;
     
+    & .title, .subTitle {
+        display: flex;
+        justify-content: center;
+    }
+
     & .title {
-        font-size: 4rem;
+        font-size: 3.75rem;
         margin-bottom: 10px;
     }
     
@@ -35,7 +36,7 @@ function SelectedTitle( {Active_Title} ) {
                 {Active_Title[0]}
             </div>
             <div className="subTitle">
-                Please Choose a Category to Explore
+                Please Choose a Category
             </div>
         </StyledSelectedTitle>
     )

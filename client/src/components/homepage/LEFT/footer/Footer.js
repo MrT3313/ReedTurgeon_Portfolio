@@ -2,9 +2,9 @@
 import React from 'react'
 
 // ICONS
-import RunningIcon from '../../assets/icons/Running.svg'
-import SwimmingIcon from '../../assets/icons/Swimming.svg'
-import BikerIcon from '../../assets/icons/Biker.svg'
+import RunningIcon from '../../../../assets/icons/Running.svg'
+import SwimmingIcon from '../../../../assets/icons/Swimming.svg'
+import BikerIcon from '../../../../assets/icons/Biker.svg'
 
 // STYLED
 import styled from 'styled-components'
@@ -12,17 +12,9 @@ import styled from 'styled-components'
 // STYLED COMPONENTS
 const StyledFooter = styled.div`
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 
-    // width: 100%;
-
-    & img {
-        margin-right: 50px;
-    }
-
-    & img:last-child {
-        margin: 0;
-    }
+    width: 100%;
 `
 
 // __MAIN FUNCTIONAL COMPONENT

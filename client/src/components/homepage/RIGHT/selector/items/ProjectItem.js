@@ -5,6 +5,8 @@ import React from 'react'
 
 // STYLES
 import styled from 'styled-components'
+import { sizes, devices } from '../../../../../styles/responsiveSizes.js'
+
 
 // STYLED COMPONENTS
 const StyledProjectItem = styled.div`
@@ -12,19 +14,19 @@ const StyledProjectItem = styled.div`
     flex-direction: column;
 
     padding: 10px;
-    margin: 15px 0 15px 15px;
+    margin: 10px 10px 10px 10px;
 
     border: 1px solid black;
     border-radius: 5px;
 
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
     :hover {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
 
     & .Project_Item, .Project_Content {
         display: flex;
-        font-size: 1.25rem;
     }
 
     & .TOP {
@@ -32,22 +34,27 @@ const StyledProjectItem = styled.div`
         align-items: center;
 
         margin-bottom: 10px;
-        // width: 100%;
 
         & .Title, .ProjectLink, .ProjectCodebase { 
-            font-size: 1.25rem;
+            font-size: 1rem;
         }
 
         & .Title {
             font-weight: bold;
+            width: 180px;
+        }
 
-            // width: 210px;
+        & .Links {
+            justify-content: space-around;
+            font-size: .9rem;
+            flex-grow: 1
         }
     }
 
     & .MIDDLE {
         flex-direction: column;
 
+        font-size: .9rem;
         margin-bottom: 10px;
 
         & .SubTitle {
@@ -55,18 +62,29 @@ const StyledProjectItem = styled.div`
         }
 
         & .TechStack {
-            flex-direction: row;
-
             & .TechItem { 
-                margin-right: 10px;
+                margin-right: 5px;
             }
         } 
     }
 
     & .BOTTOM {
-        padding-left: 30px;
+        padding-left: 10px;
+        font-size: .9rem;
 
-        display: none;
+        // display: none;
+
+        & li {
+            justify-content: flex-start;
+            
+            display: list-item;
+            list-style-type: disc;
+            list-style-position: outside;
+
+            font-size: .9rem;
+            
+            margin: 0 0 5px 15px;
+        }
     }
 
     :hover {
@@ -74,17 +92,48 @@ const StyledProjectItem = styled.div`
             display: flex;
         }
     }
+
+    // // MEDIA QUERIES
+    // // 1 - LAPTOP
+    // @media ${devices.laptop} {
+    //     background-color: blue;
+    //     width: ${sizes.laptop.content_width};
+    // }
+
+    // // 2 - TABLET
+    // @media ${devices.tablet} {
+    //     background-color: red;
+    //     width: ${sizes.tablet.content_width};
+
+    //     .TOP {
+    //         flex-direction: column;
+    //         align-items: flex-start;
+
+    //         & .Links {
+    //             width: 100%;
+    //             justify-content: space-between;
+    //         }
+    //     }
+    // }
+    
+    // // 3 - MOBILE
+    // @media ${devices.mobile} {
+    //     background-color: yellow;
+    //     width: ${sizes.mobile.content_width};
+    // }
 `
 
 // __MAIN FUNCTIONAL COMPONENT
 function ProjectItem( {item} ) {
     return (
-        <StyledProjectItem>
+        <StyledProjectItem className="Styled_ProjectItem">
             <div className="Project_Item TOP">
                 <div className="Project_Content Title">{item.title}</div>
-                <a className="Project_Content Link" href={item.projectLink} target="_blank" rel="noopener noreferrer">Live Project</a>
-                {/* <div className="Project_Content">|</div> */}
-                <a className="Project_Content Codebase" href={item.codebase}  target="_blank" rel="noopener noreferrer">Codebase</a>
+                <div className="Project_Content Links">
+                    <a className="Project_Content Link" href={item.projectLink} target="_blank" rel="noopener noreferrer">Live Project</a>
+                    {/* <div className="Project_Content">|</div> */}
+                    <a className="Project_Content Codebase" href={item.codebase}  target="_blank" rel="noopener noreferrer">Codebase</a>
+                </div>
             </div>
             <div className="Project_Item MIDDLE">
                 <div className="Project_Content SubTitle">{item.subTitle}</div>
@@ -102,7 +151,7 @@ function ProjectItem( {item} ) {
                 </div>
             </div>
             <div className="Project_Item BOTTOM">
-                {item.desc}
+                <ul><li>{item.desc}</li></ul>
             </div>
         </StyledProjectItem>
     )
