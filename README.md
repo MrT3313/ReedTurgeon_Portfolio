@@ -207,5 +207,3 @@ Screenshot:
 | Github    | Pixel Perfect on flaticon.com          | [link](https://www.flaticon.com/free-icon/github_2111432)                                      |
 | AtSymbol  | Freepick on flaticon.com               | [link](https://www.flaticon.com/free-icon/at_2658139)                                          |
 | Phone     | Creaticca Creative Agency flaticon.com | [link](https://www.flaticon.com/free-icon/phone-call_455705)                                   |
-
-
