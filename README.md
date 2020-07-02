@@ -20,14 +20,23 @@ Welcome to my portfolio!
 
 ## Versions
 <details open>
-<summary>1.2.0 - Switch to Mobile First Styling</summary>
+<summary>1.2.0 - Switched to Mobile First Styling</summary>
 
-- Media Queries were getting out of hand while not really hitting the functionality that was needed. 
+- Media Queries were getting out of hand while not really hitting the functionality that was needed 
 - Mobile Version == `window.innderWidth <= 500`
 - Desktop Version == `window.innerWidth > 500`
-- Reogranized repo so match with mobile first
+- Reogranized repo to match with mobile first
 
-```
+Screenshot:   
+<img src="client/src/assets/readMe/1.2.0_MobileFirstDesktop_ClosedItems.png" height='300'> 
+<img src="client/src/assets/readMe/1.2.0_MobileFirstDesktop_ExpandedItem.png" height='300'>
+
+<img src="client/src/assets/readMe/1.2.0_MobileFirstMobile_ClosedItems.png" height='300'>
+<img src="client/src/assets/readMe/1.2.0_MobileFirstMobile_ExpandedItem.png" height='300'> 
+    
+     
+- Updated Repo Structure
+    ```
     │   └── src
     │       ├── App.js
     │       ├── index.js
@@ -68,7 +77,7 @@ Welcome to my portfolio!
     │           └── homepage
     │               ├── HomepageMobile.js
     │               └── HomepageTabletDesktop.js
-```
+    ```
 
 </details>
 
@@ -78,6 +87,8 @@ Welcome to my portfolio!
 
 1. font-size / font-weight / font-style => used to emphasize items in `<Education />` & `<EducationItem />`
 2. `src > components > homepage > RIGHT` directory reorg to better organize components and logic
+
+- Updated Repo Structure
     ```
     │   └── src
     │       ├── App.js
@@ -189,7 +200,6 @@ Screenshot:
 </details>
 
 ## Assets
-<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 | title     | credit / author                        | icon link                                                                                      | 
 | ---       | ---                                    | ---                                                                                            |

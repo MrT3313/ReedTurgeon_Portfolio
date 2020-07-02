@@ -13,8 +13,6 @@ const StyledSelectedTitle = styled.h2`
     align-items: center;
     justify-content: center;
 
-    width: 210px;
-
     & .title, .subTitle {
         display: flex;
         justify-content: center;
@@ -36,7 +34,10 @@ function SelectedTitle( {width, Active_Title} ) {
     return (
         <StyledSelectedTitle 
             className="Homepage_Selected_Title"
-            style={ width > 500 ? {flexGrow: 1, margin: '0 10px 0 10px'} : {flexGrow: 0} }
+            style={ width > 500 ? 
+                        {width: '210px', flexGrow: 1, margin: '0 10px 0 10px'} : 
+                        {width: '100%', flexGrow: 0} 
+            }
         >
             <div className="title">
                 {Active_Title[0]}

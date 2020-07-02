@@ -18,6 +18,7 @@ import styled from 'styled-components'
 const StyledHomepage_Mobile = styled.div`
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 `
 
 // __MAIN FUNCTIONAL COMPONENT__
@@ -27,19 +28,25 @@ function HomepageMobile( {width, Active_Title, Active_Tab} ) {
     // Return 
     return (
         <StyledHomepage_Mobile className="Styled_Homepage">
-            <Header />
-            <HomepageLine margin={[5,0,5,0]}/>
-            <SelectedTitle 
-                width={width}
-                Active_Title={Active_Title}
-            />
-            <HomepageLine />
-            <HomepageSelector 
-                Active_Title={Active_Title} 
-                Active_Tab={Active_Tab} 
-            />
-            <HomepageLine />
-            <Footer />
+            <div className="MobileHomepage_Content">
+                <Header />
+                <HomepageLine margin={[5,0,5,0]}/>
+                <SelectedTitle 
+                    width={width}
+                    Active_Title={Active_Title}
+                />
+                <HomepageLine />
+            </div>
+            {/* <div className="MobileHomepage_Content"> */}
+                <HomepageSelector 
+                    Active_Title={Active_Title} 
+                    Active_Tab={Active_Tab} 
+                />
+            {/* </div> */}
+            <div className="MobileHomepage_Content">
+                <HomepageLine />
+                <Footer />
+            </div>
         </StyledHomepage_Mobile>
     )
 }

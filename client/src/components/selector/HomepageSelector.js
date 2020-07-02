@@ -23,7 +23,7 @@ const StyledHomepageSelector = styled.div`
      }
 
     & .HomepageSelector_ListItem {
-        margin: 10px 0;
+        margin: 20px 0;
         font-size: 2rem;
     }
 `
