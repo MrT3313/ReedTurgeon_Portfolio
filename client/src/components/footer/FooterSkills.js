@@ -2,30 +2,33 @@
 import React from 'react'
 
 // ICONS
-// 1 - Languages
+// 1 - Development Methodology 
+import Agile from '../../assets/icons/skills/Agile.svg'
+
+// 2 - Languages
 import JS from '../../assets/icons/skills/JS.svg'
 import Python from '../../assets/icons/skills/Python.svg'
 
-// 2 - FrontEnd
+// 3 - FrontEnd
 import ReactIcon from '../../assets/icons/skills/React.svg'
 // import ReactHooks from '../../assets/icons/skills/ReactHooks.svg'
 import Redux from '../../assets/icons/skills/Redux.svg'
 import HTML5 from '../../assets/icons/skills/HTML5.svg'
 
-// 3 - Styled
+// 4 - Styled
 import CSS3 from '../../assets/icons/skills/CSS3.svg'
 import LESS from '../../assets/icons/skills/LESS.svg'
 import Sass from '../../assets/icons/skills/Sass.svg'
 import StyledComponents from '../../assets/icons/skills/StyledComponents.svg'
 
-// 4 - Backend
+// 5 - Backend
 import ExpressJS from '../../assets/icons/skills/ExpressJS.svg'
 import NodeJS from '../../assets/icons/skills/NodeJS.svg'
 import PostgreSQL from '../../assets/icons/skills/PostgreSQL.svg'
 import Django from '../../assets/icons/skills/Django.svg'
 import SQL from '../../assets/icons/skills/SQL.svg'
 
-// 5 - Hosting
+// 6 - Hosting
 import Netlify from '../../assets/icons/skills/Netlify.svg'
 import Heroku from '../../assets/icons/skills/Heroku.svg'
 
@@ -43,6 +46,13 @@ const StyledSkillsFooter = styled.div`
     & .Footer_Content {
         display: flex;
         justify-content: space-around;
+
+        margin-bottom: 10px;
+    }
+
+    & .Agile {
+        display: flex;
+        padding-left: 10px;
     }
 
     & .Languages {
@@ -71,6 +81,11 @@ const StyledSkillsFooter = styled.div`
 function HobbiesFooter() {
     return (
         <StyledSkillsFooter>
+            <div className="Footer_Content">
+                <div className="Agile">
+                    <img src={Agile} width='40' height='40' alt='BikerIcon'/> 
+                </div>
+            </div>
             <div className="Footer_Content">
                 <div className="Languages">
                     <img src={JS} width='40' height='40' alt='BikerIcon'/> 

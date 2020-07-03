@@ -14,8 +14,10 @@ import styled from 'styled-components'
 const StyledFooterHobbies = styled.div`
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
 
     width: 100%;
+    height: 400px;
 
     & .Footer_Content {
         display: flex;
@@ -25,27 +27,6 @@ const StyledFooterHobbies = styled.div`
     // & .Hobbies {
     //     border-bottom: 1px solid black;
     // }
-
-    & .Languages {
-        display: flex;
-        justify-content: space-around;
-        
-        width: 50%;
-    }
-
-    & .Frontend {
-        display: flex;
-        justify-content: space-around;
-
-        width: 70%;
-    }
-
-    & .Styling {
-        display: flex;
-        justify-content: space-around;
-
-        width: 90%;
-    }
 `
 
 // __MAIN FUNCTIONAL COMPONENT__
