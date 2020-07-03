@@ -6,7 +6,7 @@ import React from 'react';
 
 // - 2 - COMPONENTS
 import SelectedTitle from '../SelectedTitle.js'
-import Footer from '../footer/FooterHobbies.js'
+import FooterHobbies from '../footer/FooterHobbies.js'
 
 // STYLES
 import styled from 'styled-components'
@@ -33,7 +33,7 @@ function HomepageLeft( {width, Active_Title, Active_Tab} ) {
                 width={width}
                 Active_Title={Active_Title} 
             />
-            <Footer />
+            <FooterHobbies width={width}/>
         </StyledHomepageLeft>
     );
 }

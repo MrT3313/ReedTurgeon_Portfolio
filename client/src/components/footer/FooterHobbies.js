@@ -17,7 +17,7 @@ const StyledFooterHobbies = styled.div`
     justify-content: flex-end;
 
     width: 100%;
-    height: 400px;
+    
 
     & .Footer_Content {
         display: flex;
@@ -30,9 +30,15 @@ const StyledFooterHobbies = styled.div`
 `
 
 // __MAIN FUNCTIONAL COMPONENT__
-function SkillsFooter() {
+function HobbiesFooter( {width} ) {
     return (
-        <StyledFooterHobbies className='Footer'>
+        <StyledFooterHobbies className='Footer'
+            // styles={ width > 500 && {height: '400px'} }
+            style={ width > 500 ? 
+                {height: '400px'} : 
+                {height: '50px'} 
+            }
+        >
             <div className="Footer_Content Hobbies">
                 <img src={RunningIcon} width='40' height='40' alt='RunningIcon'/> 
                 <img src={SwimmingIcon} width='40' height='40' alt='SwimmingIcon'/> 
@@ -43,4 +49,4 @@ function SkillsFooter() {
 }
 
 // EXPORTS
-export default SkillsFooter
+export default HobbiesFooter

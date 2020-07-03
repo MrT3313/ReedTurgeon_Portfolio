@@ -35,8 +35,8 @@ function SelectedTitle( {width, Active_Title} ) {
         <StyledSelectedTitle 
             className="Homepage_Selected_Title"
             style={ width > 500 ? 
-                        {width: '210px', flexGrow: 1, margin: '0 10px 0 10px'} : 
-                        {width: '100%', flexGrow: 0} 
+                {width: '210px', flexGrow: 1, margin: '0 10px 0 10px'} : 
+                {width: '100%', flexGrow: 0} 
             }
         >
             <div className="title">

@@ -6,6 +6,8 @@ import styled from 'styled-components'
 
 // STYLED COMPONENTS
 const StyledLine = styled.div`
+    display: flex;
+
     background-color: black;
     border: 1px solid black;
     border-radius: 25px;

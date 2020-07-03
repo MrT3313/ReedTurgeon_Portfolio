@@ -19,6 +19,18 @@ Welcome to my portfolio!
 | Styled-Components     | Component Scopped Styling Library     | 
 
 ## Versions
+
+<details open>
+<summary>1.3.0 - Skills Footer w/ Icons</summary>
+
+- Added an additional footer with icons of some development skills
+
+Screenshot:   
+<img src="client/src/assets/readMe/1.3.0_Mobile_SkillsFooter.png" height='300'> 
+<img src="client/src/assets/readMe/1.3.0_Desktop_SkillsFooter.png" height='300'> 
+
+
+</details>
 <details open>
 <summary>1.2.0 - Switched to Mobile First Styling</summary>
 
@@ -212,17 +224,21 @@ Screenshot:
 ### Skills Footer
 | title                       | credit / author                        | icon link                                                                                      | 
 | ---                         | ---                                    | ---                                                                                            |
+| Agile Development           | Freepick on Flaticon.com               | [link](https://www.flaticon.com/free-icon/agile_2784037?term=Agile&page=1&position=3)          | 
 | JS                          | Icons8.com                             | [link](https://icons8.com/icons/set/javascript)                                                |
 | Python                      | Icons8.com                             | [link](https://icons8.com/icons/set/python)                                                    |
-| React                       | React Icon on Iconscout                | [link](https://iconscout.com/icon/react-1543566)                                               | 
-| Fishing Hooks (React Hooks) | Freepik on flaticon.com                | [link](https://www.flaticon.com/free-icon/hook_120183)                                         | 
-| Redux                       | Redux Logo Icon on Iconscout           | [link](https://iconscout.com/icon/redux)                                                       |
-| HTML5                       | World Vector Logo                      | [link](https://worldvectorlogo.com/logo/html5-2)                                               | 
-| CSS3                        |                                        |                                                                                                |
-| LESS                        | Icons8.com                             | [link](https://icons8.com/icons/set/less-logo)                                                 | 
+| React                       | Iconscout                              | [link](https://iconscout.com/icon/react-1543566)                                               | 
+| Redux                       | Iconscout                              | [link](https://iconscout.com/icon/redux)                                                       |
+| HTML5                       | Vecta.io                               | [link](https://www.vectorlogo.zone/logos/w3_html5/index.html)                                  | 
+| CSS3                        | vipping.com                            | [link](https://www.vippng.com/preview/iobbxih_css-logo-png-css-black-icon-svg/)                |
 | Sass                        | Icons8.com                             | [link](https://icons8.com/icons/set/sass-logo)                                                 |
-| SQL                         | Smartline on flaticon.com              | [link](https://www.flaticon.com/free-icon/files_569809?term=sql&page=1&position=5)             |
+| LESS                        | Icons8.com                             | [link](https://icons8.com/icons/set/less-logo)                                                 |
+| Styled Components           | Simpleicons.org                        | [link](https://simpleicons.org/?q=Styled)                                                      |
+| ExpressJS                   | Vectorlogo.zone                        | [link](https://www.vectorlogo.zone/logos/expressjs/index.html)                                 |
+| NodeJS                      | Vectorlogo.zone                        | [link](https://www.vectorlogo.zone/logos/nodejs/index.html)                                    |
 | PostgreSQL                  | Icons8.com                             | [link](https://icons8.com/icons/set/postgresql)                                                |
+| Django                      | Icons8.com                             | [link](https://icons8.com/icons/set/django)                                                    |
+| SQL                         | Smartline on flaticon.com              | [link](https://www.flaticon.com/free-icon/files_569809?term=sql&page=1&position=5)             |
 
 ### Hobbies Footer
 | title                       | credit / author                        | icon link                                                                                      | 
@@ -230,3 +246,7 @@ Screenshot:
 | Runner                      | Freepick on flaticon.com               | [link](https://www.flaticon.com/free-icon/running_763965?term=running&page=1&position=10)      |
 | Swimmer                     | Freepick on flaticon.com               | [link](https://www.flaticon.com/free-icon/swimmer_2932366?term=swimmer&page=1&position=3)      | 
 | Biker                       | Freepick on flaticon.com               | [link](https://www.flaticon.com/free-icon/bicycle-rider_71422)                                 | 
+
+
+
+<!-- | Fishing Hooks (React Hooks) | Freepik on flaticon.com                | [link](https://www.flaticon.com/free-icon/hook_120183)                                         |  -->

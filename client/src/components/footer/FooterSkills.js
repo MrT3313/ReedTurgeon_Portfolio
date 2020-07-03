@@ -39,9 +39,10 @@ import styled from 'styled-components'
 const StyledSkillsFooter = styled.div`
     display: flex;
     flex-direction: column;
+    align-items: space-between;
 
-    // width: 100%;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
 
     & .Footer_Content {
         display: flex;
@@ -82,42 +83,42 @@ const StyledSkillsFooter = styled.div`
 `
 
 // __MAIN FUNCTIONAL COMPONENT__
-function HobbiesFooter() {
+function SkillsFooter() {
     return (
         <StyledSkillsFooter>
             <div className="Footer_Content">
                 <div className="Agile">
-                    <img src={Agile} width='40' height='40' alt='BikerIcon'/> 
+                    <img src={Agile} width='40' height='40' alt='AgileIcon'/> 
                 </div>
             </div>
             <div className="Footer_Content">
                 <div className="Languages">
-                    <img src={JS} width='40' height='40' alt='BikerIcon'/> 
-                    <img src={Python} width='40' height='40' alt='BikerIcon'/> 
+                    <img src={JS} width='40' height='40' alt='JavascriptIcon'/> 
+                    <img src={Python} width='40' height='40' alt='PythonIcon'/> 
                 </div>
             </div>
             <div className="Footer_Content">
                 <div className="Frontend">
-                    <img src={ReactIcon} width='40' height='40' alt='BikerIcon'/> 
-                    {/* <img src={ReactHooks} width='40' height='40' alt='BikerIcon'/>  */}
-                    <img src={Redux} width='40' height='40' alt='BikerIcon'/> 
-                    <img src={HTML5} width='40' height='40' alt='BikerIcon'/> 
+                    <img src={ReactIcon} width='40' height='40' alt='ReactIcon'/> 
+                    {/* <img src={ReactHooks} width='40' height='40' alt='HooksIcon'/>  */}
+                    <img src={Redux} width='40' height='40' alt='ReduxIcon'/> 
+                    <img src={HTML5} width='40' height='40' alt='HTML5Icon'/> 
                 </div>
             </div>
             <div className="Footer_Content">
                 <div className="Styling">
-                    <img src={CSS3} width='40' height='40' alt='BikerIcon'/> 
-                    <img src={Sass} width='40' height='40' alt='BikerIcon'/> 
-                    <img src={LESS} width='40' height='40' alt='BikerIcon'/> 
-                    <img src={StyledComponents} width='40' height='40' alt='BikerIcon'/> 
+                    <img src={CSS3} width='40' height='40' alt='CSS3Icon'/> 
+                    <img src={Sass} width='40' height='40' alt='SassIcon'/> 
+                    <img src={LESS} width='40' height='40' alt='LESSIcon'/> 
+                    <img src={StyledComponents} width='40' height='40' alt='StyledComponentsIcon'/> 
                 </div>
             </div>
             <div className="Footer_Content Backend">
-                <img src={ExpressJS} width='40' height='40' alt='BikerIcon'/> 
-                <img src={NodeJS} width='40' height='40' alt='BikerIcon'/> 
-                <img src={PostgreSQL} width='40' height='40' alt='BikerIcon'/> 
-                <img src={Django} width='40' height='40' alt='BikerIcon'/> 
-                <img src={SQL} width='40' height='40' alt='BikerIcon'/> 
+                <img src={ExpressJS} width='40' height='40' alt='ExpressIcon'/> 
+                <img src={NodeJS} width='40' height='40' alt='NodeJSIcon'/> 
+                <img src={PostgreSQL} width='40' height='40' alt='PostgresIcon'/> 
+                <img src={Django} width='40' height='40' alt='DjangoIcon'/> 
+                <img src={SQL} width='40' height='40' alt='SqlIcon'/> 
             </div>
             {/* <div className="Footer_Content Hosting">
                 <img src={Netlify} width='40' height='40' alt='BikerIcon'/> 
@@ -128,4 +129,4 @@ function HobbiesFooter() {
 }
 
 // EXPORTS
-export default HobbiesFooter
+export default SkillsFooter
