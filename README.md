@@ -1,5 +1,4 @@
 # Reed Turgeon's Portfolio
-Welcome to my portfolio!
 
 🌎 [Hosted Netlify Project](https://turgeonportfolio.netlify.app) 🌎
 
@@ -15,7 +14,8 @@ Welcome to my portfolio!
 
 | name                  | description                           | 
 | ---                   | ---                                   | 
-| React                 | UI Component Library                  |  
+| React                 | UI Component Library                  | 
+| React Hooks           | State Management                      | 
 | Styled-Components     | Component Scopped Styling Library     | 
 
 ## Versions
