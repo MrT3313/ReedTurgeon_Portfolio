@@ -25,7 +25,7 @@
 
 - Added an additional footer with icons of some development skills
 
-Screenshot:   
+Screenshots:   
 <img src="client/src/assets/readMe/1.3.0_Mobile_SkillsFooter.png" height='300'> 
 <img src="client/src/assets/readMe/1.3.0_Desktop_SkillsFooter.png" height='300'> 
 
@@ -39,7 +39,7 @@ Screenshot:
 - Desktop Version == `window.innerWidth > 500`
 - Reogranized repo to match with mobile first
 
-Screenshot:   
+Screenshots:   
 <img src="client/src/assets/readMe/1.2.0_MobileFirstDesktop_ClosedItems.png" height='300'> 
 <img src="client/src/assets/readMe/1.2.0_MobileFirstDesktop_ExpandedItem.png" height='300'>
 
