@@ -32,7 +32,7 @@ const StyledHomepageMobile = styled.div`
 
 // __MAIN FUNCTIONAL COMPONENT__
 function HomepageMobile( {width, Active_Title, Active_Tab} ) {
-console.log(width)
+// console.log(width)
 // -- //
     // Return 
     return (

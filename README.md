@@ -227,10 +227,10 @@ Screenshot:
 | Agile Development           | Freepick on Flaticon.com               | [link](https://www.flaticon.com/free-icon/agile_2784037?term=Agile&page=1&position=3)          | 
 | JS                          | Icons8.com                             | [link](https://icons8.com/icons/set/javascript)                                                |
 | Python                      | Icons8.com                             | [link](https://icons8.com/icons/set/python)                                                    |
-| React                       | Iconscout                              | [link](https://iconscout.com/icon/react-1543566)                                               | 
-| Redux                       | Iconscout                              | [link](https://iconscout.com/icon/redux)                                                       |
+| React                       | Iconscout.com                          | [link](https://iconscout.com/icon/react-1543566)                                               | 
+| Redux                       | Iconscout.com                          | [link](https://iconscout.com/icon/redux)                                                       |
 | HTML5                       | Vecta.io                               | [link](https://www.vectorlogo.zone/logos/w3_html5/index.html)                                  | 
-| CSS3                        | vipping.com                            | [link](https://www.vippng.com/preview/iobbxih_css-logo-png-css-black-icon-svg/)                |
+| CSS3                        | Vipping.com                            | [link](https://www.vippng.com/preview/iobbxih_css-logo-png-css-black-icon-svg/)                |
 | Sass                        | Icons8.com                             | [link](https://icons8.com/icons/set/sass-logo)                                                 |
 | LESS                        | Icons8.com                             | [link](https://icons8.com/icons/set/less-logo)                                                 |
 | Styled Components           | Simpleicons.org                        | [link](https://simpleicons.org/?q=Styled)                                                      |

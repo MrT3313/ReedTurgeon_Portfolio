@@ -29,8 +29,8 @@ import Django from '../../assets/icons/skills/Django.svg'
 import SQL from '../../assets/icons/skills/SQL.svg'
 
 // 6 - Hosting
-import Netlify from '../../assets/icons/skills/Netlify.svg'
-import Heroku from '../../assets/icons/skills/Heroku.svg'
+// import Netlify from '../../assets/icons/skills/Netlify.svg'
+// import Heroku from '../../assets/icons/skills/Heroku.svg'
 
 // STYLED
 import styled from 'styled-components'
