@@ -2,11 +2,9 @@
 import React from 'react';
 
 // COMPONENTS
-// - 1 - VIEWS
-
-// - 2 - COMPONENTS
 import HomepageHeader from '../header/Header.js'
 import HomepageSelector from '../selector/HomepageSelector.js'
+import FooterSkills from '../footer/FooterSkills.js'
 
 // STYLES
 import styled from 'styled-components'
@@ -16,6 +14,7 @@ const StyledHomepageRight = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: center;
 
     & .Homepage_Selector_Wrapper {
         display: flex;
@@ -29,7 +28,7 @@ function HomepageRight( {width, Active_Title, Active_Tab} ) {
     return (
         <StyledHomepageRight 
             className="Homepage_RIGHT"
-            onMouseLeave={() => Active_Tab[1](false)}
+            // onMouseLeave={() => Active_Tab[1](false)}
         >
             <HomepageHeader />
             <div className="Homepage_Selector_Wrapper">
@@ -38,6 +37,7 @@ function HomepageRight( {width, Active_Title, Active_Tab} ) {
                     Active_Tab={Active_Tab} 
                 />
             </div>
+            <FooterSkills />
         </StyledHomepageRight>
     );
 }

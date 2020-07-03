@@ -6,7 +6,7 @@ import HomepageSelector from '../../components/selector/HomepageSelector.js'
 import SelectedTitle from '../../components/SelectedTitle.js'
 
 import Header from '../../components/header/Header.js'
-import Footer from '../../components/footer/Footer.js'
+import HobbiesFooter from '../../components/footer/FooterHobbies.js'
 import HomepageLine from '../../components/HomepageLine.js'
 
 // transform: [{ rotate: '30deg'}],
@@ -45,7 +45,7 @@ function HomepageMobile( {width, Active_Title, Active_Tab} ) {
             {/* </div> */}
             <div className="MobileHomepage_Content">
                 <HomepageLine />
-                <Footer />
+                <HobbiesFooter />
             </div>
         </StyledHomepageMobile>
     )

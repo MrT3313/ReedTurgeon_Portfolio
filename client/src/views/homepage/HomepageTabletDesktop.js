@@ -29,7 +29,8 @@ function HomepageTabletDesktop( {width, Active_Title, Active_Tab} ) {
         <StyledHomepageDesktop className="Styled_Homepage">
             <HomepageLeft 
                 width={width}
-                Active_Title={Active_Title} 
+                Active_Title={Active_Title}
+                Active_Tab={Active_Tab}
             />
             <HomepageLine width={width}/>
             <HomepageRight 
