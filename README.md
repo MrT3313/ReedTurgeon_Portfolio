@@ -201,15 +201,17 @@ Screenshot:
 
 ## Assets
 
+### Header Icons
 | title                       | credit / author                        | icon link                                                                                      | 
 | ---                         | ---                                    | ---                                                                                            |
 | LinkedIn                    | Freepick on flaticon.com               | [link](https://www.flaticon.com/free-icon/linkedin_1384014?term=linkedin&page=1&position=1)    |
 | Github                      | Pixel Perfect on flaticon.com          | [link](https://www.flaticon.com/free-icon/github_2111432)                                      |
 | AtSymbol                    | Freepick on flaticon.com               | [link](https://www.flaticon.com/free-icon/at_2658139)                                          |
 | Phone                       | Creaticca Creative Agency flaticon.com | [link](https://www.flaticon.com/free-icon/phone-call_455705)                                   |
-| Runner                      | Freepick on flaticon.com               | [link](https://www.flaticon.com/free-icon/running_763965?term=running&page=1&position=10)      |
-| Swimmer                     | Freepick on flaticon.com               | [link](https://www.flaticon.com/free-icon/swimmer_2932366?term=swimmer&page=1&position=3)      | 
-| Biker                       | Freepick on flaticon.com               | [link](https://www.flaticon.com/free-icon/bicycle-rider_71422)                                 | 
+
+### Skills Footer
+| title                       | credit / author                        | icon link                                                                                      | 
+| ---                         | ---                                    | ---                                                                                            |
 | JS                          | Icons8.com                             | [link](https://icons8.com/icons/set/javascript)                                                |
 | Python                      | Icons8.com                             | [link](https://icons8.com/icons/set/python)                                                    |
 | React                       | React Icon on Iconscout                | [link](https://iconscout.com/icon/react-1543566)                                               | 
@@ -221,3 +223,10 @@ Screenshot:
 | Sass                        | Icons8.com                             | [link](https://icons8.com/icons/set/sass-logo)                                                 |
 | SQL                         | Smartline on flaticon.com              | [link](https://www.flaticon.com/free-icon/files_569809?term=sql&page=1&position=5)             |
 | PostgreSQL                  | Icons8.com                             | [link](https://icons8.com/icons/set/postgresql)                                                |
+
+### Hobbies Footer
+| title                       | credit / author                        | icon link                                                                                      | 
+| ---                         | ---                                    | ---                                                                                            |
+| Runner                      | Freepick on flaticon.com               | [link](https://www.flaticon.com/free-icon/running_763965?term=running&page=1&position=10)      |
+| Swimmer                     | Freepick on flaticon.com               | [link](https://www.flaticon.com/free-icon/swimmer_2932366?term=swimmer&page=1&position=3)      | 
+| Biker                       | Freepick on flaticon.com               | [link](https://www.flaticon.com/free-icon/bicycle-rider_71422)                                 | 
