@@ -35,7 +35,7 @@ const items = [
 // __MAIN FUNCTIONAL COMPONENT__
 function Education() {
     return (
-        <StyledEducation className="Styled_Projects">
+        <StyledEducation className="Styled_Education">
             {items.map((item, index) => {
                 return (
                     <EducationItem item={item} key={index}/>

@@ -6,7 +6,8 @@ import HomepageSelector from '../../components/selector/HomepageSelector.js'
 import SelectedTitle from '../../components/SelectedTitle.js'
 
 import Header from '../../components/header/Header.js'
-import Footer from '../../components/footer/Footer.js'
+import HobbiesFooter from '../../components/footer/FooterHobbies.js'
+import SkillsFooter from '../../components/footer/FooterSkills.js'
 import HomepageLine from '../../components/HomepageLine.js'
 
 // transform: [{ rotate: '30deg'}],
@@ -19,6 +20,14 @@ const StyledHomepageMobile = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+
+    padding: 20px 0;
+
+    & .BOTTOM {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 `
 
 // __MAIN FUNCTIONAL COMPONENT__
@@ -28,24 +37,24 @@ function HomepageMobile( {width, Active_Title, Active_Tab} ) {
     // Return 
     return (
         <StyledHomepageMobile className="Styled_Homepage">
-            <div className="MobileHomepage_Content">
-                <Header />
-                <HomepageLine margin={[5,0,5,0]}/>
-                <SelectedTitle 
-                    width={width}
-                    Active_Title={Active_Title}
-                />
-                <HomepageLine />
+            <Header />
+            <HomepageLine margin={[5,0,5,0]}/>
+            <SelectedTitle 
+                width={width}
+                Active_Title={Active_Title}
+            />
+            <HomepageLine />
+            <HomepageSelector 
+                Active_Title={Active_Title} 
+                Active_Tab={Active_Tab} 
+            />
+            <HomepageLine margin={[5,0,5,0]}/>
+            <div className="MobileHomepage_Content BOTTOM">
+                <SkillsFooter />
             </div>
-            {/* <div className="MobileHomepage_Content"> */}
-                <HomepageSelector 
-                    Active_Title={Active_Title} 
-                    Active_Tab={Active_Tab} 
-                />
-            {/* </div> */}
-            <div className="MobileHomepage_Content">
-                <HomepageLine />
-                <Footer />
+            <HomepageLine margin={[5,0,5,0]}/>
+            <div className="MobileHomepage_Content BOTTOM">
+                <HobbiesFooter />
             </div>
         </StyledHomepageMobile>
     )

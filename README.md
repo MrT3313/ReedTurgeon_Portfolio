@@ -1,5 +1,4 @@
 # Reed Turgeon's Portfolio
-Welcome to my portfolio!
 
 🌎 [Hosted Netlify Project](https://turgeonportfolio.netlify.app) 🌎
 
@@ -15,10 +14,23 @@ Welcome to my portfolio!
 
 | name                  | description                           | 
 | ---                   | ---                                   | 
-| React                 | UI Component Library                  |  
+| React                 | UI Component Library                  | 
+| React Hooks           | State Management                      | 
 | Styled-Components     | Component Scopped Styling Library     | 
 
 ## Versions
+
+<details open>
+<summary>1.3.0 - Skills Footer w/ Icons</summary>
+
+- Added an additional footer with icons of some development skills
+
+Screenshots:   
+<img src="client/src/assets/readMe/1.3.0_Mobile_SkillsFooter.png" height='300'> 
+<img src="client/src/assets/readMe/1.3.0_Desktop_SkillsFooter.png" height='300'> 
+
+
+</details>
 <details open>
 <summary>1.2.0 - Switched to Mobile First Styling</summary>
 
@@ -27,7 +39,7 @@ Welcome to my portfolio!
 - Desktop Version == `window.innerWidth > 500`
 - Reogranized repo to match with mobile first
 
-Screenshot:   
+Screenshots:   
 <img src="client/src/assets/readMe/1.2.0_MobileFirstDesktop_ClosedItems.png" height='300'> 
 <img src="client/src/assets/readMe/1.2.0_MobileFirstDesktop_ExpandedItem.png" height='300'>
 
@@ -201,9 +213,40 @@ Screenshot:
 
 ## Assets
 
-| title     | credit / author                        | icon link                                                                                      | 
-| ---       | ---                                    | ---                                                                                            |
-| LinkedIn  | Freepick on flaticon.com               | [link](https://www.flaticon.com/free-icon/linkedin_1384014?term=linkedin&page=1&position=1)    |
-| Github    | Pixel Perfect on flaticon.com          | [link](https://www.flaticon.com/free-icon/github_2111432)                                      |
-| AtSymbol  | Freepick on flaticon.com               | [link](https://www.flaticon.com/free-icon/at_2658139)                                          |
-| Phone     | Creaticca Creative Agency flaticon.com | [link](https://www.flaticon.com/free-icon/phone-call_455705)                                   |
+### Header Icons
+| title                       | credit / author                        | icon link                                                                                      | 
+| ---                         | ---                                    | ---                                                                                            |
+| LinkedIn                    | Freepick on flaticon.com               | [link](https://www.flaticon.com/free-icon/linkedin_1384014?term=linkedin&page=1&position=1)    |
+| Github                      | Pixel Perfect on flaticon.com          | [link](https://www.flaticon.com/free-icon/github_2111432)                                      |
+| AtSymbol                    | Freepick on flaticon.com               | [link](https://www.flaticon.com/free-icon/at_2658139)                                          |
+| Phone                       | Creaticca Creative Agency flaticon.com | [link](https://www.flaticon.com/free-icon/phone-call_455705)                                   |
+
+### Skills Footer
+| title                       | credit / author                        | icon link                                                                                      | 
+| ---                         | ---                                    | ---                                                                                            |
+| Agile Development           | Freepick on Flaticon.com               | [link](https://www.flaticon.com/free-icon/agile_2784037?term=Agile&page=1&position=3)          | 
+| JS                          | Icons8.com                             | [link](https://icons8.com/icons/set/javascript)                                                |
+| Python                      | Icons8.com                             | [link](https://icons8.com/icons/set/python)                                                    |
+| React                       | Iconscout.com                          | [link](https://iconscout.com/icon/react-1543566)                                               | 
+| Redux                       | Iconscout.com                          | [link](https://iconscout.com/icon/redux)                                                       |
+| HTML5                       | Vecta.io                               | [link](https://www.vectorlogo.zone/logos/w3_html5/index.html)                                  | 
+| CSS3                        | Vipping.com                            | [link](https://www.vippng.com/preview/iobbxih_css-logo-png-css-black-icon-svg/)                |
+| Sass                        | Icons8.com                             | [link](https://icons8.com/icons/set/sass-logo)                                                 |
+| LESS                        | Icons8.com                             | [link](https://icons8.com/icons/set/less-logo)                                                 |
+| Styled Components           | Simpleicons.org                        | [link](https://simpleicons.org/?q=Styled)                                                      |
+| ExpressJS                   | Vectorlogo.zone                        | [link](https://www.vectorlogo.zone/logos/expressjs/index.html)                                 |
+| NodeJS                      | Vectorlogo.zone                        | [link](https://www.vectorlogo.zone/logos/nodejs/index.html)                                    |
+| PostgreSQL                  | Icons8.com                             | [link](https://icons8.com/icons/set/postgresql)                                                |
+| Django                      | Icons8.com                             | [link](https://icons8.com/icons/set/django)                                                    |
+| SQL                         | Smartline on flaticon.com              | [link](https://www.flaticon.com/free-icon/files_569809?term=sql&page=1&position=5)             |
+
+### Hobbies Footer
+| title                       | credit / author                        | icon link                                                                                      | 
+| ---                         | ---                                    | ---                                                                                            |
+| Runner                      | Freepick on flaticon.com               | [link](https://www.flaticon.com/free-icon/running_763965?term=running&page=1&position=10)      |
+| Swimmer                     | Freepick on flaticon.com               | [link](https://www.flaticon.com/free-icon/swimmer_2932366?term=swimmer&page=1&position=3)      | 
+| Biker                       | Freepick on flaticon.com               | [link](https://www.flaticon.com/free-icon/bicycle-rider_71422)                                 | 
+
+
+
+<!-- | Fishing Hooks (React Hooks) | Freepik on flaticon.com                | [link](https://www.flaticon.com/free-icon/hook_120183)                                         |  -->
