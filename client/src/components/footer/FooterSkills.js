@@ -50,6 +50,10 @@ const StyledSkillsFooter = styled.div`
         margin-bottom: 10px;
     }
 
+    & .Footer_Content:last-child {
+        margin: 0;
+    }
+
     & .Agile {
         display: flex;
         padding-left: 10px;
