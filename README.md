@@ -212,7 +212,6 @@ Screenshot:
 </details>
 
 ## Assets
-
 ### Header Icons
 | title                       | credit / author                        | icon link                                                                                      | 
 | ---                         | ---                                    | ---                                                                                            |
@@ -221,19 +220,32 @@ Screenshot:
 | AtSymbol                    | Freepick on flaticon.com               | [link](https://www.flaticon.com/free-icon/at_2658139)                                          |
 | Phone                       | Creaticca Creative Agency flaticon.com | [link](https://www.flaticon.com/free-icon/phone-call_455705)                                   |
 
+### Skills Icons
+| title                       | credit / author                             | icon link                                                                                      | 
+| ---                         | ---                                         | ---                                                                                            |
+| Agile Development           | Freepick on Flaticon.com                    | [link](https://www.flaticon.com/free-icon/agile_2784037?term=Agile&page=1&position=3)          | 
+| Git                         | Icons8.com                                  | [link](https://icons8.com/icon/38389/git)                                                      | 
+| HTML5                       | Dave Grandy on Flaticon.com                 | [link](https://www.flaticon.com/free-icon/html-5-logo_25252)                                   | 
+| CSS3                        | Pixel perfect on Flaticon.com               | [link](https://www.flaticon.com/free-icon/css-3_732007?term=css&page=1&position=30)            | 
+| JS                          | Icons8.com                                  | [link](https://icons8.com/icons/set/javascript)                                                |
+| React                       | unicons on Iconscout.com                    | [link](https://iconscout.com/icon/react-1543566)                                               | 
+| Gatsby                      | icon_icons.com                              | [link](https://icon-icons.com/icon/gatsby-logo/145262)                                         | 
+| Redux                       | icon-mafia on Iconscout.com                 | [link](https://iconscout.com/icon/redux)                                                       |
+| LESS                        | Icons8.com                                  | [link](https://icons8.com/icon/Jv4b1C1B-9Q4/less-logo)                                         |
+| SASS/SCSS                   | Icons8.com                                  | [link](https://icons8.com/icon/PrTcjq3n0VMb/sass)                                              |
+| Styled Components           | Simpleicons.org                             | [link](https://simpleicons.org/icons/styled-components.svg)                                    |
+| MaterialUI                  | Clipart.email                               | [link](https://www.clipart.email/make-a-clipart/?image=11416323)                               | 
+| Axios                       | Richik Choudhury in Axios Community Contest | [contest](https://github.com/axios/axios/issues/2130)[icon](https://drive.google.com/file/d/1SjKizrEIozluCIynXY12aCPSaYDhA1l5/view?usp=sharing)     | 
+
+## OLD - Assets
+<a href="https://iconscout.com/icons/redux" target="_blank">Redux</a> by <a href="https://iconscout.com/contributors/icon-mafia">Icon Mafia</a> on <a href="https://iconscout.com">Iconscout</a>
+
 ### Skills Footer
 | title                       | credit / author                        | icon link                                                                                      | 
 | ---                         | ---                                    | ---                                                                                            |
-| Agile Development           | Freepick on Flaticon.com               | [link](https://www.flaticon.com/free-icon/agile_2784037?term=Agile&page=1&position=3)          | 
-| JS                          | Icons8.com                             | [link](https://icons8.com/icons/set/javascript)                                                |
 | Python                      | Icons8.com                             | [link](https://icons8.com/icons/set/python)                                                    |
-| React                       | Iconscout.com                          | [link](https://iconscout.com/icon/react-1543566)                                               | 
-| Redux                       | Iconscout.com                          | [link](https://iconscout.com/icon/redux)                                                       |
 | HTML5                       | Vecta.io                               | [link](https://www.vectorlogo.zone/logos/w3_html5/index.html)                                  | 
 | CSS3                        | Vipping.com                            | [link](https://www.vippng.com/preview/iobbxih_css-logo-png-css-black-icon-svg/)                |
-| Sass                        | Icons8.com                             | [link](https://icons8.com/icons/set/sass-logo)                                                 |
-| LESS                        | Icons8.com                             | [link](https://icons8.com/icons/set/less-logo)                                                 |
-| Styled Components           | Simpleicons.org                        | [link](https://simpleicons.org/?q=Styled)                                                      |
 | ExpressJS                   | Vectorlogo.zone                        | [link](https://www.vectorlogo.zone/logos/expressjs/index.html)                                 |
 | NodeJS                      | Vectorlogo.zone                        | [link](https://www.vectorlogo.zone/logos/nodejs/index.html)                                    |
 | PostgreSQL                  | Icons8.com                             | [link](https://icons8.com/icons/set/postgresql)                                                |

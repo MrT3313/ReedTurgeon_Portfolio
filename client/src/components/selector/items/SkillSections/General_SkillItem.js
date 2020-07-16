@@ -13,9 +13,20 @@ const StyledGeneralSkillItem = styled.div`
 
     font-size: 1.5rem;
 
+    padding: 10px;
     margin-bottom: 10px;
 
+    border: 1px solid black;
+    border-radius: 5px;
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+    :hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
     & .TOP {
+        margin-bottom: 10px;
         font-weight: bold;
     }
 
@@ -23,16 +34,33 @@ const StyledGeneralSkillItem = styled.div`
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+
+        // justify-content: center;
+        // justify-content: space-between;
+        // justify-content: space-around;
+        justify-content: flex-start;
     }
 
     & .Skill_Content {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
 
-        margin-left: 10px;
+        margin-left: 20px;
+        margin-bottom: 10px;
 
         & .SubGroupTitle {
             font-style: italic;
+        }
+
+        & .Skill{
+            display: flex;
+            align-items: center;
+
+            margin-left: 25px; 
+
+            & .Skill_Icon {
+                margin-right: 10px;
+            }
         }
     }
 `
@@ -48,19 +76,33 @@ console.log('General Items', items)
             </div>
             <div className="Skill_Item SubGroups">
                 <div className="Skill_Content">
-                    <div className="Skill_Content SubGroupTitle">
+                    <div className="SubGroupTitle">
                         Version Control: 
                     </div>
                     {items.version_control.map(( item, index) => {
-                        return <div key={index}>{item.title}</div>
+                        return (
+                            <div key={index} className='Skill'>
+                                {item.icon !== null && 
+                                    <img className='Skill_Icon' src={item.icon} width='30' height='30' alt={item.icon_alt}/>
+                                }
+                                {item.title}
+                            </div>
+                        )
                     })}
                 </div>
                 <div className="Skill_Content">
-                    <div className="Skill_Content SubGroupTitle">
+                    <div className="SubGroupTitle">
                         Development Methodology: 
                     </div>
                     {items.development_methodology.map(( item, index) => {
-                        return <div key={index}>{item.title}</div>
+                        return (
+                            <div key={index} className='Skill'>
+                                {item.icon !== null && 
+                                    <img className='Skill_Icon' src={item.icon} width='30' height='30' alt={item.icon_alt}/>
+                                }
+                                {item.title}
+                            </div>
+                        )
                     })}
                 </div>
             </div>
