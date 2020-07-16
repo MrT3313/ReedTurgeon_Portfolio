@@ -67,7 +67,7 @@ function Homepage_Header() {
                 {contact_info.fullName}
             </div>
             <div className="Links"
-                onMouseLeave={() => setActiveContact('turgeon.dev@gmail.com')}
+                // onMouseLeave={() => setActiveContact('turgeon.dev@gmail.com')}
             >
                 <div className="Social_Links">
                     {social_info.map((item, index) => <SocialItem item={item} key={index} Active_Contact={[activeContact, setActiveContact]} />)}

@@ -93,7 +93,7 @@ const StyledProjectItem = styled.div`
     }
 `
 
-// __MAIN FUNCTIONAL COMPONENT
+// __MAIN FUNCTIONAL COMPONENT__
 function ProjectItem( {item} ) {
     return (
         <StyledProjectItem className="Styled_ProjectItem">

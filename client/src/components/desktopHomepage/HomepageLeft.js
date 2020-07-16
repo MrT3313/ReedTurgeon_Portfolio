@@ -27,7 +27,7 @@ function HomepageLeft( {width, Active_Title, Active_Tab} ) {
     return (
         <StyledHomepageLeft 
             className="Homepage_LEFT"
-            onMouseEnter={() => Active_Tab[1](false)}
+            // onMouseEnter={() => Active_Tab[1](false)}
         >
             <SelectedTitle 
                 width={width}
