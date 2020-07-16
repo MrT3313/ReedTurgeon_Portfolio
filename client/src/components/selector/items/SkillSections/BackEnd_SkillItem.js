@@ -11,7 +11,7 @@ const StyledBackEndSkillItem = styled.div`
     display: flex
     flex-direction: column;
 
-    font-size: 1.5rem;
+    font-size: 1rem;
 
     padding: 10px;
 
@@ -47,6 +47,19 @@ const StyledBackEndSkillItem = styled.div`
 
         & .SubGroupTitle {
             font-style: italic;
+            margin-bottom: 5px;
+        }
+
+        & .Skill{
+            display: flex;
+            align-items: center;
+
+            margin-left: 25px; 
+            margin-bottom: 5px;
+
+            & .Skill_Icon {
+                margin-right: 10px;
+            }
         }
 `
 
@@ -65,7 +78,14 @@ console.log('Back End Items', items)
                         Fundamentals:
                     </div>
                     {items.fundamentals.map(( item, index) => {
-                        return <div key={index}>{item.title}</div>
+                        return (
+                            <div key={index} className='Skill'>
+                                {item.icon !== null && 
+                                    <img className='Skill_Icon' src={item.icon} width='20' height='20' alt='AgileIcon'/>
+                                }
+                                {item.title}
+                            </div>
+                        )
                     })}
                 </div>
                 <div className="Skill_Content">
@@ -73,7 +93,14 @@ console.log('Back End Items', items)
                         Frameworks:
                     </div>
                     {items.frameworks.map(( item, index) => {
-                        return <div key={index}>{item.title}</div>
+                        return (
+                            <div key={index} className='Skill'>
+                                {item.icon !== null && 
+                                    <img className='Skill_Icon' src={item.icon} width='30' height='30' alt='AgileIcon'/>
+                                }
+                                {item.title}
+                            </div>
+                        )
                     })}
                 </div>
                 <div className="Skill_Content">
@@ -81,7 +108,14 @@ console.log('Back End Items', items)
                         Testing:
                     </div>
                     {items.testing.map(( item, index) => {
-                        return <div key={index}>{item.title}</div>
+                        return (
+                            <div key={index} className='Skill'>
+                                {item.icon !== null && 
+                                    <img className='Skill_Icon' src={item.icon} width='30' height='30' alt='AgileIcon'/>
+                                }
+                                {item.title}
+                            </div>
+                        )
                     })}
                 </div>
                 <div className="Skill_Content">
@@ -89,7 +123,14 @@ console.log('Back End Items', items)
                         Deployment:
                     </div>
                     {items.deployment.map(( item, index) => {
-                        return <div key={index}>{item.title}</div>
+                        return (
+                            <div key={index} className='Skill'>
+                                {item.icon !== null && 
+                                    <img className='Skill_Icon' src={item.icon} width='30' height='30' alt='AgileIcon'/>
+                                }
+                                {item.title}
+                            </div>
+                        )
                     })}
                 </div>
             </div>

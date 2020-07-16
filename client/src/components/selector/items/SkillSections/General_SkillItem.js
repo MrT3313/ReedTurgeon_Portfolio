@@ -11,7 +11,7 @@ const StyledGeneralSkillItem = styled.div`
     display: flex
     flex-direction: column;
 
-    font-size: 1.5rem;
+    font-size: 1rem;
 
     padding: 10px;
     margin-bottom: 10px;
@@ -46,17 +46,19 @@ const StyledGeneralSkillItem = styled.div`
         flex-direction: column;
 
         margin-left: 20px;
-        margin-bottom: 10px;
+        // margin-bottom: 10px;
 
         & .SubGroupTitle {
             font-style: italic;
+            margin-bottom: 5px;
         }
 
         & .Skill{
             display: flex;
             align-items: center;
 
-            margin-left: 25px; 
+            margin-left: 25px;
+            margin-bottom: 5px; 
 
             & .Skill_Icon {
                 margin-right: 10px;
@@ -83,7 +85,7 @@ console.log('General Items', items)
                         return (
                             <div key={index} className='Skill'>
                                 {item.icon !== null && 
-                                    <img className='Skill_Icon' src={item.icon} width='30' height='30' alt={item.icon_alt}/>
+                                    <img className='Skill_Icon' src={item.icon} width='20' height='20' alt={item.icon_alt}/>
                                 }
                                 {item.title}
                             </div>

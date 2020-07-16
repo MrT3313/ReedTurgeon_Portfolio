@@ -28,6 +28,21 @@ import Axios_icon from '../../../assets/icons/skills/Axios.svg'
 
 import Netlify_icon from '../../../assets/icons/skills/Netlify.svg'
 
+import NodeJS_icon from '../../../assets/icons/skills/NodeJS.svg'
+import Python_icon from '../../../assets/icons/skills/Python.svg'
+import REST_icon from '../../../assets/icons/skills/REST.svg'
+import SQL_icon from '../../../assets/icons/skills/SQL.svg'
+import PostgreSQL_icon from '../../../assets/icons/skills/PostgreSQL.svg'
+
+import ExpressJS_icon from '../../../assets/icons/skills/ExpressJS.svg'
+import Knex_icon from '../../../assets/icons/skills/Knex.svg'
+import Django_icon from '../../../assets/icons/skills/Django.svg'
+
+import Jest_icon from '../../../assets/icons/skills/Jest.svg'
+
+import Heroku_icon from '../../../assets/icons/skills/Heroku.svg'
+
+
 
 // STYLED
 import styled from 'styled-components'
@@ -77,23 +92,23 @@ const items = [
     }, 
     {   title: 'Back-End', 
         fundamentals: [
-            { title: 'NodeJS', icon: null, icon_alt: null },
-            { title: 'Python 2 & 3', icon: null, icon_alt: null },
-            { title: 'REST', icon: null, icon_alt: null }, 
-            { title: 'SQL', icon: null, icon_alt: null },
-            { title: 'Postgres', icon: null, icon_alt: null },
+            { title: 'NodeJS', icon: NodeJS_icon, icon_alt: 'NodeJS Icon' },
+            { title: 'Python', icon: Python_icon, icon_alt: 'Python Icon' },
+            { title: 'REST', icon: REST_icon, icon_alt: 'REST API Icon' }, 
+            { title: 'SQL', icon: SQL_icon, icon_alt: 'SQL Icon' },
+            { title: 'Postgres', icon: PostgreSQL_icon, icon_alt: 'PostgreSQL Icon' },
         ],
         frameworks: [
-            { title: 'Express', icon: null, icon_alt: null },
-            { title: 'Knex', icon: null, icon_alt: null },
-            { title: 'Django', icon: null, icon_alt: null },
+            { title: 'Express', icon: ExpressJS_icon, icon_alt: 'ExpressJS Icon' },
+            { title: 'Knex', icon: Knex_icon, icon_alt: 'Knex Icon' },
+            { title: 'Django', icon: Django_icon, icon_alt: 'Django Icon' },
         ],
         deployment: [
-            { title: 'Heroku', icon: null, icon_alt: null }
+            { title: 'Heroku', icon: Heroku_icon, icon_alt: 'Heroku Icon' }
         ],
         testing: [
-            { title: 'Jest', icon: null, icon_alt: null },
-            { title: 'SuperTest', icon: null, icon_alt: null }
+            { title: 'Jest', icon: Jest_icon, icon_alt: 'Jest Icon' },
+            { title: 'SuperTest', icon: NodeJS_icon, icon_alt: 'NodeJS Icon for SuperTest' }
         ]
     }
 ]

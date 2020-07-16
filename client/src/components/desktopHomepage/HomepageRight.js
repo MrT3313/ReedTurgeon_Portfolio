@@ -4,7 +4,6 @@ import React from 'react';
 // COMPONENTS
 import HomepageHeader from '../header/Header.js'
 import HomepageSelector from '../selector/HomepageSelector.js'
-import FooterSkills from '../footer/FooterSkills.js'
 
 // STYLES
 import styled from 'styled-components'
@@ -37,7 +36,6 @@ function HomepageRight( {width, Active_Title, Active_Tab} ) {
                     Active_Tab={Active_Tab} 
                 />
             </div>
-            <FooterSkills />
         </StyledHomepageRight>
     );
 }

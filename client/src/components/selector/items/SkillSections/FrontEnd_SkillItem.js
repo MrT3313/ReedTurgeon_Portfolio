@@ -11,7 +11,7 @@ const StyledFrontEndSkillItem = styled.div`
     display: flex
     flex-direction: column;
 
-    font-size: 1.5rem;
+    font-size: 1rem;
 
     padding: 10px;
     margin-bottom: 10px;
@@ -50,6 +50,7 @@ const StyledFrontEndSkillItem = styled.div`
 
         & .SubGroupTitle {
             font-style: italic;
+            margin-bottom: 5px;
         }
 
         & .Skill{
@@ -57,6 +58,7 @@ const StyledFrontEndSkillItem = styled.div`
             align-items: center;
 
             margin-left: 25px; 
+            margin-bottom: 5px;
 
             & .Skill_Icon {
                 margin-right: 10px;
@@ -97,7 +99,7 @@ console.log('Front End Items', items)
                         return (
                             <div key={index} className='Skill'>
                                 {item.icon !== null && 
-                                    <img className='Skill_Icon' src={item.icon} width='30' height='30' alt='AgileIcon'/>
+                                    <img className='Skill_Icon' src={item.icon} width='20' height='20' alt='AgileIcon'/>
                                 }
                                 {item.title}
                             </div> 
