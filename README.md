@@ -258,7 +258,7 @@ Screenshot:
 | SASS/SCSS                   | Icons8.com                                  | [link](https://icons8.com/icon/PrTcjq3n0VMb/sass)                                              |
 | Styled Components           | Simpleicons.org                             | [link](https://simpleicons.org/icons/styled-components.svg)                                    |
 | MaterialUI                  | Clipart.email                               | [link](https://www.clipart.email/make-a-clipart/?image=11416323)                               | 
-| Axios                       | Richik Choudhury in Axios Community Contest | [contest](https://github.com/axios/axios/issues/2130)[icon](https://drive.google.com/file/d/1SjKizrEIozluCIynXY12aCPSaYDhA1l5/view?usp=sharing)     | 
+| Axios                       | Richik Choudhury in Axios Community Contest | [contest](https://github.com/axios/axios/issues/2130) / [icon](https://drive.google.com/file/d/1SjKizrEIozluCIynXY12aCPSaYDhA1l5/view?usp=sharing)     | 
 | Netlify                     | Vectorlogo.zone                             | [link](https://www.vectorlogo.zone/logos/netlify/index.html)                                   | 
 | NodeJS                      | Vectorlogo.zone                             | [link](https://www.vectorlogo.zone/logos/nodejs/index.html)                                    |
 | Python                      | Icons8.com                                  | [link](https://icons8.com/icon/1909/python)                                                    |
