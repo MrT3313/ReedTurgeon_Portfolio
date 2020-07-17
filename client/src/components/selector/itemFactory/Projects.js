@@ -31,11 +31,6 @@ const items = [
         desc: 'Built to explore simulation logic and practice React state management with Hooks',
         imgs: [GameOfLife_Homepage, ]
     },
-    // {   title: "This Portfolio!", projectLink: 'https://turgeonportfolio.netlify.app/', codebase: 'https://github.com/MrT3313/ReedTurgeon_Portfolio',
-    //     subTitle: '', 
-    //     stack: ['React', '|', 'Styled Components'],
-    //     desc: ''
-    // }
 ]
 
 // __MAIN FUNCTIONAL COMPONENT__
