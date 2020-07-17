@@ -31,8 +31,12 @@ const StyledEducationItem = styled.div`
         justify-content: space-between;
         align-items: center;
 
-        & .Title, .Date {
-            font-size: 1rem;
+        & .Title {
+            font-size: 1.5rem;
+        }
+        
+        & .Date {
+            font-size: 1.25rem;
         }
 
         & .Title {
@@ -44,7 +48,7 @@ const StyledEducationItem = styled.div`
     & .BOTTOM {
         flex-direction: column;
         align-items: flex-start;
-        font-size: .9rem;
+        font-size: 1.25rem;
 
         & .Name, .Location {
             width: 100%;
@@ -65,8 +69,8 @@ function EducationItem( {item} ) {
                 <div className="Education_Content Date">{item.date}</div>
             </div>
             <div className="Education_Item BOTTOM">
-                <div className="Education_Content Location">{item.location}</div>
                 <div className="Education_Content Name">{item.title}</div>
+                <div className="Education_Content Location">{item.location}</div>
             </div>
         </StyledEducationItem>
     )

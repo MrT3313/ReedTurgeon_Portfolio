@@ -16,6 +16,8 @@ const StyledHomepageRight = styled.div`
     justify-content: flex-start;
     align-items: center;
 
+    padding-right: 10px;
+
     & .Homepage_Selector_Wrapper {
         display: flex;
         flex-grow: 1;
@@ -28,7 +30,7 @@ function HomepageRight( {width, Active_Title, Active_Tab} ) {
     return (
         <StyledHomepageRight 
             className="Homepage_RIGHT"
-            onMouseLeave={() => Active_Tab[1](false)}
+            // onMouseLeave={() => Active_Tab[1](false)}
         >
             <HomepageHeader />
             <div className="Homepage_Selector_Wrapper">

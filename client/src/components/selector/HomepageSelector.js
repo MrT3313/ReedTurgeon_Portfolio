@@ -21,6 +21,8 @@ const StyledHomepageSelector = styled.div`
      & li { 
          display: flex;
          justify-content: center;
+
+         cursor: pointer;
      }
 
     & .HomepageSelector_ListItem {
@@ -44,7 +46,7 @@ function Homepage_Selector( {Active_Title, Active_Tab} ) {
     return (
         <StyledHomepageSelector 
             className="Styled_Homepage_Selector"
-            onMouseLeave={() => Active_Title[1]('Welcome!')}
+            // onMouseLeave={() => Active_Title[1]('Welcome!')}
         >
             <ul>
                 {links.map((item, key) => {

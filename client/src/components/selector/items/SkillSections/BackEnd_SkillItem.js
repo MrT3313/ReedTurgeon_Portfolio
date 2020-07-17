@@ -8,10 +8,10 @@ import styled from 'styled-components'
 
 // STYLED COMPONENTS
 const StyledBackEndSkillItem = styled.div`
-    display: flex
+    display: flex;
     flex-direction: column;
 
-    font-size: 1rem;
+    // font-size: 1rem;
 
     padding: 10px;
 
@@ -25,6 +25,7 @@ const StyledBackEndSkillItem = styled.div`
     }
 
     & .TOP {
+        display: flex;
         font-weight: bold;
         margin-bottom: 10px;
     }
@@ -71,7 +72,7 @@ function BackEndSkillItem( {items} ){
 // console.log('Back End Items', items)
 // -- //
     return (
-        <StyledBackEndSkillItem>
+        <StyledBackEndSkillItem className="Styled_BackEnd_Skills">
             <div className="Skill_Item TOP">
                 Back-End:
             </div>
@@ -84,7 +85,7 @@ function BackEndSkillItem( {items} ){
                         return (
                             <div key={index} className='Skill'>
                                 {item.icon !== null && 
-                                    <img className='Skill_Icon' src={item.icon} width='20' height='20' alt='AgileIcon'/>
+                                    <img className='Skill_Icon' src={item.icon} width='25' height='25' alt='AgileIcon'/>
                                 }
                                 {item.title}
                             </div>
@@ -99,7 +100,7 @@ function BackEndSkillItem( {items} ){
                         return (
                             <div key={index} className='Skill'>
                                 {item.icon !== null && 
-                                    <img className='Skill_Icon' src={item.icon} width='30' height='30' alt='AgileIcon'/>
+                                    <img className='Skill_Icon' src={item.icon} width='25' height='25' alt='AgileIcon'/>
                                 }
                                 {item.title}
                             </div>
@@ -114,7 +115,7 @@ function BackEndSkillItem( {items} ){
                         return (
                             <div key={index} className='Skill'>
                                 {item.icon !== null && 
-                                    <img className='Skill_Icon' src={item.icon} width='30' height='30' alt='AgileIcon'/>
+                                    <img className='Skill_Icon' src={item.icon} width='25' height='25' alt='AgileIcon'/>
                                 }
                                 {item.title}
                             </div>
@@ -129,7 +130,7 @@ function BackEndSkillItem( {items} ){
                         return (
                             <div key={index} className='Skill'>
                                 {item.icon !== null && 
-                                    <img className='Skill_Icon' src={item.icon} width='30' height='30' alt='AgileIcon'/>
+                                    <img className='Skill_Icon' src={item.icon} width='25' height='25' alt='AgileIcon'/>
                                 }
                                 {item.title}
                             </div>

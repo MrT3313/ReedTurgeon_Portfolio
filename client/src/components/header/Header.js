@@ -33,7 +33,7 @@ const StyledHomepageHeader = styled.div`
     }
 
     & .Active_Link {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
 `
 

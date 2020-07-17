@@ -51,6 +51,8 @@ import styled from 'styled-components'
 const StyledSkills = styled.div`
     display: flex; 
     flex-direction: column; 
+
+    font-size: 1.25rem;
 `
 
 // STATE
@@ -120,10 +122,13 @@ function Skills() {
             {items.map((discipline, index) => {
                 switch(discipline.title) {
                     case 'General': 
+                        // return <div style={{display: 'flex'}}>div</div>
                         return <GeneralSkillItem items={discipline} key={index}/>
                     case 'Front-End': 
+                        // return <div style={{display: 'flex'}}>div</div>
                         return <FrontEndSkillItem items={discipline} key={index}/>
                     case 'Back-End': 
+                        // return <div style={{display: 'flex'}}>div</div>
                         return <BackEndSkillItem items={discipline} key={index}/>
                     default: 
                         throw new Error('No Matching Case')

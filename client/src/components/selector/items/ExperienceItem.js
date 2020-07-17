@@ -33,19 +33,19 @@ const StyledExperienceItem = styled.div`
         align-items: center;
 
         & .Company {
-            font-size: 1rem;
+            font-size: 1.5rem;
             font-weight: bold;
         }
         
         & .Title, .Date {
-            font-size: 1rem;
+            font-size: 1.25rem;
         }
     }
 
     & .MIDDLE {
         justify-content: flex-start;
         font-style: italic;
-        font-size: .9rem;
+        font-size: 1.5rem;
 
         margin-bottom: 10px;
     }
@@ -62,7 +62,7 @@ const StyledExperienceItem = styled.div`
             list-style-type: disc;
             list-style-position: outside;
 
-            font-size: .9rem;
+            font-size: 1.2rem;
             
             margin: 0 0 5px 15px;
         }

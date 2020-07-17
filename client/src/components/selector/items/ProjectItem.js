@@ -34,18 +34,16 @@ const StyledProjectItem = styled.div`
 
         margin-bottom: 10px;
 
-        & .Title, .ProjectLink, .ProjectCodebase { 
-            font-size: 1rem;
-        }
-
         & .Title {
+            font-size: 1.5rem;
             font-weight: bold;
             width: 180px;
+            text-align: center;
         }
 
         & .Links {
             justify-content: space-around;
-            font-size: .9rem;
+            font-size: 1.25rem;
             flex-grow: 1
         }
     }
@@ -60,7 +58,7 @@ const StyledProjectItem = styled.div`
     & .MIDDLE {
         flex-direction: column;
 
-        font-size: .9rem;
+        font-size: 1.25rem;
         margin-bottom: 10px;
 
         & .SubTitle {
@@ -76,7 +74,7 @@ const StyledProjectItem = styled.div`
 
     & .BOTTOM {
         padding-left: 10px;
-        font-size: .9rem;
+        font-size: 1.25rem;
 
         // display: none;
 
@@ -87,7 +85,7 @@ const StyledProjectItem = styled.div`
             list-style-type: disc;
             list-style-position: outside;
 
-            font-size: .9rem;
+            font-size: 1.25rem;
             
             margin: 0 0 5px 15px;
         }
@@ -112,9 +110,6 @@ function ProjectItem( {item} ) {
                     <a className="Project_Content Codebase" href={item.codebase}  target="_blank" rel="noopener noreferrer">Codebase</a>
                 </div>
             </div>
-            <div className="Project_Item IMG">
-                <img src={item.imgs[0]} height='200' alt='Project Snapshot'/>
-            </div>
             <div className="Project_Item MIDDLE">
                 <div className="Project_Content SubTitle">{item.subTitle}</div>
                 <div className="Project_Content TechStack">
@@ -129,6 +124,9 @@ function ProjectItem( {item} ) {
                         )
                     })}
                 </div>
+            </div>
+            <div className="Project_Item IMG">
+                <img src={item.imgs[0]} height='200' alt='Project Snapshot'/>
             </div>
             <div className="Project_Item BOTTOM">
                 <ul><li>{item.desc}</li></ul>
