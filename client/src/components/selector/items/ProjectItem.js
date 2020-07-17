@@ -113,7 +113,7 @@ function ProjectItem( {item} ) {
                 </div>
             </div>
             <div className="Project_Item IMG">
-                <img src={item.imgs[0]} height='200'/>
+                <img src={item.imgs[0]} height='200' alt='Project Snapshot'/>
             </div>
             <div className="Project_Item MIDDLE">
                 <div className="Project_Content SubTitle">{item.subTitle}</div>

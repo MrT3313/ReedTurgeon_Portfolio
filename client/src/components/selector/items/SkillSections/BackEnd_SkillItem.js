@@ -68,7 +68,7 @@ const StyledBackEndSkillItem = styled.div`
 
 // __MAIN FUNCTIONAL COMPONENT__
 function BackEndSkillItem( {items} ){
-console.log('Back End Items', items)
+// console.log('Back End Items', items)
 // -- //
     return (
         <StyledBackEndSkillItem>

@@ -68,7 +68,7 @@ const StyledFrontEndSkillItem = styled.div`
 
 // __MAIN FUNCTIONAL COMPONENT__
 function FrontEndSkillItem( {items} ){
-console.log('Front End Items', items)
+// console.log('Front End Items', items)
 // -- //
     return (
         <StyledFrontEndSkillItem>

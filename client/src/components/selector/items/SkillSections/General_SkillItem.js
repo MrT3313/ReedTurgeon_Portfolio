@@ -69,7 +69,7 @@ const StyledGeneralSkillItem = styled.div`
 
 // __MAIN FUNCTIONAL COMPONENT__
 function GeneralSkillItem( {items} ){
-console.log('General Items', items)
+// console.log('General Items', items)
 // -- //
     return (
         <StyledGeneralSkillItem>
