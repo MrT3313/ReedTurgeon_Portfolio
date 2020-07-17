@@ -19,7 +19,7 @@ import Gatsby_icon from '../../../assets/icons/skills/Gatsby.svg'
 import Redux_icon from '../../../assets/icons/skills/Redux.svg'
 
 import LESS_icon from '../../../assets/icons/skills/LESS.svg'
-import SASS_icon from '../../../assets/icons/skills/SASS.svg'
+import SASS_icon from '../../../assets/icons/skills/Sass.svg'
 
 import StyledComponents_icon from '../../../assets/icons/skills/StyledComponents.svg'
 import MaterialUI_icon from '../../../assets/icons/skills/MaterialUI.svg'
