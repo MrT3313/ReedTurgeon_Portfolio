@@ -20,8 +20,12 @@
 
 ## Versions
 <details open>
+<summary>1.5.0 - Favicon</summary>
+</details>
+
+<details>
 <summary>1.4.1 - Font Sizing & Mouse Event Updates</summary>
-- Small Updates to font sizing across the project
+- Small Updates to font sizing across the project  
 - Pointer curser added to links
 </details>
 
