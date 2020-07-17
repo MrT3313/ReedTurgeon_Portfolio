@@ -6,10 +6,10 @@ import ContactItem from './ContactItem.js'
 import SocialItem from './SocialItem.js'
 
 // ICONS
-import LinkedIn from '../../assets/icons/LinkedIn.svg'
-import Github from '../../assets/icons/Github.svg'
-import AtSymbol from '../../assets/icons/Mail.svg'
-import Phone from '../../assets/icons/Phone.svg'
+import LinkedIn from '../../assets/icons/contacts/LinkedIn.svg'
+import Github from '../../assets/icons/contacts/Github.svg'
+import AtSymbol from '../../assets/icons/contacts/Mail.svg'
+import Phone from '../../assets/icons/contacts/Phone.svg'
 
 // STYLES
 import styled from 'styled-components'
@@ -21,7 +21,9 @@ const StyledHomepageHeader = styled.div`
     align-items: center;
 
     & .Name {
+        font-family: 'Cinzel Decorative', vernanda;
         font-size: 2rem;
+
         margin-bottom: 7px;
     }
 

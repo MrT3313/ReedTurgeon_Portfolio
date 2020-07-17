@@ -47,10 +47,16 @@ table {
 	border-spacing: 0;
 }
 
+
+/* ---   ---   ---   ---   ---   ---   ---   --- */
+/* Fonts         					   	         */
+/* ---   ---   ---   ---   ---   ---   ---   --- */
+/* Name Title => font-family: 'Cinzel Decorative', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
 /* ---   ---   ---   ---   ---   ---   ---   --- */
 /* Added General 					   	         */
 /* ---   ---   ---   ---   ---   ---   ---   --- */
-
 html {
 	min-height: 100%;
 	box-sizing: border-box;

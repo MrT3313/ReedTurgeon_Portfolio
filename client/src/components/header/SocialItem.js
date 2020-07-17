@@ -26,6 +26,8 @@ const StyledSocialItem = styled.div`
 
 // __MAIN FUNCTIONAL COMPONENT__ 
 function SocialItem( {item, Active_Contact} ) {
+// console.log('Social Item', item)
+// -- //
     return (
         <StyledSocialItem>
             <a

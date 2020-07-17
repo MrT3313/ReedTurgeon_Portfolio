@@ -5,6 +5,7 @@ import React from 'react';
 import Experience from './itemFactory/Experience.js'
 import Projects from './itemFactory/Projects.js'
 import Education from './itemFactory/Education.js'
+import Skills from './itemFactory/Skills.js'
 
 // STYLES
 import styled from 'styled-components'
@@ -30,8 +31,10 @@ const StyledHomepageSelector = styled.div`
 
 // STATE
 const links = [
-    ['Experience', <Experience />], 
     ['Projects', <Projects />],
+    ['Skills', <Skills />],
+    // ['Skills', ],
+    ['Experience', <Experience />], 
     ['Education', <Education />],
     // ['Resume'],
 ]
@@ -42,7 +45,6 @@ function Homepage_Selector( {Active_Title, Active_Tab} ) {
         <StyledHomepageSelector 
             className="Styled_Homepage_Selector"
             onMouseLeave={() => Active_Title[1]('Welcome!')}
-            // onMouseLeave={() => Active_Tab[1](false)}
         >
             <ul>
                 {links.map((item, key) => {

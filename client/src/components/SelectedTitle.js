@@ -42,9 +42,11 @@ function SelectedTitle( {width, Active_Title} ) {
             <div className="title">
                 {Active_Title[0]}
             </div>
-            <div className="subTitle">
-                Please Choose a Category
-            </div>
+            {Active_Title[0] === 'Welcome!' &&
+                <div className="subTitle">
+                    Please Choose a Category
+                </div>
+            }
         </StyledSelectedTitle>
     )
 }

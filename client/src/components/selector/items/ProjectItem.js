@@ -50,6 +50,13 @@ const StyledProjectItem = styled.div`
         }
     }
 
+    & .IMG {
+        display: flex;
+        justify-content: center;
+
+        margin: 10px 0;
+    }
+
     & .MIDDLE {
         flex-direction: column;
 
@@ -93,7 +100,7 @@ const StyledProjectItem = styled.div`
     }
 `
 
-// __MAIN FUNCTIONAL COMPONENT
+// __MAIN FUNCTIONAL COMPONENT__
 function ProjectItem( {item} ) {
     return (
         <StyledProjectItem className="Styled_ProjectItem">
@@ -104,6 +111,9 @@ function ProjectItem( {item} ) {
                     {/* <div className="Project_Content">|</div> */}
                     <a className="Project_Content Codebase" href={item.codebase}  target="_blank" rel="noopener noreferrer">Codebase</a>
                 </div>
+            </div>
+            <div className="Project_Item IMG">
+                <img src={item.imgs[0]} height='200' alt='Project Snapshot'/>
             </div>
             <div className="Project_Item MIDDLE">
                 <div className="Project_Content SubTitle">{item.subTitle}</div>
