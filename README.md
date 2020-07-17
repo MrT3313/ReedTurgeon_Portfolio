@@ -19,8 +19,13 @@
 | Styled-Components     | Component Scopped Styling Library     | 
 
 ## Versions
-
 <details open>
+<summary>1.4.1 - Font Sizing & Mouse Event Updates</summary>
+- Small Updates to font sizing across the project
+- Pointer curser added to links
+</details>
+
+<details>
 <summary>1.4.0 - Moved Skills to Own < HomepageSelector /> Section</summary>
 
 - Removed  

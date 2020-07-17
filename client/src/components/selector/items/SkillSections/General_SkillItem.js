@@ -8,10 +8,8 @@ import styled from 'styled-components'
 
 // STYLED COMPONENTS
 const StyledGeneralSkillItem = styled.div`
-    display: flex
+    display: flex;
     flex-direction: column;
-
-    font-size: 1rem;
 
     padding: 10px;
     margin-bottom: 10px;
@@ -26,8 +24,10 @@ const StyledGeneralSkillItem = styled.div`
     }
 
     & .TOP {
-        margin-bottom: 10px;
+        display: flex;
+        font-size: 1.5rem;
         font-weight: bold;
+        margin-bottom: 10px;
     }
 
     & .SubGroups {
@@ -45,10 +45,11 @@ const StyledGeneralSkillItem = styled.div`
         display: flex;
         flex-direction: column;
 
-        margin-left: 20px;
+        margin-left: 25px;
         // margin-bottom: 10px;
 
         & .SubGroupTitle {
+            font-size: 1.5rem;
             font-style: italic;
             margin-bottom: 5px;
         }
@@ -72,7 +73,7 @@ function GeneralSkillItem( {items} ){
 // console.log('General Items', items)
 // -- //
     return (
-        <StyledGeneralSkillItem>
+        <StyledGeneralSkillItem className="Styled_General_Skills">
             <div className="Skill_Item TOP">
                 General
             </div>
@@ -85,7 +86,7 @@ function GeneralSkillItem( {items} ){
                         return (
                             <div key={index} className='Skill'>
                                 {item.icon !== null && 
-                                    <img className='Skill_Icon' src={item.icon} width='20' height='20' alt={item.icon_alt}/>
+                                    <img className='Skill_Icon' src={item.icon} width='25' height='25' alt={item.icon_alt}/>
                                 }
                                 {item.title}
                             </div>
@@ -100,7 +101,7 @@ function GeneralSkillItem( {items} ){
                         return (
                             <div key={index} className='Skill'>
                                 {item.icon !== null && 
-                                    <img className='Skill_Icon' src={item.icon} width='30' height='30' alt={item.icon_alt}/>
+                                    <img className='Skill_Icon' src={item.icon} width='25' height='25' alt={item.icon_alt}/>
                                 }
                                 {item.title}
                             </div>

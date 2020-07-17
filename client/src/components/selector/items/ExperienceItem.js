@@ -33,46 +33,38 @@ const StyledExperienceItem = styled.div`
         align-items: center;
 
         & .Company {
-            font-size: 1rem;
+            font-size: 1.5rem;
             font-weight: bold;
         }
         
         & .Title, .Date {
-            font-size: 1rem;
+            font-size: 1.25rem;
         }
     }
 
     & .MIDDLE {
         justify-content: flex-start;
         font-style: italic;
-        font-size: .9rem;
+        font-size: 1.5rem;
 
         margin-bottom: 10px;
     }
 
     & .BOTTOM {
         flex-direction: column;
-
-        // display: none;
         
         & li {
             justify-content: flex-start;
             
             display: list-item;
             list-style-type: disc;
-            list-style-position: outside;
+            list-style-position: inside;
 
-            font-size: .9rem;
+            font-size: 1.2rem;
             
             margin: 0 0 5px 15px;
         }
     }
-
-    // :hover {
-    //     & .BOTTOM {
-    //         display: flex;
-    //     }
-    // }
 `
 
 // __MAIN FUNCTIONAL COMPONENT__

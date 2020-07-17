@@ -51,6 +51,8 @@ import styled from 'styled-components'
 const StyledSkills = styled.div`
     display: flex; 
     flex-direction: column; 
+
+    font-size: 1.25rem;
 `
 
 // STATE

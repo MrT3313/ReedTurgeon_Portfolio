@@ -8,10 +8,10 @@ import styled from 'styled-components'
 
 // STYLED COMPONENTS
 const StyledFrontEndSkillItem = styled.div`
-    display: flex
+    display: flex;
     flex-direction: column;
 
-    font-size: 1rem;
+    // font-size: 1rem;
 
     padding: 10px;
     margin-bottom: 10px;
@@ -26,8 +26,10 @@ const StyledFrontEndSkillItem = styled.div`
     }
 
     & .TOP {
-        margin-bottom: 10px;
+        display: flex;
+        font-size: 1.5rem;
         font-weight: bold;
+        margin-bottom: 10px;
     }
 
     & .SubGroups {
@@ -49,6 +51,7 @@ const StyledFrontEndSkillItem = styled.div`
         margin-bottom: 10px;
 
         & .SubGroupTitle {
+            font-size: 1.5rem;
             font-style: italic;
             margin-bottom: 5px;
         }
@@ -71,7 +74,7 @@ function FrontEndSkillItem( {items} ){
 // console.log('Front End Items', items)
 // -- //
     return (
-        <StyledFrontEndSkillItem>
+        <StyledFrontEndSkillItem className="Styled_FrontEnd_Skills">
             <div className="Skill_Item TOP">
                 Front-End:
             </div>
@@ -84,7 +87,7 @@ function FrontEndSkillItem( {items} ){
                         return (
                             <div key={index} className='Skill'>
                                 {item.icon !== null && 
-                                    <img className='Skill_Icon' src={item.icon} width='30' height='30' alt='AgileIcon'/>
+                                    <img className='Skill_Icon' src={item.icon} width='25' height='25' alt='AgileIcon'/>
                                 }
                                 {item.title}
                             </div>
@@ -99,7 +102,7 @@ function FrontEndSkillItem( {items} ){
                         return (
                             <div key={index} className='Skill'>
                                 {item.icon !== null && 
-                                    <img className='Skill_Icon' src={item.icon} width='20' height='20' alt='AgileIcon'/>
+                                    <img className='Skill_Icon' src={item.icon} width='25' height='25' alt='AgileIcon'/>
                                 }
                                 {item.title}
                             </div> 
@@ -114,7 +117,7 @@ function FrontEndSkillItem( {items} ){
                         return (
                             <div key={index} className='Skill'>
                                 {item.icon !== null && 
-                                    <img className='Skill_Icon' src={item.icon} width='30' height='30' alt='AgileIcon'/>
+                                    <img className='Skill_Icon' src={item.icon} width='25' height='25' alt='AgileIcon'/>
                                 }
                                 {item.title}
                             </div>
@@ -129,7 +132,7 @@ function FrontEndSkillItem( {items} ){
                         return (
                             <div key={index} className='Skill'>
                                 {item.icon !== null && 
-                                    <img className='Skill_Icon' src={item.icon} width='30' height='30' alt='AgileIcon'/>
+                                    <img className='Skill_Icon' src={item.icon} width='25' height='25' alt='AgileIcon'/>
                                 }
                                 {item.title}
                             </div>
@@ -144,7 +147,7 @@ function FrontEndSkillItem( {items} ){
                         return (
                             <div key={index} className='Skill'>
                                 {item.icon !== null && 
-                                    <img className='Skill_Icon' src={item.icon} width='30' height='30' alt='AgileIcon'/>
+                                    <img className='Skill_Icon' src={item.icon} width='25' height='25' alt='AgileIcon'/>
                                 }
                                 {item.title}
                             </div>
@@ -159,7 +162,7 @@ function FrontEndSkillItem( {items} ){
                         return (
                             <div key={index} className='Skill'>
                                 {item.icon !== null && 
-                                    <img className='Skill_Icon' src={item.icon} width='30' height='30' alt='AgileIcon'/>
+                                    <img className='Skill_Icon' src={item.icon} width='25' height='25' alt='AgileIcon'/>
                                 }
                                 {item.title}
                             </div>

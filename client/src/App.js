@@ -1,9 +1,3 @@
-// https://usehooks.com/useWindowSize/
-// https://blog.logrocket.com/developing-responsive-layouts-with-react-hooks/
-
-
-
-
 // IMPORTS
 import React, {useState, useEffect} from 'react';
 

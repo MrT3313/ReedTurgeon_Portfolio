@@ -57,6 +57,8 @@ table {
 /* ---   ---   ---   ---   ---   ---   ---   --- */
 /* Added General 					   	         */
 /* ---   ---   ---   ---   ---   ---   ---   --- */
+
+
 html {
 	min-height: 100%;
 	box-sizing: border-box;
@@ -66,5 +68,5 @@ body {
 	height: 100%;
 	font-size: 62.5%;
 	
-	min-width: 300px;
+	min-width: 300px;	
 }

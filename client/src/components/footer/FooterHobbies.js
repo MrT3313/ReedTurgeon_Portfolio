@@ -23,10 +23,6 @@ const StyledFooterHobbies = styled.div`
         display: flex;
         justify-content: space-around;
     }
-
-    // & .Hobbies {
-    //     border-bottom: 1px solid black;
-    // }
 `
 
 // __MAIN FUNCTIONAL COMPONENT__

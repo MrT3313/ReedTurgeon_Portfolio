@@ -19,7 +19,9 @@ const StyledSelectedTitle = styled.h2`
     }
 
     & .title {
-        font-size: 3.15rem;
+        font-family: 'Cinzel Decorative', vernanda;
+        font-size: 2.25rem;
+
         margin-bottom: 10px;
     }
     
