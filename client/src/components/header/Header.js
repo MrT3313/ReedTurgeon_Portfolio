@@ -24,6 +24,8 @@ const StyledHomepageHeader = styled.div`
         font-family: 'Cinzel Decorative', vernanda;
         font-size: 2rem;
 
+        text-align: center;
+
         margin-bottom: 7px;
     }
 
