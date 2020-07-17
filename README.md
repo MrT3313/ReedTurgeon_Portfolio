@@ -24,7 +24,7 @@
 <summary>1.4.0 - Moved Skills to Own < HomepageSelector /> Section</summary>
 
 - Removed  
-    1. < SkillsFooter />
+    1. `< SkillsFooter />`
 - Added  
     1. `< Skills />` section added to `< HomepageSelector />`
         - Skills separated into `General`, `Front-End`, & `Back-End` skills
@@ -49,7 +49,7 @@ Screenshots:
 
 
 </details>
-<details open>
+<details>
 <summary>1.2.0 - Switched to Mobile First Styling</summary>
 
 - Media Queries were getting out of hand while not really hitting the functionality that was needed 
@@ -230,6 +230,11 @@ Screenshot:
 </details>
 
 ## Assets
+### Fonts
+| name   | link                                                                                                                                                         | 
+| ---    | ---                                                                                                                                                          | 
+| Cinzel | [link](https://fonts.google.com/specimen/Cinzel?preview.text_type=custom&preview.text=Reed+Turgeon&sidebar.open&selection.family=Cinzel:wght@700#glyphs)     |
+
 ### Header Icons
 | title                       | credit / author                        | icon link                                                                                      | 
 | ---                         | ---                                    | ---                                                                                            |
@@ -265,15 +270,6 @@ Screenshot:
 | Django                      | Icons8.com                                  | [link](https://icons8.com/icon/d-ecRvTZMFpE/django)                                            |
 | Heroku                      | Icons8.com                                  | [link](https://icons8.com/icon/32343/heroku)                                                   | 
 | Jest                        | Seeklogo.com                                | [link](https://seeklogo.com/vector-logo/273561/jest)                                           | 
-
-## OLD - Assets
-<a href="https://iconscout.com/icons/redux" target="_blank">Redux</a> by <a href="https://iconscout.com/contributors/icon-mafia">Icon Mafia</a> on <a href="https://iconscout.com">Iconscout</a>
-
-### Skills Footer
-| title                       | credit / author                        | icon link                                                                                      | 
-| ---                         | ---                                    | ---                                                                                            |
-| HTML5                       | Vecta.io                               | [link](https://www.vectorlogo.zone/logos/w3_html5/index.html)                                  | 
-| CSS3                        | Vipping.com                            | [link](https://www.vippng.com/preview/iobbxih_css-logo-png-css-black-icon-svg/)                |
 
 ### Hobbies Footer
 | title                       | credit / author                        | icon link                                                                                      | 
