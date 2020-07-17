@@ -28,10 +28,7 @@ const StyledHomepageRight = styled.div`
 // __MAIN FUNCTIONAL COMPONENT__
 function HomepageRight( {width, Active_Title, Active_Tab} ) {
     return (
-        <StyledHomepageRight 
-            className="Homepage_RIGHT"
-            // onMouseLeave={() => Active_Tab[1](false)}
-        >
+        <StyledHomepageRight className="Homepage_RIGHT">
             <HomepageHeader />
             <div className="Homepage_Selector_Wrapper">
                 <HomepageSelector 
