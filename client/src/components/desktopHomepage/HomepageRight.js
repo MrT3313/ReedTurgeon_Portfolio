@@ -4,6 +4,7 @@ import React from 'react';
 // COMPONENTS
 import HomepageHeader from '../header/Header.js'
 import HomepageSelector from '../selector/HomepageSelector.js'
+import CodebaseFooter from '../footer/CodebaseFooter.js'
 
 // STYLES
 import styled from 'styled-components'
@@ -27,7 +28,7 @@ function HomepageRight( {width, Active_Title, Active_Tab} ) {
     return (
         <StyledHomepageRight 
             className="Homepage_RIGHT"
-            // onMouseLeave={() => Active_Tab[1](false)}
+            onMouseLeave={() => Active_Tab[1](false)}
         >
             <HomepageHeader />
             <div className="Homepage_Selector_Wrapper">
@@ -36,6 +37,7 @@ function HomepageRight( {width, Active_Title, Active_Tab} ) {
                     Active_Tab={Active_Tab} 
                 />
             </div>
+            <CodebaseFooter />
         </StyledHomepageRight>
     );
 }

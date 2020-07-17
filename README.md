@@ -21,12 +21,24 @@
 ## Versions
 
 <details open>
-<summary>1.3.1 - Moved Skills to Own < HomepageSelector /> Section</summary>
+<summary>1.4.0 - Moved Skills to Own < HomepageSelector /> Section</summary>
 
+- Removed  
+    1. < SkillsFooter />
+- Added  
+    1. `< Skills />` section added to `< HomepageSelector />`
+        - Skills separated into `General`, `Front-End`, & `Back-End` skills
+    2. `< CodebaseFooter />` with link to Portfolio Repo replaced `< SkillsFooter />` on `< HomepageMobile />` & `< HomepageRight />` in `< HomepageTabletDesktop />`
+    3. `< SelectedTitle />` subtitle removed when the `Active_Title` is not the default `Welcome!` 
+    4. Initial IMGs added for to `< ProjectItem />`
+    5. Google Font `Cinzel` added for name in header `< Header />`
+
+- Screenshots:   
+<img src="client/src/assets/readMe/1.4.0_Homepage_Skills.png" height='300'> 
 
 </details>
 
-<details open>
+<details>
 <summary>1.3.0 - Skills Footer w/ Icons</summary>
 
 - Added an additional footer with icons of some development skills

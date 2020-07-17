@@ -6,6 +6,7 @@ import HomepageSelector from '../../components/selector/HomepageSelector.js'
 import SelectedTitle from '../../components/SelectedTitle.js'
 
 import Header from '../../components/header/Header.js'
+import CodebaseFooter from '../../components/footer/CodebaseFooter.js'
 import HobbiesFooter from '../../components/footer/FooterHobbies.js'
 import HomepageLine from '../../components/HomepageLine.js'
 
@@ -50,6 +51,10 @@ function HomepageMobile( {width, Active_Title, Active_Tab} ) {
             <HomepageLine margin={[5,0,5,0]}/>
             <div className="MobileHomepage_Content BOTTOM">
                 <HobbiesFooter />
+            </div>
+            <HomepageLine margin={[5,0,5,0]}/>
+            <div className="MobileHomepage_Content BOTTOM">
+                <CodebaseFooter />
             </div>
         </StyledHomepageMobile>
     )

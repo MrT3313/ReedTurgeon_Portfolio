@@ -44,15 +44,14 @@ function Homepage_Selector( {Active_Title, Active_Tab} ) {
     return (
         <StyledHomepageSelector 
             className="Styled_Homepage_Selector"
-            // onMouseLeave={() => Active_Title[1]('Welcome!')}
-            // onMouseLeave={() => Active_Tab[1](false)}
+            onMouseLeave={() => Active_Title[1]('Welcome!')}
         >
             <ul>
                 {links.map((item, key) => {
                     return (
                         <div 
                             key={key}
-                            // onMouseEnter={() => Active_Title[1](item[0])}
+                            onMouseEnter={() => Active_Title[1](item[0])}
                         >
                             <li
                                 className="HomepageSelector_ListItem"
