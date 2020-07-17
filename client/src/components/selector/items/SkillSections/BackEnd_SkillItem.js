@@ -11,8 +11,6 @@ const StyledBackEndSkillItem = styled.div`
     display: flex;
     flex-direction: column;
 
-    // font-size: 1rem;
-
     padding: 10px;
 
     border: 1px solid black;
@@ -26,6 +24,7 @@ const StyledBackEndSkillItem = styled.div`
 
     & .TOP {
         display: flex;
+        font-size: 1.5rem;
         font-weight: bold;
         margin-bottom: 10px;
     }
@@ -50,6 +49,7 @@ const StyledBackEndSkillItem = styled.div`
         margin-bottom: 10px;
 
         & .SubGroupTitle {
+            font-size: 1.5rem;
             font-style: italic;
             margin-bottom: 5px;
         }

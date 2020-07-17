@@ -126,7 +126,7 @@ function ProjectItem( {item} ) {
                 </div>
             </div>
             <div className="Project_Item IMG">
-                <img src={item.imgs[0]} height='200' alt='Project Snapshot'/>
+                <img src={item.imgs[0]} height='150' alt='Project Snapshot'/>
             </div>
             <div className="Project_Item BOTTOM">
                 <ul><li>{item.desc}</li></ul>

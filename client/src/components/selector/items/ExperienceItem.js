@@ -52,27 +52,19 @@ const StyledExperienceItem = styled.div`
 
     & .BOTTOM {
         flex-direction: column;
-
-        // display: none;
         
         & li {
             justify-content: flex-start;
             
             display: list-item;
             list-style-type: disc;
-            list-style-position: outside;
+            list-style-position: inside;
 
             font-size: 1.2rem;
             
             margin: 0 0 5px 15px;
         }
     }
-
-    // :hover {
-    //     & .BOTTOM {
-    //         display: flex;
-    //     }
-    // }
 `
 
 // __MAIN FUNCTIONAL COMPONENT__

@@ -27,6 +27,7 @@ const StyledFrontEndSkillItem = styled.div`
 
     & .TOP {
         display: flex;
+        font-size: 1.5rem;
         font-weight: bold;
         margin-bottom: 10px;
     }
@@ -50,6 +51,7 @@ const StyledFrontEndSkillItem = styled.div`
         margin-bottom: 10px;
 
         & .SubGroupTitle {
+            font-size: 1.5rem;
             font-style: italic;
             margin-bottom: 5px;
         }
