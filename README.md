@@ -1,6 +1,6 @@
 # Reed Turgeon's Portfolio
 
-🌎 [Hosted Netlify Project](https://turgeonportfolio.netlify.app) 🌎
+🌎 [Hosted Link](https://reedturgeon.com) 🌎
 
 ## My Info
 | title     | link                                                          | 
