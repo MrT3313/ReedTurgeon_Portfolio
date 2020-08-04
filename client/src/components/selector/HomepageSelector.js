@@ -79,7 +79,7 @@ function Homepage_Selector( {Active_Title, Active_Tab} ) {
                 })}
                 <a 
                     className="HomepageSelector_ListItem" 
-                    href={Resume_PDF} target="_blank"
+                    href={Resume_PDF} target="_blank" rel="noopener noreferrer"
                     onMouseEnter={() => Active_Title[1]('Resume')}
                 >
                     <li>Resume</li>
