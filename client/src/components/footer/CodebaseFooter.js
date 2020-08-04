@@ -8,7 +8,11 @@ import styled from 'styled-components'
 const StyledCodebaseFooter = styled.div`
     display: flex;
 
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+
+    & a {
+        color: black;
+    }
 `
 
 // __MAIN FUNCTIONAL COMPONENT__
