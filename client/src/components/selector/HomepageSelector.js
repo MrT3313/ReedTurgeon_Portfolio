@@ -7,9 +7,6 @@ import Projects from './itemFactory/Projects.js'
 import Education from './itemFactory/Education.js'
 import Skills from './itemFactory/Skills.js'
 
-// PDF
-import Resume_PDF from '../../assets/Resume.pdf'
-
 // STYLES
 import styled from 'styled-components'
 
