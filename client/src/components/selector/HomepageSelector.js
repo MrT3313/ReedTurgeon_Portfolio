@@ -7,9 +7,6 @@ import Projects from './itemFactory/Projects.js'
 import Education from './itemFactory/Education.js'
 import Skills from './itemFactory/Skills.js'
 
-// PDF
-import Resume_PDF from '../../assets/Resume.pdf'
-
 // STYLES
 import styled from 'styled-components'
 
@@ -79,7 +76,7 @@ function Homepage_Selector( {Active_Title, Active_Tab} ) {
                 })}
                 <a 
                     className="HomepageSelector_ListItem" 
-                    href={Resume_PDF} target="_blank" rel="noopener noreferrer"
+                    href='https://docs.google.com/document/d/1Gbb9gwmzvXHxxGWg9weqv_Q7VC1yPjt6Sysjg2GQzxk/edit' target="_blank" rel="noopener noreferrer"
                     onMouseEnter={() => Active_Title[1]('Resume')}
                 >
                     <li>Resume</li>

@@ -20,6 +20,12 @@
 
 ## Versions
 <details open>
+<summary>1.6.1 - Google Docs Resume</summary>
+
+- Changed the destination of the `< a >` within the `< HomepageSelector >` to my updated Google Docs version. This was done to make it easier to access / download the resume with working hyperlinks
+</details>
+
+<details>
 <summary>1.6.0 - PDF Resume</summary>
 
 - Resume `< li >` added to `< HomepageSelector >`
