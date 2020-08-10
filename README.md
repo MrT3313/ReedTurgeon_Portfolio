@@ -19,10 +19,17 @@
 | Styled-Components     | Component Scopped Styling Library     | 
 
 ## Versions
-<details open>
+<details>
+<summary>1.6.2 - Project Item Images Update</summary>
+
+- Mobile stying was updated on my BookShelf project
+- In order to show the `< Homepage />` & `< Profile />` updates the `< ProjectItem />` component now maps the imgs array passed from `< Projects />`
+</details>
+
+<details>
 <summary>1.6.1 - Google Docs Resume</summary>
 
-- Changed the destination of the `< a >` within the `< HomepageSelector >` to my updated Google Docs version. This was done to make it easier to access / download the resume with working hyperlinks
+- Changed the destination of the `< a >` for my Resume within the `< HomepageSelector >` to my updated Google Docs version. This was done to make it easier to access / download the resume with working hyperlinks
 </details>
 
 <details>

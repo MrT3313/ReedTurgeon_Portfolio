@@ -50,7 +50,7 @@ const StyledProjectItem = styled.div`
 
     & .IMG {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
 
         margin: 10px 0;
     }
@@ -106,7 +106,6 @@ function ProjectItem( {item} ) {
                 <div className="Project_Content Title">{item.title}</div>
                 <div className="Project_Content Links">
                     <a className="Project_Content Link" href={item.projectLink} target="_blank" rel="noopener noreferrer">Live Project</a>
-                    {/* <div className="Project_Content">|</div> */}
                     <a className="Project_Content Codebase" href={item.codebase}  target="_blank" rel="noopener noreferrer">Codebase</a>
                 </div>
             </div>
@@ -126,7 +125,7 @@ function ProjectItem( {item} ) {
                 </div>
             </div>
             <div className="Project_Item IMG">
-                <img src={item.imgs[0]} height='150' alt='Project Snapshot'/>
+                {item.imgs.map(img => <img src={img} height='200' alt='Project Snapshot'/>)}
             </div>
             <div className="Project_Item BOTTOM">
                 <ul><li>{item.desc}</li></ul>
