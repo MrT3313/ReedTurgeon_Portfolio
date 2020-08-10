@@ -6,6 +6,7 @@ import ProjectItem from '../items/ProjectItem.js'
 
 // IMGs
 import BookShelf_Homepage from '../../../assets/projectSnapshots/BookShelf/BookShelf_Homepage.png'
+import BookShelf_Profile from '../../../assets/projectSnapshots/BookShelf/BookShelf_Profile.png'
 import GameOfLife_Homepage from '../../../assets/projectSnapshots/GameOfLife/GameOfLife_Homepage.png'
 
 // STYLED
@@ -23,7 +24,7 @@ const items = [
         subTitle: 'A single page application to find, read, and review books',
         stack: ['Postgres', '|', 'Express', '|', 'React', '|', 'NodeJS'],
         desc: 'Independently designed and built with a focus on well documented, small feature releases',
-        imgs: [BookShelf_Homepage, ]
+        imgs: [BookShelf_Homepage, BookShelf_Profile]
     },
     {   title: "Conway's Game of Life", projectLink: 'https://turgeon-gameoflife.netlify.app', codebase: 'https://github.com/MrT3313/GameOfLife',
         subTitle: 'Zero-player cellular automaton', 
